@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams, useNavigate } from "react-router-dom";
 import { muscleGroups as rawMuscleData, exercises } from "@/data";
 import { RegionTag } from "@/components/EBPBadge";
 import { DetailPanel } from "@/components/DetailPanel";
@@ -7,10 +7,11 @@ import { PageHeader } from "@/components/PageHeader";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import {
-  Search, ChevronDown, ChevronRight, Dumbbell, Zap, Users, Activity, Layers,
+  Search, ChevronDown, ChevronRight, Dumbbell, Zap, Users, Activity, Layers, ClipboardCheck, ArrowRight,
 } from "lucide-react";
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { findRelatedTests } from "@/lib/related-tests";
 import type { Exercise } from "@/types";
 
 /**
@@ -108,6 +109,7 @@ function classifyExerciseForMuscle(ex: Exercise, muscleName: string): "primary" 
 
 export default function MusclesPage() {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const [search, setSearch] = useState(searchParams.get("search") || "");
   const [regionFilter, setRegionFilter] = useState("all");
   const [expandedGroups, setExpandedGroups] = useState<Set<number>>(() => {
@@ -227,6 +229,13 @@ export default function MusclesPage() {
           const otherExercises = groupExercises.filter(ex =>
             !primaryExercises.some(p => p.id === ex.id),
           );
+          const relevantTests = isExpanded
+            ? findRelatedTests({
+                region: group.region,
+                muscleNames: group.muscles.map(m => m.name).filter(Boolean),
+                limit: 8,
+              })
+            : [];
 
           return (
             <div key={group.id} className="elevated !p-0 overflow-hidden">
@@ -339,6 +348,36 @@ export default function MusclesPage() {
                           </div>
                         </div>
                       )}
+                    </div>
+                  )}
+
+                  {/* Relevant MSK Special Tests for this group */}
+                  {relevantTests.length > 0 && (
+                    <div className="border-t border-border/30 p-4 md:p-5 space-y-2">
+                      <h4 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                        <ClipboardCheck className="h-4 w-4 text-primary" />
+                        Relevant MSK Special Tests
+                        <span className="text-xs font-normal text-muted-foreground">({relevantTests.length})</span>
+                      </h4>
+                      <div className="grid sm:grid-cols-2 gap-2">
+                        {relevantTests.map(t => (
+                          <button
+                            key={t.id}
+                            onClick={() => navigate(`/special-tests?search=${encodeURIComponent(t.name)}`)}
+                            className="text-left glass-card !p-2.5 group hover:border-primary/40 transition-colors"
+                          >
+                            <div className="flex items-center justify-between gap-2 mb-0.5">
+                              <p className="text-xs font-semibold text-foreground group-hover:text-primary truncate">{t.name}</p>
+                              <ArrowRight className="h-3 w-3 text-muted-foreground group-hover:text-primary shrink-0" />
+                            </div>
+                            <p className="text-[10px] text-muted-foreground truncate">{t.condition}</p>
+                            <div className="flex gap-2 mt-1 text-[10px]">
+                              <span className="text-primary/80">Sn {t.sensitivity}</span>
+                              <span className="text-muted-foreground">Sp {t.specificity}</span>
+                            </div>
+                          </button>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </div>

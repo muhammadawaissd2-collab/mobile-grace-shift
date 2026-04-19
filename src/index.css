@@ -222,10 +222,31 @@
     position: fixed;
     inset: 0;
     pointer-events: none;
+    z-index: 0;
     background:
       radial-gradient(800px 400px at 15% -10%, hsl(var(--primary) / 0.18), transparent 60%),
       radial-gradient(700px 400px at 110% 110%, hsl(168 90% 50% / 0.10), transparent 60%);
-    z-index: 0;
+  }
+
+  /* User-selected wallpaper layer (under dynamic-bg overlay) */
+  .app-wallpaper {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -2;
+    background: var(--app-wallpaper, transparent);
+    background-size: cover;
+    background-position: center;
+    filter: blur(var(--app-wallpaper-blur, 0px));
+    transition: opacity 0.3s ease;
+  }
+  .app-wallpaper-overlay {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background: hsl(var(--background));
+    opacity: var(--app-wallpaper-opacity, 0.6);
   }
 
   .gradient-header {
