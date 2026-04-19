@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams, useNavigate } from "react-router-dom";
 import { muscleGroups as rawMuscleData, exercises } from "@/data";
 import { RegionTag } from "@/components/EBPBadge";
 import { DetailPanel } from "@/components/DetailPanel";
@@ -7,10 +7,11 @@ import { PageHeader } from "@/components/PageHeader";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import {
-  Search, ChevronDown, ChevronRight, Dumbbell, Zap, Users, Activity, Layers,
+  Search, ChevronDown, ChevronRight, Dumbbell, Zap, Users, Activity, Layers, ClipboardCheck, ArrowRight,
 } from "lucide-react";
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { findRelatedTests } from "@/lib/related-tests";
 import type { Exercise } from "@/types";
 
 /**
@@ -108,6 +109,7 @@ function classifyExerciseForMuscle(ex: Exercise, muscleName: string): "primary" 
 
 export default function MusclesPage() {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const [search, setSearch] = useState(searchParams.get("search") || "");
   const [regionFilter, setRegionFilter] = useState("all");
   const [expandedGroups, setExpandedGroups] = useState<Set<number>>(() => {
