@@ -8,6 +8,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <SidebarProvider>
+      {/* Wallpaper stack: image → dark overlay → accent dynamic glow */}
+      <div className="app-wallpaper" />
+      <div className="app-wallpaper-overlay" />
       <div className="dynamic-bg" />
       <div className="min-h-screen flex w-full relative">
         <AppSidebar />
