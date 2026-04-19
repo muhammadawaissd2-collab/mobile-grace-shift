@@ -7,26 +7,16 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
     },
     extend: {
       fontFamily: {
-        display: ['"Dongle"', 'system-ui', 'sans-serif'],
-        body: ['"Dongle"', 'system-ui', 'sans-serif'],
-      },
-      fontSize: {
-        'xs': ['1.2rem', { lineHeight: '1rem' }],
-        'sm': ['1.4rem', { lineHeight: '1.2rem' }],
-        'base': ['1.8rem', { lineHeight: '1.5rem' }],
-        'lg': ['2.2rem', { lineHeight: '1.8rem' }],
-        'xl': ['2.6rem', { lineHeight: '2.2rem' }],
-        '2xl': ['3rem', { lineHeight: '2.6rem' }],
-        '3xl': ['3.4rem', { lineHeight: '3rem' }],
-        '4xl': ['4rem', { lineHeight: '3.6rem' }],
-        '5xl': ['4.6rem', { lineHeight: '4.2rem' }],
+        sans: ['"Inter"', 'system-ui', 'sans-serif'],
+        display: ['"Plus Jakarta Sans"', '"Inter"', 'system-ui', 'sans-serif'],
+        body: ['"Inter"', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -37,6 +27,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -72,23 +63,29 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        teal: {
-          50: "hsl(168 80% 95%)",
-          100: "hsl(168 80% 85%)",
-          200: "hsl(168 80% 72%)",
-          300: "hsl(168 80% 58%)",
-          400: "hsl(168 80% 48%)",
-          500: "hsl(168 80% 42%)",
-          600: "hsl(168 80% 35%)",
-          700: "hsl(168 80% 28%)",
-          800: "hsl(168 80% 20%)",
-          900: "hsl(168 80% 12%)",
+        emerald: {
+          50: "hsl(158 80% 96%)",
+          100: "hsl(158 80% 88%)",
+          200: "hsl(158 78% 76%)",
+          300: "hsl(158 78% 62%)",
+          400: "hsl(158 78% 52%)",
+          500: "hsl(158 78% 44%)",
+          600: "hsl(158 78% 36%)",
+          700: "hsl(158 78% 28%)",
+          800: "hsl(158 78% 20%)",
+          900: "hsl(158 78% 12%)",
         },
       },
       borderRadius: {
         lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        md: "calc(var(--radius) - 4px)",
+        sm: "calc(var(--radius) - 8px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-surface": "var(--gradient-surface)",
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-glow": "var(--gradient-glow)",
       },
       keyframes: {
         "accordion-down": {
@@ -107,14 +104,19 @@ export default {
           from: { transform: "translateX(100%)" },
           to: { transform: "translateX(0)" },
         },
+        "shimmer": {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.4s ease-out",
-        "slide-in-right": "slide-in-right 0.3s ease-out",
+        "slide-in-right": "slide-in-right 0.3s cubic-bezier(0.22, 1, 0.36, 1)",
+        "shimmer": "shimmer 2.5s linear infinite",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
