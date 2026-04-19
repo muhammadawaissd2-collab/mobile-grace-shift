@@ -20,18 +20,18 @@ interface ThemeContextType {
 
 const defaultSettings: ThemeSettings = {
   mode: "dark",
-  accentColor: "168 80% 42%",
+  accentColor: "158 78% 48%", // Emerald
   fontSize: 14,
   density: "normal",
 };
 
 const accentPresets = [
+  { name: "Emerald", value: "158 78% 48%" },
   { name: "Teal", value: "168 80% 42%" },
   { name: "Blue", value: "217 91% 60%" },
   { name: "Purple", value: "262 83% 58%" },
   { name: "Rose", value: "346 77% 50%" },
   { name: "Orange", value: "25 95% 53%" },
-  { name: "Green", value: "142 71% 45%" },
 ];
 
 const ThemeContext = createContext<ThemeContextType | null>(null);
@@ -55,71 +55,24 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const root = document.documentElement;
-    // Apply theme mode
+
     if (settings.mode === "light") {
       root.classList.remove("dark");
-      root.style.setProperty("--background", "220 14% 96%");
-      root.style.setProperty("--foreground", "220 20% 20%");
-      root.style.setProperty("--card", "220 14% 96%");
-      root.style.setProperty("--card-foreground", "220 20% 20%");
-      root.style.setProperty("--popover", "220 14% 96%");
-      root.style.setProperty("--popover-foreground", "220 20% 20%");
-      root.style.setProperty("--secondary", "220 14% 90%");
-      root.style.setProperty("--secondary-foreground", "220 20% 25%");
-      root.style.setProperty("--muted", "220 14% 90%");
-      root.style.setProperty("--muted-foreground", "220 10% 45%");
-      root.style.setProperty("--border", "220 14% 85%");
-      root.style.setProperty("--input", "220 14% 85%");
-      root.style.setProperty("--sidebar-background", "220 14% 96%");
-      root.style.setProperty("--sidebar-foreground", "220 20% 25%");
-      root.style.setProperty("--sidebar-accent", "220 14% 92%");
-      root.style.setProperty("--sidebar-accent-foreground", "220 20% 10%");
-      root.style.setProperty("--sidebar-border", "220 14% 88%");
-      
-      // Neumorphic shadows for light
-      root.style.setProperty("--shadow-1", "#d1d9e6");
-      root.style.setProperty("--shadow-2", "#ffffff");
-      
-      document.body.style.background = "hsl(220, 14%, 96%)";
     } else {
       root.classList.add("dark");
-      root.style.setProperty("--background", "220 8% 16%");
-      root.style.setProperty("--foreground", "0 0% 95%");
-      root.style.setProperty("--card", "220 8% 16%");
-      root.style.setProperty("--card-foreground", "0 0% 95%");
-      root.style.setProperty("--popover", "220 8% 16%");
-      root.style.setProperty("--popover-foreground", "0 0% 95%");
-      root.style.setProperty("--secondary", "220 8% 22%");
-      root.style.setProperty("--secondary-foreground", "0 0% 85%");
-      root.style.setProperty("--muted", "220 8% 22%");
-      root.style.setProperty("--muted-foreground", "220 8% 65%");
-      root.style.setProperty("--border", "220 8% 12%");
-      root.style.setProperty("--input", "220 8% 20%");
-      root.style.setProperty("--sidebar-background", "220 8% 14%");
-      root.style.setProperty("--sidebar-foreground", "0 0% 95%");
-      root.style.setProperty("--sidebar-accent", "220 8% 20%");
-      root.style.setProperty("--sidebar-accent-foreground", "0 0% 95%");
-      root.style.setProperty("--sidebar-border", "220 8% 12%");
-      
-      // Neumorphic shadows for dark
-      root.style.setProperty("--shadow-1", "#1b1d20");
-      root.style.setProperty("--shadow-2", "#2f3136");
-      
-      document.body.style.background = "hsl(220, 8%, 16%)";
     }
 
-    // Apply accent color
+    // Apply accent color (overrides default --primary from CSS)
     root.style.setProperty("--primary", settings.accentColor);
     root.style.setProperty("--ring", settings.accentColor);
-    root.style.setProperty("--accent", settings.accentColor.replace(/42%$/, "30%"));
     root.style.setProperty("--sidebar-primary", settings.accentColor);
     root.style.setProperty("--sidebar-ring", settings.accentColor);
 
-    // Apply font size
+    // Font size
     root.style.fontSize = `${settings.fontSize}px`;
 
-    // Apply density
-    const densityMap = { compact: "0.5rem", normal: "0.75rem", spacious: "1rem" };
+    // Density => radius
+    const densityMap = { compact: "0.5rem", normal: "0.85rem", spacious: "1.1rem" };
     root.style.setProperty("--radius", densityMap[settings.density]);
   }, [settings]);
 

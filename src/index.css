@@ -1,60 +1,315 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================================
+   MODERN DARK + EMERALD DESIGN SYSTEM
+   All colors in HSL. Tokens are themed via ThemeContext.
+   ============================================================ */
+
+@layer base {
+  :root {
+    /* Light fallback (rarely used; default mode is dark) */
+    --background: 220 14% 96%;
+    --foreground: 220 24% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 24% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 24% 14%;
+
+    --primary: 158 78% 42%;
+    --primary-foreground: 158 80% 8%;
+    --primary-glow: 158 90% 55%;
+
+    --secondary: 220 14% 92%;
+    --secondary-foreground: 220 24% 18%;
+
+    --muted: 220 14% 92%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 158 70% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 14% 86%;
+    --input: 220 14% 88%;
+    --ring: 158 78% 42%;
+
+    --radius: 0.85rem;
+
+    --sidebar-background: 220 14% 96%;
+    --sidebar-foreground: 220 24% 18%;
+    --sidebar-primary: 158 78% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 92%;
+    --sidebar-accent-foreground: 220 24% 14%;
+    --sidebar-border: 220 14% 86%;
+    --sidebar-ring: 158 78% 42%;
+
+    --shadow-1: #d6dde8;
+    --shadow-2: #ffffff;
+
+    --gradient-primary: linear-gradient(135deg, hsl(158 80% 38%), hsl(168 85% 50%));
+    --gradient-surface: linear-gradient(180deg, hsl(220 14% 98%), hsl(220 14% 94%));
+    --gradient-accent: linear-gradient(135deg, hsl(158 90% 55% / 0.18), hsl(168 90% 60% / 0.05));
+  }
+
+  .dark {
+    --background: 222 18% 9%;
+    --foreground: 158 15% 96%;
+
+    --card: 222 18% 12%;
+    --card-foreground: 158 15% 96%;
+
+    --popover: 222 18% 12%;
+    --popover-foreground: 158 15% 96%;
+
+    --primary: 158 78% 48%;
+    --primary-foreground: 222 30% 8%;
+    --primary-glow: 158 95% 62%;
+
+    --secondary: 222 16% 16%;
+    --secondary-foreground: 158 15% 90%;
+
+    --muted: 222 16% 16%;
+    --muted-foreground: 220 10% 62%;
+
+    --accent: 158 70% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 222 16% 18%;
+    --input: 222 16% 18%;
+    --ring: 158 78% 48%;
+
+    --sidebar-background: 222 20% 7%;
+    --sidebar-foreground: 158 12% 88%;
+    --sidebar-primary: 158 78% 48%;
+    --sidebar-primary-foreground: 222 30% 8%;
+    --sidebar-accent: 222 18% 14%;
+    --sidebar-accent-foreground: 158 15% 96%;
+    --sidebar-border: 222 18% 14%;
+    --sidebar-ring: 158 78% 48%;
+
+    --shadow-1: rgba(0, 0, 0, 0.55);
+    --shadow-2: rgba(255, 255, 255, 0.03);
+
+    --gradient-primary: linear-gradient(135deg, hsl(158 78% 38%), hsl(168 85% 48%));
+    --gradient-surface: linear-gradient(180deg, hsl(222 20% 11%), hsl(222 22% 8%));
+    --gradient-accent: linear-gradient(135deg, hsl(158 95% 55% / 0.18), hsl(168 95% 60% / 0.04));
+    --gradient-glow: radial-gradient(60% 60% at 50% 0%, hsl(158 95% 55% / 0.18), transparent 70%);
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
+    -webkit-tap-highlight-color: transparent;
   }
+
+  html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
   body {
-    @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    @apply bg-background text-foreground;
     min-height: 100vh;
-    font-size: 14px; /* Default Base size, controlled dynamically in Theme Context root.style.fontSize */
+    min-height: 100dvh;
+    background: hsl(var(--background));
+    background-image:
+      radial-gradient(1200px 600px at 0% -10%, hsl(var(--primary) / 0.08), transparent 60%),
+      radial-gradient(900px 500px at 100% 110%, hsl(168 90% 50% / 0.06), transparent 60%);
+    background-attachment: fixed;
+    overscroll-behavior-y: none;
+  }
+
+  /* Native-app feel: prevent iOS rubber-band on root, allow inside scroll containers */
+  html, body, #root {
+    overscroll-behavior: none;
+  }
+
+  /* Safe area helpers for installed PWA */
+  .safe-top { padding-top: env(safe-area-inset-top); }
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+  /* Better scroll on mobile */
+  .scroll-smooth-mobile {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+
+  /* Hide scrollbars (used in horizontal pill rails) */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.35);
+    color: hsl(var(--foreground));
   }
 }
 
 @layer components {
-  /* Neumorphic Elevated Classes using CSS vars from ThemeContext */
-  .elevated {
+  /* ---------- Surfaces ---------- */
+  .surface {
     background: hsl(var(--card));
-    box-shadow: 8px 8px 16px var(--shadow-1, #1b1d20), -8px -8px 16px var(--shadow-2, #2f3136);
-    @apply rounded-[var(--radius)] relative border border-transparent;
-  }
-  
-  .elevated-icon {
-    background: hsl(var(--card));
-    box-shadow: 4px 4px 10px var(--shadow-1, #1b1d20), -4px -4px 10px var(--shadow-2, #2f3136);
-    @apply rounded-xl border border-transparent;
-  }
-
-  .elevated-icon:active, .inner-elevated {
-    background: hsl(var(--card));
-    box-shadow: inset 4px 4px 10px var(--shadow-1, #1b1d20), inset -4px -4px 10px var(--shadow-2, #2f3136);
-    @apply border border-transparent rounded-[var(--radius)];
-  }
-
-  .inner-elevated {
-    box-shadow: inset 6px 6px 12px var(--shadow-1, #1b1d20), inset -6px -6px 12px var(--shadow-2, #2f3136);
+    border: 1px solid hsl(var(--border) / 0.7);
+    @apply rounded-2xl;
   }
 
   .glass-card {
-    /* Aliased directly to elevated for structural consistency across the whole app */
-    background: hsl(var(--card));
-    box-shadow: 8px 8px 16px var(--shadow-1, #1b1d20), -8px -8px 16px var(--shadow-2, #2f3136);
-    @apply rounded-[var(--radius)] relative border border-transparent;
+    background: linear-gradient(180deg, hsl(var(--card) / 0.92), hsl(var(--card) / 0.78));
+    border: 1px solid hsl(var(--border) / 0.7);
+    box-shadow:
+      0 1px 0 0 hsl(0 0% 100% / 0.04) inset,
+      0 12px 30px -12px hsl(0 0% 0% / 0.55),
+      0 0 0 1px hsl(var(--primary) / 0.04);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    @apply rounded-2xl relative p-4;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   }
+
   .glass-card:hover {
-    /* Removed heavy transform to stop UI jumping */
+    border-color: hsl(var(--primary) / 0.25);
+    box-shadow:
+      0 1px 0 0 hsl(0 0% 100% / 0.05) inset,
+      0 18px 40px -16px hsl(var(--primary) / 0.25),
+      0 0 0 1px hsl(var(--primary) / 0.1);
   }
-  
+
+  .glass-card:active {
+    transform: scale(0.995);
+  }
+
+  /* Soft elevated tile (used by old neumorphic class names) */
+  .elevated {
+    background: linear-gradient(180deg, hsl(var(--card)), hsl(var(--card) / 0.85));
+    border: 1px solid hsl(var(--border));
+    box-shadow:
+      0 1px 0 0 hsl(0 0% 100% / 0.04) inset,
+      0 8px 24px -10px hsl(0 0% 0% / 0.5);
+    @apply rounded-2xl;
+  }
+
+  .elevated-icon {
+    background: hsl(var(--primary) / 0.12);
+    border: 1px solid hsl(var(--primary) / 0.28);
+    box-shadow: 0 6px 16px -8px hsl(var(--primary) / 0.45);
+    color: hsl(var(--primary));
+    @apply rounded-xl;
+  }
+
+  .inner-elevated {
+    background: hsl(var(--secondary) / 0.6);
+    border: 1px solid hsl(var(--border));
+    box-shadow: inset 0 2px 6px hsl(0 0% 0% / 0.25);
+    @apply rounded-xl;
+  }
+
+  /* ---------- Decorative ---------- */
+  .dynamic-bg {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(800px 400px at 15% -10%, hsl(var(--primary) / 0.18), transparent 60%),
+      radial-gradient(700px 400px at 110% 110%, hsl(168 90% 50% / 0.10), transparent 60%);
+    z-index: 0;
+  }
+
   .gradient-header {
-    @apply text-white overflow-hidden relative shadow-md bg-secondary;
+    background: var(--gradient-primary);
+    color: hsl(var(--primary-foreground));
+    @apply relative overflow-hidden shadow-lg;
   }
 
   .glow-text {
-    text-shadow: 0 0 15px hsl(var(--primary) / 0.5);
+    text-shadow: 0 0 18px hsl(var(--primary) / 0.55);
   }
+
+  .text-gradient-primary {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* ---------- Pills / chips ---------- */
+  .pill {
+    @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border;
+    background: hsl(var(--secondary) / 0.6);
+    border-color: hsl(var(--border));
+    color: hsl(var(--foreground) / 0.85);
+  }
+
+  .pill-primary {
+    background: hsl(var(--primary) / 0.14);
+    border-color: hsl(var(--primary) / 0.35);
+    color: hsl(var(--primary));
+  }
+
+  /* ---------- Tap targets / native feedback ---------- */
+  .tap-scale {
+    transition: transform 0.15s ease;
+  }
+  .tap-scale:active {
+    transform: scale(0.97);
+  }
+
+  /* ---------- Animated gradient border for special CTAs ---------- */
+  .gradient-border {
+    position: relative;
+    background: hsl(var(--card));
+    @apply rounded-2xl;
+  }
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: var(--gradient-primary);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+    letter-spacing: -0.01em;
+  }
+
+  .text-balance { text-wrap: balance; }
+
+  .animate-fade-in { animation: fade-in 0.4s ease-out both; }
+  .animate-slide-up { animation: slide-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-scale-in { animation: scale-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
 }
