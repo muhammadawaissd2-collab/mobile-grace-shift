@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { ArrowRight, CloudSun, Target, BatteryCharging, Bookmark } from "lucide-react";
 import { DailyFlashcards } from "@/components/DailyFlashcards";
 import { useBookmarks } from "@/contexts/BookmarkContext";
+import { QuickSearchTrigger } from "@/components/QuickSearchTrigger";
+import { CommandPalette } from "@/components/CommandPalette";
 
 export default function Index() {
   const navigate = useNavigate();
