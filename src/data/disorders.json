@@ -40437,5 +40437,34 @@
     "id": 999,
     "msk_tests": [],
     "red_flags": []
+  },
+  {
+    "name": "Snapping Hip Syndrome (Coxa Saltans)",
+    "region": "Hip",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Audible/palpable snap during hip motion, internal (iliopsoas over iliopectineal eminence) or external (IT band over greater trochanter).",
+    "causes": [
+      "Iliopsoas/IT band tightness",
+      "Repetitive hip flexion"
+    ],
+    "key_findings": "Reproducible snap with hip flexion-extension; usually painless but can become symptomatic.",
+    "diagnostic_tips": "Dynamic ultrasound visualizes snapping structure.",
+    "treatment_plan": {
+      "acute": "Activity modification, NSAIDs.",
+      "subacute": "Iliopsoas/IT band stretching, glute strengthening, motor control.",
+      "chronic": "Image-guided steroid; surgical lengthening rare."
+    },
+    "special_tests": [
+      {
+        "name": "Active Hip Snap Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 1000,
+    "msk_tests": [],
+    "red_flags": []
   }
 ]
