@@ -3,11 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { ArrowRight, CloudSun, Target, BatteryCharging, Bookmark } from "lucide-react";
 import { DailyFlashcards } from "@/components/DailyFlashcards";
 import { useBookmarks } from "@/contexts/BookmarkContext";
+import { QuickSearchTrigger } from "@/components/QuickSearchTrigger";
+import { CommandPalette } from "@/components/CommandPalette";
 
 export default function Index() {
   const navigate = useNavigate();
   const { bookmarks } = useBookmarks();
   const recentBookmarks = bookmarks.slice(-5).reverse();
+  const [paletteOpen, setPaletteOpen] = useState(false);
   
   const [currentTime, setCurrentTime] = useState(new Date());
   const [battery, setBattery] = useState<number | null>(null);
@@ -79,6 +82,10 @@ export default function Index() {
 
   return (
     <div className="p-6 md:p-10 max-w-lg mx-auto animate-fade-in space-y-12 relative z-10 flex flex-col min-h-[90vh]">
+      
+      {/* Quick search */}
+      <QuickSearchTrigger onClick={() => setPaletteOpen(true)} />
+      <CommandPalette open={paletteOpen} onOpenChange={setPaletteOpen} />
       
       {/* Top Section - Time & Date */}
       <div className="flex flex-col gap-6">

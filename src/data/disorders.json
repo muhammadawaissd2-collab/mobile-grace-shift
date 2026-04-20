@@ -38896,5 +38896,1575 @@
       "Progressive neurological deficit",
       "Fever/systemic symptoms"
     ]
+  },
+  {
+    "name": "Lateral Epicondylalgia (Tennis Elbow)",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Overuse tendinopathy of common extensor origin (ECRB primarily) at lateral epicondyle.",
+    "causes": [
+      "Repetitive wrist extension",
+      "Gripping",
+      "Backhand strokes"
+    ],
+    "key_findings": "Pain over lateral epicondyle, pain on resisted wrist extension and middle finger extension.",
+    "diagnostic_tips": "Cozen's, Mill's, Maudsley's tests positive. US shows tendon thickening.",
+    "treatment_plan": {
+      "acute": "Relative rest, ice, NSAIDs, counterforce brace.",
+      "subacute": "Isometric wrist extensor loading, soft-tissue mobilization, MWM elbow.",
+      "chronic": "Heavy slow resistance / eccentric Tyler twist progression, ergonomic correction."
+    },
+    "special_tests": [
+      {
+        "name": "Cozen's Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Mill's Test",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 946,
+    "msk_tests": [],
+    "red_flags": [],
+    "differential_diagnosis": "Radial tunnel syndrome, C6 radiculopathy, PIN entrapment"
+  },
+  {
+    "name": "Medial Epicondylalgia (Golfer's Elbow)",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Tendinopathy of common flexor-pronator origin at medial epicondyle.",
+    "causes": [
+      "Repetitive wrist flexion/pronation",
+      "Throwing",
+      "Manual labor"
+    ],
+    "key_findings": "Pain at medial epicondyle, pain on resisted wrist flexion/pronation, weak grip.",
+    "diagnostic_tips": "Reverse Cozen's positive, palpation tender 5-10 mm distal to medial epicondyle.",
+    "treatment_plan": {
+      "acute": "Activity modification, ice, NSAIDs.",
+      "subacute": "Isometric flexor loading, MWM, gentle stretching.",
+      "chronic": "Eccentric loading, scapular/grip retraining."
+    },
+    "special_tests": [
+      {
+        "name": "Reverse Cozen's",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 947,
+    "msk_tests": [],
+    "red_flags": [],
+    "differential_diagnosis": "Ulnar neuritis, MCL elbow sprain, C7 radiculopathy"
+  },
+  {
+    "name": "Distal Biceps Tendon Rupture",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Muscle Disorders",
+    "subcategory": "Acute",
+    "description": "Avulsion of distal biceps from radial tuberosity, usually traumatic eccentric overload.",
+    "causes": [
+      "Sudden eccentric flexion overload",
+      "Heavy lifting"
+    ],
+    "key_findings": "Audible pop, antecubital pain, ecchymosis, 'Popeye' deformity, weak supination > flexion.",
+    "diagnostic_tips": "Hook test positive, MRI confirms.",
+    "treatment_plan": {
+      "acute": "Sling, ice, urgent ortho referral for surgical repair within 2-3 weeks.",
+      "subacute": "Post-op AROM 0-6 wks, gradual flexion/supination loading.",
+      "chronic": "Progressive resistance, return to lifting at 4-6 months."
+    },
+    "special_tests": [
+      {
+        "name": "Hook Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      },
+      {
+        "name": "Biceps Squeeze",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 948,
+    "msk_tests": [],
+    "red_flags": [
+      "Inability to flex elbow against gravity",
+      "Significant deformity"
+    ]
+  },
+  {
+    "name": "Olecranon Bursitis",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Bone Disorders",
+    "subcategory": "Acute",
+    "description": "Inflammation of subcutaneous bursa over olecranon process.",
+    "causes": [
+      "Direct trauma",
+      "Prolonged pressure",
+      "Crystal arthropathy",
+      "Septic"
+    ],
+    "key_findings": "Discrete fluctuant swelling at olecranon, ROM usually preserved unless septic.",
+    "diagnostic_tips": "Aspiration if septic suspected (warmth, fever).",
+    "treatment_plan": {
+      "acute": "Compression, padding, NSAIDs; aspiration if septic.",
+      "subacute": "Avoid leaning on elbow, gentle ROM.",
+      "chronic": "Bursectomy if recurrent."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 949,
+    "msk_tests": [],
+    "red_flags": [
+      "Fever + warmth (septic bursitis)"
+    ]
+  },
+  {
+    "name": "Ulnar Collateral Ligament Sprain (Elbow)",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Ligament Disorders",
+    "subcategory": "Acute",
+    "description": "Sprain of medial UCL of elbow, common in overhead throwers.",
+    "causes": [
+      "Repetitive valgus stress (throwing)",
+      "Acute valgus injury"
+    ],
+    "key_findings": "Medial elbow pain in late cocking/acceleration, decreased throwing velocity.",
+    "diagnostic_tips": "Moving Valgus Stress Test, Milking Maneuver positive; MRI gold standard.",
+    "treatment_plan": {
+      "acute": "Throwing cessation, ice, NSAIDs.",
+      "subacute": "Scapular/RTC strengthening, kinetic chain work.",
+      "chronic": "Interval throwing program; UCL reconstruction (Tommy John) for high-grade tears in pitchers."
+    },
+    "special_tests": [
+      {
+        "name": "Moving Valgus Stress Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      },
+      {
+        "name": "Milking Maneuver",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 950,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Cubital Tunnel Syndrome",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Nerve Disorders",
+    "subcategory": "Subacute",
+    "description": "Compression of ulnar nerve at the cubital tunnel.",
+    "causes": [
+      "Prolonged elbow flexion",
+      "Direct pressure",
+      "Subluxation of nerve"
+    ],
+    "key_findings": "Numbness in 4th/5th digits, weak grip, intrinsic atrophy in chronic cases.",
+    "diagnostic_tips": "Tinel's at cubital tunnel, Elbow Flexion Test, NCS confirms.",
+    "treatment_plan": {
+      "acute": "Night extension splinting, activity modification, NSAIDs.",
+      "subacute": "Nerve gliding, ergonomic education.",
+      "chronic": "In-situ decompression or ulnar nerve transposition if conservative fails."
+    },
+    "special_tests": [
+      {
+        "name": "Tinel's Sign at Elbow",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Elbow Flexion Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 951,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Carpal Tunnel Syndrome",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Nerve Disorders",
+    "subcategory": "Subacute",
+    "description": "Median nerve compression at the carpal tunnel.",
+    "causes": [
+      "Repetitive wrist flexion",
+      "Pregnancy",
+      "Diabetes",
+      "Hypothyroidism",
+      "Wrist fracture"
+    ],
+    "key_findings": "Nocturnal paresthesia in median distribution, thenar weakness/atrophy in advanced cases.",
+    "diagnostic_tips": "Phalen's, Tinel's, Carpal Compression Test; NCS gold standard.",
+    "treatment_plan": {
+      "acute": "Night cock-up splint, NSAIDs, ergonomic correction.",
+      "subacute": "Nerve/tendon gliding, activity modification, US-guided steroid.",
+      "chronic": "Endoscopic or open carpal tunnel release."
+    },
+    "special_tests": [
+      {
+        "name": "Phalen's Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Tinel's at Wrist",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      },
+      {
+        "name": "Carpal Compression",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 952,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Guyon's Canal Syndrome",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Nerve Disorders",
+    "subcategory": "Subacute",
+    "description": "Compression of ulnar nerve in Guyon's canal at wrist.",
+    "causes": [
+      "Cyclist's palsy",
+      "Ganglion",
+      "Hook of hamate fracture"
+    ],
+    "key_findings": "Sensory loss volar 4th/5th digits (sparing dorsum), interosseous weakness.",
+    "diagnostic_tips": "Allen test, NCS, MRI for space-occupying lesion.",
+    "treatment_plan": {
+      "acute": "Padded gloves, ergonomic correction, NSAIDs.",
+      "subacute": "Nerve gliding.",
+      "chronic": "Surgical release if persistent."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 953,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Trigger Finger (Stenosing Flexor Tenosynovitis)",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Mismatch between flexor tendon and A1 pulley causing catching/locking.",
+    "causes": [
+      "Repetitive gripping",
+      "Diabetes",
+      "RA"
+    ],
+    "key_findings": "Painful clicking, locking in flexion, palpable nodule at A1 pulley.",
+    "diagnostic_tips": "Clinical exam; US for thickened pulley.",
+    "treatment_plan": {
+      "acute": "Splinting MCP in extension, NSAIDs.",
+      "subacute": "Tendon gliding, soft tissue work.",
+      "chronic": "Corticosteroid injection; A1 pulley release if persistent."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 954,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "TFCC Tear",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Cartilage Disorders",
+    "subcategory": "Acute",
+    "description": "Triangular fibrocartilage complex tear at ulnar wrist (Palmer 1A-2E classification).",
+    "causes": [
+      "FOOSH with pronation",
+      "Ulnar-sided traction",
+      "Ulnar positive variance"
+    ],
+    "key_findings": "Ulnar wrist pain, clicking on rotation, weak grip.",
+    "diagnostic_tips": "Press test, TFCC grind, MR arthrogram gold standard.",
+    "treatment_plan": {
+      "acute": "Ulnar gutter splint 4-6 weeks, NSAIDs.",
+      "subacute": "Forearm/wrist proprioception, grip retraining.",
+      "chronic": "Arthroscopic debridement or repair if persistent."
+    },
+    "special_tests": [
+      {
+        "name": "TFCC Press Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Ulnar Fovea Sign",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 955,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Scapholunate Ligament Tear",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Ligament Disorders",
+    "subcategory": "Acute",
+    "description": "Disruption of scapholunate interosseous ligament - most common carpal instability.",
+    "causes": [
+      "FOOSH with wrist extension/ulnar deviation"
+    ],
+    "key_findings": "Dorsal wrist pain, tenderness over SL interval, weak grip.",
+    "diagnostic_tips": "Watson scaphoid shift test positive; X-ray shows Terry Thomas sign (>3mm gap).",
+    "treatment_plan": {
+      "acute": "Immobilization, ortho referral.",
+      "subacute": "Post-op protected ROM.",
+      "chronic": "Open repair / capsulodesis / SLAC reconstruction depending on chronicity."
+    },
+    "special_tests": [
+      {
+        "name": "Watson Scaphoid Shift",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 956,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Scaphoid Fracture",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Bone Disorders",
+    "subcategory": "Acute",
+    "description": "Fracture of scaphoid bone, high non-union risk due to retrograde blood supply.",
+    "causes": [
+      "FOOSH with extended/radially deviated wrist"
+    ],
+    "key_findings": "Snuffbox tenderness, scaphoid tubercle tenderness, pain on axial thumb compression.",
+    "diagnostic_tips": "X-ray (may be initially negative) - MRI/CT for occult fracture.",
+    "treatment_plan": {
+      "acute": "Thumb spica cast 6-12 weeks; ORIF for displaced or proximal pole.",
+      "subacute": "Progressive ROM, isometric loading.",
+      "chronic": "Bone graft/Russe procedure for non-union."
+    },
+    "special_tests": [
+      {
+        "name": "Snuffbox Tenderness",
+        "sensitivity": "High",
+        "specificity": "Low"
+      },
+      {
+        "name": "Scaphoid Compression Test",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 957,
+    "msk_tests": [],
+    "red_flags": [
+      "Persistent snuffbox pain >2 wks despite normal X-ray"
+    ]
+  },
+  {
+    "name": "Colles' Fracture",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Bone Disorders",
+    "subcategory": "Acute",
+    "description": "Distal radius fracture with dorsal angulation, classic 'dinner-fork' deformity.",
+    "causes": [
+      "FOOSH (older adults)",
+      "Osteoporosis"
+    ],
+    "key_findings": "Wrist pain, swelling, dorsal angulation, limited ROM.",
+    "diagnostic_tips": "X-ray confirms; CT for intra-articular involvement.",
+    "treatment_plan": {
+      "acute": "Closed reduction + cast 4-6 weeks; ORIF if unstable.",
+      "subacute": "Wrist/forearm ROM, edema control, scar management.",
+      "chronic": "Progressive strengthening, grip work, dexterity."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 958,
+    "msk_tests": [],
+    "red_flags": [
+      "Median nerve symptoms (acute carpal tunnel post-reduction)"
+    ]
+  },
+  {
+    "name": "Smith's Fracture",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Bone Disorders",
+    "subcategory": "Acute",
+    "description": "Reverse Colles' - distal radius fracture with volar angulation.",
+    "causes": [
+      "Fall on flexed wrist",
+      "Direct blow to dorsum"
+    ],
+    "key_findings": "Volar angulation 'garden spade' deformity.",
+    "diagnostic_tips": "X-ray; usually requires ORIF due to instability.",
+    "treatment_plan": {
+      "acute": "ORIF preferred.",
+      "subacute": "Wrist ROM, edema control.",
+      "chronic": "Strength + functional retraining."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 959,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Boxer's Fracture (5th Metacarpal Neck)",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Bone Disorders",
+    "subcategory": "Acute",
+    "description": "Fracture of 5th metacarpal neck, classically from punching with closed fist.",
+    "causes": [
+      "Punching solid object"
+    ],
+    "key_findings": "Dorsal hand swelling, loss of knuckle prominence, angulation.",
+    "diagnostic_tips": "X-ray; acceptable angulation up to 40 degrees.",
+    "treatment_plan": {
+      "acute": "Ulnar gutter splint 3-4 weeks; reduction if >40 degrees angulation.",
+      "subacute": "AROM hand/wrist, edema control.",
+      "chronic": "Grip strengthening, functional training."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 960,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Mallet Finger",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Muscle Disorders",
+    "subcategory": "Acute",
+    "description": "Avulsion of terminal extensor tendon at distal phalanx.",
+    "causes": [
+      "Forced flexion of extended DIP",
+      "Jamming injury"
+    ],
+    "key_findings": "Inability to actively extend DIP; flexed DIP at rest.",
+    "diagnostic_tips": "Clinical; X-ray to assess bony avulsion.",
+    "treatment_plan": {
+      "acute": "DIP extension splint 6-8 weeks continuously.",
+      "subacute": "Gradual DIP flexion, splint at night.",
+      "chronic": "Surgery if large bony fragment with subluxation."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 961,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Boutonniere Deformity",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Disruption of central slip of extensor tendon causing PIP flexion + DIP hyperextension.",
+    "causes": [
+      "Forced PIP flexion",
+      "RA"
+    ],
+    "key_findings": "Inability to actively extend PIP; characteristic deformity over weeks.",
+    "diagnostic_tips": "Elson's test positive.",
+    "treatment_plan": {
+      "acute": "PIP extension splinting (DIP free) 6 weeks.",
+      "subacute": "Active DIP flexion exercises.",
+      "chronic": "Surgical reconstruction if fixed."
+    },
+    "special_tests": [
+      {
+        "name": "Elson's Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 962,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Swan Neck Deformity",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Joints Disorders",
+    "subcategory": "Chronic",
+    "description": "PIP hyperextension + DIP flexion deformity, common in RA.",
+    "causes": [
+      "RA",
+      "Volar plate laxity",
+      "Mallet finger"
+    ],
+    "key_findings": "Characteristic finger posture; functional grip impairment.",
+    "diagnostic_tips": "Clinical.",
+    "treatment_plan": {
+      "acute": "Splinting in slight PIP flexion.",
+      "subacute": "Hand therapy, joint protection.",
+      "chronic": "Surgical correction (Littler procedure)."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 963,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Dupuytren's Contracture",
+    "region": "Elbow/Wrist/Hand",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Progressive palmar fibromatosis causing flexion contracture of fingers.",
+    "causes": [
+      "Genetic (Northern European)",
+      "DM",
+      "Alcohol",
+      "Smoking"
+    ],
+    "key_findings": "Palmar nodules then cords causing MCP/PIP flexion contracture, ring/little finger most common.",
+    "diagnostic_tips": "Hueston tabletop test positive.",
+    "treatment_plan": {
+      "acute": "Observation; hand therapy.",
+      "subacute": "Stretching, splinting.",
+      "chronic": "Collagenase injection, needle aponeurotomy, fasciectomy."
+    },
+    "special_tests": [
+      {
+        "name": "Hueston Tabletop",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 964,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Lateral Ankle Sprain (ATFL)",
+    "region": "Foot/Ankle",
+    "category": "Ligament Disorders",
+    "subcategory": "Acute",
+    "description": "Inversion injury tearing anterior talofibular ligament - most common ankle injury.",
+    "causes": [
+      "Inversion + plantarflexion",
+      "Uneven surface",
+      "Cutting sports"
+    ],
+    "key_findings": "Lateral ankle pain, swelling, bruising, antalgic gait.",
+    "diagnostic_tips": "Anterior drawer, talar tilt; Ottawa rules to exclude fracture.",
+    "treatment_plan": {
+      "acute": "PEACE & LOVE protocol; bracing; weight-bear as tolerated.",
+      "subacute": "Proprioceptive (BAPS/wobble), peroneal strengthening, MWM ankle.",
+      "chronic": "Plyometrics, agility, return-to-sport criteria."
+    },
+    "special_tests": [
+      {
+        "name": "Anterior Drawer (Ankle)",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Talar Tilt",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 965,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Syndesmotic 'High Ankle' Sprain",
+    "region": "Foot/Ankle",
+    "category": "Ligament Disorders",
+    "subcategory": "Acute",
+    "description": "Sprain of distal tibiofibular syndesmosis.",
+    "causes": [
+      "Forced external rotation/dorsiflexion",
+      "Football, hockey"
+    ],
+    "key_findings": "Pain proximal to ankle joint line on push-off, longer recovery than lateral sprain.",
+    "diagnostic_tips": "Squeeze test, Kleiger external rotation test; X-ray to assess diastasis.",
+    "treatment_plan": {
+      "acute": "Boot/non-weight bearing 1-3 wks; ORIF if diastasis.",
+      "subacute": "Progressive WB, ROM, syndesmosis taping.",
+      "chronic": "Sport-specific reconditioning at 6-12 wks."
+    },
+    "special_tests": [
+      {
+        "name": "Squeeze Test",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      },
+      {
+        "name": "Kleiger Test",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 966,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Achilles Tendinopathy",
+    "region": "Foot/Ankle",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Degenerative midportion or insertional Achilles tendinosis.",
+    "causes": [
+      "Sudden increased training load",
+      "Calf inflexibility",
+      "Fluoroquinolones"
+    ],
+    "key_findings": "Morning stiffness, pain 2-6 cm above insertion, palpable thickening.",
+    "diagnostic_tips": "Royal London hospital test, US/MRI for tendon thickening.",
+    "treatment_plan": {
+      "acute": "Activity modification, ice, NSAIDs, heel lift.",
+      "subacute": "Isometric calf loading; gradual eccentric heel drops (Alfredson).",
+      "chronic": "Heavy slow resistance, progressive loading; PRP/surgery if refractory."
+    },
+    "special_tests": [
+      {
+        "name": "Royal London Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 967,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Achilles Tendon Rupture",
+    "region": "Foot/Ankle",
+    "category": "Muscle Disorders",
+    "subcategory": "Acute",
+    "description": "Complete Achilles rupture, classic in 30-50yo 'weekend warrior'.",
+    "causes": [
+      "Sudden plantarflexion against resistance",
+      "Steroid use",
+      "Fluoroquinolones"
+    ],
+    "key_findings": "Audible pop, palpable gap, weak plantarflexion, antalgic gait.",
+    "diagnostic_tips": "Thompson test positive; MRI/US confirms.",
+    "treatment_plan": {
+      "acute": "Boot in equinus or surgical repair within 2 wks.",
+      "subacute": "Functional rehab with progressive dorsiflexion 0-12 wks.",
+      "chronic": "Plyometrics, return-to-sport at 6-9 months."
+    },
+    "special_tests": [
+      {
+        "name": "Thompson Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 968,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Plantar Fasciitis",
+    "region": "Foot/Ankle",
+    "category": "Cartilage Disorders",
+    "subcategory": "Subacute",
+    "description": "Degenerative tendinopathy of plantar fascia at calcaneal origin.",
+    "causes": [
+      "Pes planus or cavus",
+      "Tight gastroc-soleus",
+      "Increased BMI",
+      "Standing occupation"
+    ],
+    "key_findings": "First-step morning heel pain, pain at medial calcaneal tubercle.",
+    "diagnostic_tips": "Windlass test positive; US shows fascia >4 mm.",
+    "treatment_plan": {
+      "acute": "Ice, NSAIDs, gentle stretching, taping.",
+      "subacute": "Plantar fascia/calf stretching, intrinsic foot strengthening, night splint.",
+      "chronic": "Heavy slow resistance with toes extended; ESWT; orthotics."
+    },
+    "special_tests": [
+      {
+        "name": "Windlass Test",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 969,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Tarsal Tunnel Syndrome",
+    "region": "Foot/Ankle",
+    "category": "Nerve Disorders",
+    "subcategory": "Subacute",
+    "description": "Posterior tibial nerve compression at medial ankle.",
+    "causes": [
+      "Pes planus",
+      "Space-occupying lesion",
+      "Trauma"
+    ],
+    "key_findings": "Burning/tingling sole of foot, worse with prolonged standing.",
+    "diagnostic_tips": "Tinel's at tarsal tunnel, dorsiflexion-eversion test; NCS confirms.",
+    "treatment_plan": {
+      "acute": "Activity modification, NSAIDs, orthotics.",
+      "subacute": "Nerve gliding, soft tissue release.",
+      "chronic": "Surgical release if conservative fails."
+    },
+    "special_tests": [
+      {
+        "name": "Tinel's at Tarsal Tunnel",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 970,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Morton's Neuroma",
+    "region": "Foot/Ankle",
+    "category": "Nerve Disorders",
+    "subcategory": "Subacute",
+    "description": "Perineural fibrosis of common digital nerve, usually 3rd web space.",
+    "causes": [
+      "Tight footwear",
+      "Forefoot overload",
+      "High heels"
+    ],
+    "key_findings": "Burning/sharp pain in forefoot radiating to toes; relieved by removing shoe.",
+    "diagnostic_tips": "Mulder's click positive; US confirms.",
+    "treatment_plan": {
+      "acute": "Wider shoes, metatarsal pad, NSAIDs.",
+      "subacute": "Intrinsic foot work, footwear correction.",
+      "chronic": "Steroid/alcohol injection; neurectomy if refractory."
+    },
+    "special_tests": [
+      {
+        "name": "Mulder's Click",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 971,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Hallux Valgus (Bunion)",
+    "region": "Foot/Ankle",
+    "category": "Bone Disorders",
+    "subcategory": "Chronic",
+    "description": "Lateral deviation of great toe with medial 1st MTP eminence.",
+    "causes": [
+      "Genetic",
+      "Tight footwear",
+      "Pes planus"
+    ],
+    "key_findings": "Medial 1st MTP pain, deformity, callus.",
+    "diagnostic_tips": "Weight-bearing X-ray for HV angle and intermetatarsal angle.",
+    "treatment_plan": {
+      "acute": "Footwear modification, toe spacers, NSAIDs.",
+      "subacute": "Intrinsic foot strengthening, mobilizations.",
+      "chronic": "Bunionectomy/osteotomy for severe deformity."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 972,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Hallux Rigidus",
+    "region": "Foot/Ankle",
+    "category": "Joints Disorders",
+    "subcategory": "Chronic",
+    "description": "Osteoarthritis of 1st MTP with progressive dorsiflexion loss.",
+    "causes": [
+      "Prior trauma",
+      "Genetic"
+    ],
+    "key_findings": "Dorsal 1st MTP pain, osteophyte, limited dorsiflexion (<55 degrees).",
+    "diagnostic_tips": "X-ray shows joint space loss + osteophytes.",
+    "treatment_plan": {
+      "acute": "Stiff-soled shoe / Morton extension orthotic, NSAIDs.",
+      "subacute": "Joint mobilization, gentle ROM.",
+      "chronic": "Cheilectomy or arthrodesis for advanced disease."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 973,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Posterior Tibial Tendon Dysfunction",
+    "region": "Foot/Ankle",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Tendinopathy/tear of tibialis posterior leading to progressive flatfoot.",
+    "causes": [
+      "Obesity",
+      "DM",
+      "Age >40 female",
+      "Overuse"
+    ],
+    "key_findings": "Medial ankle pain/swelling, 'too many toes' sign, single-heel-rise weakness.",
+    "diagnostic_tips": "Single heel rise test, US/MRI.",
+    "treatment_plan": {
+      "acute": "Boot 4-6 weeks, NSAIDs.",
+      "subacute": "Eccentric tib post strengthening, custom orthotic.",
+      "chronic": "Tendon transfer + medial calc osteotomy in advanced cases."
+    },
+    "special_tests": [
+      {
+        "name": "Single Heel Rise",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 974,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Sever's Disease (Calcaneal Apophysitis)",
+    "region": "Foot/Ankle",
+    "category": "Bone Disorders",
+    "subcategory": "Subacute",
+    "description": "Traction apophysitis of calcaneal apophysis in skeletally immature athletes.",
+    "causes": [
+      "Active 8-14yo",
+      "Tight gastroc-soleus",
+      "Sport on hard surface"
+    ],
+    "key_findings": "Posterior heel pain, tender squeeze test, worse with running/jumping.",
+    "diagnostic_tips": "Clinical; X-ray to exclude other causes.",
+    "treatment_plan": {
+      "acute": "Activity modification, ice, heel cup.",
+      "subacute": "Calf stretching, eccentric loading.",
+      "chronic": "Resolves with skeletal maturity; gradual return to sport."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 975,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Lisfranc Injury",
+    "region": "Foot/Ankle",
+    "category": "Ligament Disorders",
+    "subcategory": "Acute",
+    "description": "Disruption of tarsometatarsal ligament complex, often missed.",
+    "causes": [
+      "Forced plantarflexion",
+      "Twisting injury",
+      "MVA"
+    ],
+    "key_findings": "Midfoot pain, swelling, plantar bruising, inability to bear weight.",
+    "diagnostic_tips": "WB X-ray for diastasis between 1st-2nd metatarsal; CT/MRI confirms.",
+    "treatment_plan": {
+      "acute": "NWB cast 6-8 wks if non-displaced; ORIF if displaced.",
+      "subacute": "Progressive WB, ROM at 8-12 wks.",
+      "chronic": "Midfoot arthrodesis for severe injuries."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 976,
+    "msk_tests": [],
+    "red_flags": [
+      "Plantar ecchymosis = highly suggestive of Lisfranc"
+    ]
+  },
+  {
+    "name": "Costochondritis",
+    "region": "Thoracic",
+    "category": "Joints Disorders",
+    "subcategory": "Subacute",
+    "description": "Inflammation of costochondral junctions, benign chest wall pain.",
+    "causes": [
+      "Repetitive strain",
+      "Recent URTI",
+      "Trauma"
+    ],
+    "key_findings": "Reproducible chest wall tenderness, pain with deep breathing/twisting.",
+    "diagnostic_tips": "Clinical diagnosis of exclusion; ECG/troponin to exclude cardiac.",
+    "treatment_plan": {
+      "acute": "NSAIDs, reassurance, relative rest.",
+      "subacute": "Thoracic mobility, postural correction.",
+      "chronic": "Manual therapy, breathing exercises."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 977,
+    "msk_tests": [],
+    "red_flags": [
+      "Cardiac chest pain features"
+    ]
+  },
+  {
+    "name": "Thoracic Outlet Syndrome (Neurogenic)",
+    "region": "Thoracic",
+    "category": "Nerve Disorders",
+    "subcategory": "Chronic",
+    "description": "Compression of brachial plexus in scalene/costoclavicular/pec-minor space.",
+    "causes": [
+      "Cervical rib",
+      "Postural",
+      "Pancoast tumor",
+      "Trauma"
+    ],
+    "key_findings": "Arm fatigue, paresthesia (often C8-T1), worse with overhead activity.",
+    "diagnostic_tips": "Roos / EAST test, Adson's, costoclavicular maneuver; EMG for confirmation.",
+    "treatment_plan": {
+      "acute": "Postural education, pec/scalene release.",
+      "subacute": "Scapular stabilization, nerve gliding.",
+      "chronic": "First rib resection if refractory."
+    },
+    "special_tests": [
+      {
+        "name": "Roos / EAST Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Adson's Test",
+        "sensitivity": "Low",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 978,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Scheuermann's Kyphosis",
+    "region": "Thoracic",
+    "category": "Bone Disorders",
+    "subcategory": "Chronic",
+    "description": "Rigid thoracic kyphosis from anterior wedging of >=3 contiguous vertebrae.",
+    "causes": [
+      "Genetic",
+      "Adolescent growth"
+    ],
+    "key_findings": "Postural pain, fixed kyphosis >45 degrees, anterior wedging on X-ray.",
+    "diagnostic_tips": "Lateral X-ray showing wedging >=5 degrees in 3 vertebrae.",
+    "treatment_plan": {
+      "acute": "Postural and ergonomic education.",
+      "subacute": "Thoracic extension exercises, core strengthening.",
+      "chronic": "Bracing if curve progressing; surgery for >75 degrees."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 979,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Pubic Symphysis Dysfunction",
+    "region": "Pelvis",
+    "category": "Joints Disorders",
+    "subcategory": "Subacute",
+    "description": "Pain and instability at pubic symphysis, common postpartum or in athletes.",
+    "causes": [
+      "Pregnancy/postpartum",
+      "Repetitive cutting sports"
+    ],
+    "key_findings": "Anterior pelvic pain, waddling gait, pain with single-leg stance.",
+    "diagnostic_tips": "Active straight leg raise, palpation tenderness; X-ray for separation.",
+    "treatment_plan": {
+      "acute": "Pelvic belt, relative rest, NSAIDs.",
+      "subacute": "Pelvic floor + deep abdominal activation, glute work.",
+      "chronic": "Progressive loading, return to sport criteria."
+    },
+    "special_tests": [
+      {
+        "name": "Active Straight Leg Raise",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 980,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Sacroiliac Joint Dysfunction",
+    "region": "Pelvis",
+    "category": "Joints Disorders",
+    "subcategory": "Chronic",
+    "description": "Pain originating from SIJ - capsular, ligamentous, or arthritic.",
+    "causes": [
+      "Pregnancy",
+      "Trauma",
+      "Leg-length discrepancy",
+      "HLA-B27 spondyloarthropathy"
+    ],
+    "key_findings": "Unilateral PSIS pain, pain on transitional movements.",
+    "diagnostic_tips": ">=3 of 5 SIJ provocation tests positive (Laslett cluster).",
+    "treatment_plan": {
+      "acute": "NSAIDs, SIJ belt, relative rest.",
+      "subacute": "SIJ MET, glute med strengthening, motor control.",
+      "chronic": "Image-guided steroid; RFA for chronic; arthrodesis rare."
+    },
+    "special_tests": [
+      {
+        "name": "Laslett Cluster",
+        "sensitivity": "High",
+        "specificity": "High"
+      },
+      {
+        "name": "FABER",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 981,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Coccydynia",
+    "region": "Pelvis",
+    "category": "Bone Disorders",
+    "subcategory": "Chronic",
+    "description": "Pain at coccyx, often post-traumatic or post-partum.",
+    "causes": [
+      "Direct fall",
+      "Childbirth",
+      "Prolonged sitting"
+    ],
+    "key_findings": "Pain on sitting, relieved by standing; tender coccyx.",
+    "diagnostic_tips": "Dynamic X-ray (sitting vs standing) shows hypermobility.",
+    "treatment_plan": {
+      "acute": "Cushion (donut/wedge), NSAIDs, ice.",
+      "subacute": "Pelvic floor down-training, manual mobilization.",
+      "chronic": "Steroid injection; coccygectomy if refractory."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 982,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "TMJ Disc Displacement with Reduction",
+    "region": "TMJ",
+    "category": "Joints Disorders",
+    "subcategory": "Chronic",
+    "description": "Anterior displacement of TMJ disc that reduces during opening (clicking).",
+    "causes": [
+      "Bruxism",
+      "Malocclusion",
+      "Trauma"
+    ],
+    "key_findings": "Reciprocal click on opening/closing, intermittent locking.",
+    "diagnostic_tips": "Clinical exam; MRI for confirmation.",
+    "treatment_plan": {
+      "acute": "Soft diet, NSAIDs, jaw rest.",
+      "subacute": "TMJ joint mobilization, posture, jaw kinematic re-education.",
+      "chronic": "Splint therapy; arthrocentesis if persistent."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 983,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "TMJ Disc Displacement without Reduction (Closed Lock)",
+    "region": "TMJ",
+    "category": "Joints Disorders",
+    "subcategory": "Acute",
+    "description": "Anterior disc displacement that does NOT reduce - restricted opening.",
+    "causes": [
+      "Untreated reducible displacement",
+      "Macrotrauma"
+    ],
+    "key_findings": "Sudden limited mouth opening (<25 mm), deflection to affected side.",
+    "diagnostic_tips": "Clinical + MRI.",
+    "treatment_plan": {
+      "acute": "Manual disc reduction, soft diet, NSAIDs.",
+      "subacute": "Mobilization, motor control of jaw.",
+      "chronic": "Arthrocentesis or arthroscopy."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 984,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "TMJ Osteoarthritis",
+    "region": "TMJ",
+    "category": "Joints Disorders",
+    "subcategory": "Chronic",
+    "description": "Degenerative arthritis of TMJ.",
+    "causes": [
+      "Aging",
+      "Bruxism",
+      "Prior trauma"
+    ],
+    "key_findings": "Chronic dull pain, crepitus, limited opening, morning stiffness.",
+    "diagnostic_tips": "CBCT shows joint surface changes.",
+    "treatment_plan": {
+      "acute": "NSAIDs, soft diet, splint.",
+      "subacute": "TMJ mobilization, motor control, postural education.",
+      "chronic": "Intra-articular injections; arthroplasty rarely."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 985,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Cellulitis",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Acute",
+    "description": "Bacterial skin/subcutaneous infection.",
+    "causes": [
+      "Skin breach",
+      "Diabetes",
+      "Lymphedema"
+    ],
+    "key_findings": "Warm, erythematous, tender, ill-defined border, +/- fever.",
+    "diagnostic_tips": "Clinical; blood cultures if systemic.",
+    "treatment_plan": {
+      "acute": "Empiric antibiotics, elevation, mark border.",
+      "subacute": "Compression for residual edema.",
+      "chronic": "Identify and treat underlying portal of entry."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 986,
+    "msk_tests": [],
+    "red_flags": [
+      "Rapidly spreading erythema, hypotension - necrotizing fasciitis"
+    ]
+  },
+  {
+    "name": "Necrotizing Fasciitis",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Acute",
+    "description": "Surgical emergency - rapidly spreading deep soft-tissue infection.",
+    "causes": [
+      "Trauma",
+      "DM",
+      "Immunocompromise"
+    ],
+    "key_findings": "Pain out of proportion, dusky skin, crepitus, systemic toxicity.",
+    "diagnostic_tips": "LRINEC score, surgical exploration.",
+    "treatment_plan": {
+      "acute": "IMMEDIATE surgical debridement + broad-spectrum IV antibiotics.",
+      "subacute": "Wound care, dressing changes, contracture prevention.",
+      "chronic": "Reconstruction, scar management, functional rehab."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 987,
+    "msk_tests": [],
+    "red_flags": [
+      "Pain out of proportion",
+      "Crepitus",
+      "Hemodynamic instability"
+    ]
+  },
+  {
+    "name": "Pressure Ulcer (Stage I-IV)",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Tissue damage from sustained pressure over bony prominence.",
+    "causes": [
+      "Immobility",
+      "Friction/shear",
+      "Malnutrition",
+      "Incontinence"
+    ],
+    "key_findings": "Stage I non-blanchable erythema to Stage IV bone/tendon exposure.",
+    "diagnostic_tips": "Braden scale risk; clinical staging.",
+    "treatment_plan": {
+      "acute": "Off-loading, dressing per stage, treat infection.",
+      "subacute": "Wound care, nutrition, repositioning q2h.",
+      "chronic": "Surgical flap for stage IV; long-term prevention strategy."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 988,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Hypertrophic Scar",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Raised scar confined to original wound border.",
+    "causes": [
+      "Burn",
+      "Surgery",
+      "Tension across wound"
+    ],
+    "key_findings": "Red, raised, pruritic scar within wound margins.",
+    "diagnostic_tips": "Clinical; Vancouver Scar Scale.",
+    "treatment_plan": {
+      "acute": "Silicone sheets, pressure garments early.",
+      "subacute": "Scar massage, stretching, intralesional steroid.",
+      "chronic": "Laser, surgical revision."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 989,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Lymphedema (Secondary)",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Chronic interstitial fluid accumulation, often post-cancer treatment.",
+    "causes": [
+      "Lymph node dissection",
+      "Radiation",
+      "Filariasis"
+    ],
+    "key_findings": "Pitting then non-pitting limb edema, Stemmer's sign positive in chronic.",
+    "diagnostic_tips": "Stemmer's sign, bioimpedance, lymphoscintigraphy.",
+    "treatment_plan": {
+      "acute": "Skin care, education, baseline measurements.",
+      "subacute": "Complete decongestive therapy: MLD + compression bandaging + exercise + skin care.",
+      "chronic": "Long-term compression garments, intermittent pneumatic compression."
+    },
+    "special_tests": [
+      {
+        "name": "Stemmer's Sign",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 990,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Burn - Partial Thickness",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Acute",
+    "description": "Burn affecting epidermis and partial dermis.",
+    "causes": [
+      "Thermal",
+      "Chemical",
+      "Electrical",
+      "Radiation"
+    ],
+    "key_findings": "Painful, blistered, blanching erythema.",
+    "diagnostic_tips": "Rule of nines for TBSA; depth assessment.",
+    "treatment_plan": {
+      "acute": "Cooling, debridement, silver sulfadiazine, fluid resuscitation if >15% TBSA.",
+      "subacute": "Splinting in anti-deformity position, ROM, edema control.",
+      "chronic": "Scar management, contracture prevention, functional rehab."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 991,
+    "msk_tests": [],
+    "red_flags": [
+      "Airway burns",
+      "TBSA >20%",
+      "Circumferential burns"
+    ]
+  },
+  {
+    "name": "SLAP Tear Type I (Fraying)",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Degenerative fraying of superior labrum without detachment.",
+    "causes": [
+      "Age-related",
+      "Overhead use"
+    ],
+    "key_findings": "Vague shoulder pain, mild crepitus.",
+    "diagnostic_tips": "MR arthrogram; arthroscopy gold standard.",
+    "treatment_plan": {
+      "acute": "NSAIDs, activity modification.",
+      "subacute": "RTC + scapular strengthening.",
+      "chronic": "Debridement if persistent."
+    },
+    "special_tests": [
+      {
+        "name": "O'Brien's Active Compression",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 992,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "SLAP Tear Type II (Detachment)",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Detachment of biceps anchor from superior glenoid - most common SLAP.",
+    "causes": [
+      "Repetitive overhead throwing",
+      "Fall on outstretched arm"
+    ],
+    "key_findings": "Deep shoulder pain, popping, pain with overhead activity.",
+    "diagnostic_tips": "MR arthrogram, dynamic O'Brien, anterior slide test.",
+    "treatment_plan": {
+      "acute": "Sling, NSAIDs.",
+      "subacute": "Scapular and RTC strengthening.",
+      "chronic": "SLAP repair vs biceps tenodesis (preferred >35yo)."
+    },
+    "special_tests": [
+      {
+        "name": "O'Brien's Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Anterior Slide",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 993,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "SLAP Tear Type III (Bucket Handle)",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Bucket-handle tear of superior labrum with intact biceps anchor.",
+    "causes": [
+      "Trauma",
+      "Fall"
+    ],
+    "key_findings": "Mechanical catching, pain.",
+    "diagnostic_tips": "MR arthrogram; arthroscopy.",
+    "treatment_plan": {
+      "acute": "Sling, NSAIDs.",
+      "subacute": "Conservative trial.",
+      "chronic": "Arthroscopic debridement of bucket fragment."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 994,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "SLAP Tear Type IV (Bucket Handle + Biceps Extension)",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Bucket-handle tear extending into biceps tendon.",
+    "causes": [
+      "Significant trauma"
+    ],
+    "key_findings": "Catching plus biceps pain.",
+    "diagnostic_tips": "MR arthrogram.",
+    "treatment_plan": {
+      "acute": "Sling, NSAIDs.",
+      "subacute": "Conservative trial.",
+      "chronic": "Repair labrum + biceps tenodesis or tenotomy."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 995,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Bankart Lesion (Anterior-Inferior Labral Tear)",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Avulsion of anterior-inferior labrum after anterior shoulder dislocation.",
+    "causes": [
+      "Anterior shoulder dislocation"
+    ],
+    "key_findings": "Recurrent instability, apprehension in abd/ER.",
+    "diagnostic_tips": "Apprehension + Relocation test, MR arthrogram.",
+    "treatment_plan": {
+      "acute": "Sling 1-3 wks, ER strengthening.",
+      "subacute": "Progressive RTC and scapular work.",
+      "chronic": "Arthroscopic Bankart repair if recurrent instability."
+    },
+    "special_tests": [
+      {
+        "name": "Apprehension Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      },
+      {
+        "name": "Relocation Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 996,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Bony Bankart Lesion",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Bony fragment of anterior glenoid + labrum after dislocation.",
+    "causes": [
+      "Recurrent dislocation"
+    ],
+    "key_findings": "Glenoid bone loss, persistent instability.",
+    "diagnostic_tips": "CT for glenoid bone loss quantification.",
+    "treatment_plan": {
+      "acute": "Sling, immobilization.",
+      "subacute": "Strengthening.",
+      "chronic": "Latarjet procedure if >20-25% bone loss."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 997,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Hip Labral Tear (Anterior)",
+    "region": "Hip",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Tear of acetabular labrum, most commonly anterior.",
+    "causes": [
+      "FAI",
+      "Trauma",
+      "Repetitive pivoting"
+    ],
+    "key_findings": "Anterior groin pain, C-sign, clicking, pain with pivoting.",
+    "diagnostic_tips": "FADIR test, FABER; MR arthrogram.",
+    "treatment_plan": {
+      "acute": "Activity modification, NSAIDs.",
+      "subacute": "Hip stabilization, motor control, MWM.",
+      "chronic": "Arthroscopic labral repair + cam/pincer correction."
+    },
+    "special_tests": [
+      {
+        "name": "FADIR Test",
+        "sensitivity": "High",
+        "specificity": "Low"
+      },
+      {
+        "name": "FABER Test",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 998,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Hip Labral Tear (Posterior)",
+    "region": "Hip",
+    "category": "Labral tears",
+    "subcategory": "Types of Given Injuries",
+    "description": "Posterior acetabular labral tear, less common; often from posterior impingement.",
+    "causes": [
+      "Hyperextension/ER mechanism",
+      "Dancers/martial arts"
+    ],
+    "key_findings": "Posterior hip pain, deep gluteal pain.",
+    "diagnostic_tips": "Posterior impingement test; MR arthrogram.",
+    "treatment_plan": {
+      "acute": "Activity modification.",
+      "subacute": "Anterior chain work, hip control.",
+      "chronic": "Arthroscopic repair if persistent."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "id": 999,
+    "msk_tests": [],
+    "red_flags": []
+  },
+  {
+    "name": "Snapping Hip Syndrome (Coxa Saltans)",
+    "region": "Hip",
+    "category": "Muscle Disorders",
+    "subcategory": "Subacute",
+    "description": "Audible/palpable snap during hip motion, internal (iliopsoas over iliopectineal eminence) or external (IT band over greater trochanter).",
+    "causes": [
+      "Iliopsoas/IT band tightness",
+      "Repetitive hip flexion"
+    ],
+    "key_findings": "Reproducible snap with hip flexion-extension; usually painless but can become symptomatic.",
+    "diagnostic_tips": "Dynamic ultrasound visualizes snapping structure.",
+    "treatment_plan": {
+      "acute": "Activity modification, NSAIDs.",
+      "subacute": "Iliopsoas/IT band stretching, glute strengthening, motor control.",
+      "chronic": "Image-guided steroid; surgical lengthening rare."
+    },
+    "special_tests": [
+      {
+        "name": "Active Hip Snap Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "id": 1000,
+    "msk_tests": [],
+    "red_flags": []
   }
 ]

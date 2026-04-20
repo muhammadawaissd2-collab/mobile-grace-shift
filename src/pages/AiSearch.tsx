@@ -1,42 +1,23 @@
 import { useState } from "react";
-import { SearchIcon, Bot, Loader2, Sparkles } from "lucide-react";
-import { GoogleGenAI } from "@google/genai";
-
-let aiClient: GoogleGenAI | null = null;
-const getAiClient = () => {
-  if (!aiClient) {
-    if (!process.env.GEMINI_API_KEY) {
-      console.warn("GEMINI_API_KEY is missing. Please set it in your environment.");
-    }
-    aiClient = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "missing-key" });
-  }
-  return aiClient;
-};
+import { SearchIcon, Bot, Loader2, Sparkles, WifiOff } from "lucide-react";
+import { callAi } from "@/lib/ai-client";
+import { useOnline } from "@/hooks/use-online";
 
 export default function AiSearchPage() {
   const [query, setQuery] = useState("");
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
+  const online = useOnline();
 
   const handleSearch = async () => {
     if (!query.trim()) return;
     setLoading(true);
     setResult("");
-    
     try {
-      const ai = getAiClient();
-      const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: `You are an expert physiotherapist and medical AI search assistant. Answer the user's query comprehensively, including clinical findings, differential diagnosis, evidence-based recommendations, and rehabilitation concepts if requested. Ensure the tone is professional, helpful, and easily scannable. Do NOT use markdown code blocks, use clear headings, bullet points, and bold text. Keep it well-structured.
-        
-User Query:
-${query}`
-      });
-      
-      setResult(response.text || "No result generated.");
+      const text = await callAi("search", query.trim());
+      setResult(text);
     } catch (err) {
-      console.error("AI Error:", err);
-      setResult("Sorry, an error occurred while searching. Please check your API key and try again.");
+      setResult(`⚠️ ${err instanceof Error ? err.message : "Failed to reach AI."}`);
     } finally {
       setLoading(false);
     }
@@ -50,12 +31,18 @@ ${query}`
         </div>
         <div>
           <h1 className="font-display text-2xl sm:text-3xl text-foreground font-medium tracking-wide">AI Assistant</h1>
-          <p className="text-sm sm:text-base text-foreground/60 leading-snug mt-1">Search for diagnoses, rehab plans, and clinical concepts.</p>
+          <p className="text-sm sm:text-base text-foreground/60 leading-snug mt-1">Search diagnoses, rehab plans, and clinical concepts.</p>
         </div>
       </div>
 
+      {!online && (
+        <div className="elevated mb-4 !p-3 flex items-center gap-2 text-sm text-foreground/70">
+          <WifiOff className="h-4 w-4" /> You are offline. AI is disabled until you reconnect.
+        </div>
+      )}
+
       <div className="elevated mb-6 !p-6">
-        <label className="block text-sm sm:text-base font-medium text-foreground mb-3 uppercase tracking-widest text-primary/80">What are you looking for?</label>
+        <label className="block text-sm font-medium text-primary/80 mb-3 uppercase tracking-widest">What are you looking for?</label>
         <div className="relative mb-4">
           <input
             type="text"
@@ -63,15 +50,14 @@ ${query}`
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
             placeholder="e.g. Rehab plan for moderate Achilles tendinopathy..."
-            className="w-full pl-12 pr-4 h-14 rounded-xl bg-background/50 border border-primary/20 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner text-base transition-all"
+            className="w-full pl-12 pr-4 h-14 rounded-xl bg-background/50 border border-primary/20 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner text-base"
           />
           <SearchIcon className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-foreground/50" />
         </div>
-        
-        <button 
+        <button
           onClick={handleSearch}
-          disabled={loading || !query.trim()}
-          className="w-full sm:w-auto px-8 py-3 rounded-xl bg-primary text-primary-foreground font-medium text-base shadow-lg hover:scale-[1.01] transition-transform flex items-center justify-center gap-2 disabled:opacity-50 disabled:pointer-events-none"
+          disabled={loading || !query.trim() || !online}
+          className="w-full sm:w-auto px-8 py-3 rounded-xl bg-primary text-primary-foreground font-medium text-base shadow-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:pointer-events-none"
         >
           {loading ? <Loader2 className="h-5 w-5 animate-spin" /> : <Sparkles className="h-5 w-5" />}
           {loading ? "Searching..." : "Search with AI"}
