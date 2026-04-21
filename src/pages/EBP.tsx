@@ -10,6 +10,69 @@ import {
 } from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
 
+// ---------- Clinically derived enrichment ----------
+// Synthesises additional structured guidance from the guideline + linked disorders,
+// without changing the underlying JSON contract.
+
+const dosageHints = (intervention: string): string => {
+  const k = intervention.toLowerCase();
+  if (k.includes("eccentric") || k.includes("hsr") || k.includes("heavy slow")) return "3 sets × 15 reps, 3-4 ×/week, 12 weeks. Tempo 3-0-3.";
+  if (k.includes("isometric")) return "5 reps × 45 s at 70% MVC, 1-2 ×/day for analgesia.";
+  if (k.includes("aerobic") || k.includes("cardio")) return "150 min/week moderate intensity (RPE 12-14/20).";
+  if (k.includes("strength") || k.includes("resistance")) return "2-3 ×/week, 8-12 reps × 3 sets at 60-80% 1RM, progressive overload.";
+  if (k.includes("manual therapy") || k.includes("mobil") || k.includes("manipul")) return "2-3 ×/week × 4-6 weeks as adjunct to active therapy. Reassess at 6 sessions.";
+  if (k.includes("mckenzie") || k.includes("mdt")) return "10 reps every 2 h while symptomatic; reduce as centralisation occurs.";
+  if (k.includes("education") || k.includes("cognitive") || k.includes("cft")) return "Single 30-60 min session + reinforcement at each visit. Validated tools: PNE booklet, Explain Pain.";
+  if (k.includes("stretch")) return "30-60 s hold × 3-4 reps, 5-7 ×/week.";
+  if (k.includes("balance") || k.includes("proprio")) return "10-15 min/session, 3-5 ×/week × 6 weeks minimum.";
+  if (k.includes("dry needling") || k.includes("acupuncture")) return "1-2 ×/week × 4-6 weeks as adjunct; not stand-alone.";
+  if (k.includes("taping") || k.includes("brace") || k.includes("orthos")) return "Short-term symptom modulator (2-4 weeks); pair with active rehab.";
+  return "Individualise dose; reassess every 2-3 weeks against meaningful change on chosen outcome measure.";
+};
+
+const expectedOutcome = (grade: string): string => {
+  switch (grade) {
+    case "A": return "Clinically meaningful improvement expected in 60-80% of patients within 6-12 weeks when guideline is followed.";
+    case "B": return "Moderate improvement expected in 50-70% of patients within 8-12 weeks; outcomes vary by phenotype.";
+    case "C": return "Variable response — trial for 4-6 weeks and re-evaluate; consider alternative if no meaningful change.";
+    default: return "Reassess against patient-specific goals and outcome measures every 2-4 weeks.";
+  }
+};
+
+const generalPrecautions = (region: string, condition: string): string[] => {
+  const out: string[] = [
+    "Screen for red flags before each progression.",
+    "Avoid prescribing exercise into protective muscle guarding without first addressing pain.",
+    "Modify load if symptoms increase >2 points (NPRS) for >24 h post-session.",
+  ];
+  if (/spine|back|neck|cervical|lumbar|thoracic/i.test(region + condition)) {
+    out.push("Caution with end-range loaded flexion/rotation in acute disc-related presentations.");
+    out.push("Screen for cauda equina, vertebral artery insufficiency and inflammatory features.");
+  }
+  if (/shoulder|rotator|impinge/i.test(condition)) out.push("Avoid painful arc loading in early reactive phase; use isometrics for analgesia.");
+  if (/tendinop|tendinit/i.test(condition)) out.push("Avoid stretching reactive tendons; prioritise progressive isometric → isotonic loading.");
+  if (/osteoarthritis|oa\b/i.test(condition)) out.push("Co-manage weight, sleep and inflammation drivers — not just biomechanics.");
+  if (/acl|meniscus|knee/i.test(condition)) out.push("Use criteria-based progression (LSI ≥90%, hop tests, psychological readiness) — not time alone.");
+  return out;
+};
+
+const educationPoints = (condition: string): string[] => [
+  `${condition}: explain natural history, expected timeline, and that hurt ≠ harm in most musculoskeletal presentations.`,
+  "Sleep ≥7 h, manage stress, and aim for ≥150 min/week aerobic activity — all modulate pain.",
+  "Active engagement with rehab is the strongest predictor of outcome — reinforce self-efficacy.",
+  "Flare-ups are normal and don't mean re-injury; have a written flare-up plan.",
+];
+
+const reasoningPearls = (g: { condition: string; grade: string; key_interventions: { intervention: string }[] }): string[] => {
+  const pearls: string[] = [];
+  pearls.push(`Match intervention to phenotype, not just diagnosis — same label of "${g.condition}" can present as nociceptive, nociplastic or neuropathic dominant.`);
+  if (g.grade === "A") pearls.push("Strong-evidence interventions should be offered first-line unless explicit contraindication.");
+  if (g.key_interventions.some(k => /exercise/i.test(k.intervention))) pearls.push("Exercise dose-response matters — under-dosing is the most common reason for failed rehab.");
+  if (g.key_interventions.some(k => /manual/i.test(k.intervention))) pearls.push("Manual therapy is an enabler, not a stand-alone treatment — pair with active rehab in the same session.");
+  pearls.push("Re-test the irritability marker (e.g. AROM, single-leg hop, NPRS) at every visit to objectify progress.");
+  return pearls;
+};
+
 export default function EBPPage() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
