@@ -1,4 +1,4 @@
-// Daily clinical pearls — rotates based on day-of-year
+// Daily clinical pearls — rotates based on calendar date
 export interface Flashcard {
   id: number;
   category: string;
@@ -40,15 +40,27 @@ export const flashcards: Flashcard[] = [
   { id: 30, category: "Special Tests", question: "What does the Slump test assess?", answer: "Neural mobility of dural & sciatic nerve system. Sequential cervical flexion → thoracic/lumbar flexion → knee extension → ankle DF.", source: "Hattam & Smeatham" },
 ];
 
-/** Returns 3 flashcards rotating by day-of-year */
+/** Stable seeded shuffle so each day the deck order changes but is consistent within the day. */
+function seededOrder(seed: number): number[] {
+  const indices = flashcards.map((_, i) => i);
+  // Simple LCG-based shuffle for determinism
+  let s = seed % 2147483647;
+  if (s <= 0) s += 2147483646;
+  const rand = () => (s = (s * 16807) % 2147483647) / 2147483647;
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  return indices;
+}
+
+/** Returns YYYY-MM-DD style integer key (local time) so the deck flips at local midnight. */
+export function dailyKey(date: Date = new Date()): number {
+  return date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+}
+
+/** Returns 3 flashcards selected and ordered deterministically per local calendar day. */
 export function getDailyFlashcards(date: Date = new Date()): Flashcard[] {
-  const start = new Date(date.getFullYear(), 0, 0);
-  const diff = date.getTime() - start.getTime();
-  const day = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const idx = day % flashcards.length;
-  return [
-    flashcards[idx],
-    flashcards[(idx + 1) % flashcards.length],
-    flashcards[(idx + 2) % flashcards.length],
-  ];
+  const order = seededOrder(dailyKey(date));
+  return [flashcards[order[0]], flashcards[order[1]], flashcards[order[2]]];
 }
