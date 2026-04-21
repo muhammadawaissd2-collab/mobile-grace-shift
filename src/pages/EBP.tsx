@@ -74,10 +74,46 @@ const reasoningPearls = (g: { condition: string; grade: string; key_intervention
   return pearls;
 };
 
+// Classify each guideline by intervention type — derived, no JSON change.
+const TYPE_KEYWORDS: Array<{ label: string; match: RegExp }> = [
+  { label: "Exercise & Loading", match: /exercise|strength|eccentric|isometric|hsr|loading|nordic|plyo|aerobic|resistance|tyler|alfredson|holmich/i },
+  { label: "Manual Therapy", match: /manual therapy|mobilis|mobiliz|manipul|snag|mulligan|mobilisation/i },
+  { label: "Neural / Nerve", match: /nerve glid|neural mobil|neurodynam|neural/i },
+  { label: "Education & PNE", match: /education|cognitive functional|pain neuroscience|cft|pne|talking|reassurance|stay active/i },
+  { label: "Modalities", match: /eswt|laser|ultrasound|tens|electrotherap|dry needling|acupuncture/i },
+  { label: "Bracing / Taping / Orthoses", match: /tape|taping|brace|orthos|splint|collar/i },
+  { label: "Injection / Pharma", match: /inject|corticosteroid|nsaid|pharma|prp|hyaluron/i },
+  { label: "Surgical / Post-Op", match: /surgery|surgical|reconstruct|repair|release|decompress|arthroscop/i },
+  { label: "Balance / Proprioception", match: /balance|proprio|sensorimotor|coordination|wobble/i },
+  { label: "Aquatic / Cardio", match: /aquatic|hydro|cardio|aerobic|swim|cycling/i },
+];
+
+function classifyTypes(g: { key_interventions: { intervention: string }[]; summary?: string }): string[] {
+  const haystack = [g.summary || "", ...g.key_interventions.map(k => k.intervention)].join(" • ");
+  const out: string[] = [];
+  TYPE_KEYWORDS.forEach(({ label, match }) => { if (match.test(haystack)) out.push(label); });
+  return out.length ? out : ["Multimodal / Other"];
+}
+
+const REGION_GROUPS: Array<{ label: string; match: RegExp }> = [
+  { label: "Spine", match: /spine|cervical|thoracic|lumbar|neck/i },
+  { label: "Upper Limb", match: /shoulder|elbow|wrist|hand/i },
+  { label: "Lower Limb", match: /hip|knee|ankle|foot|pelvis/i },
+  { label: "Other", match: /.*/i },
+];
+
+function topRegion(region: string): string {
+  for (const r of REGION_GROUPS) if (r.match.test(region)) return r.label;
+  return "Other";
+}
+
 export default function EBPPage() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const [search, setSearch] = useState(searchParams.get("search") || "");
+  const [regionFilter, setRegionFilter] = useState<string>("all");
+  const [typeFilter, setTypeFilter] = useState<string>("all");
+  const [groupBy, setGroupBy] = useState<"region" | "type" | "none">("region");
   const [expandedId, setExpandedId] = useState<number | null>(
     searchParams.get("id") ? Number(searchParams.get("id")) : null
   );
@@ -98,13 +134,54 @@ export default function EBPPage() {
     }
   };
 
-  const filtered = search
-    ? ebpGuidelines.filter(g =>
-        g.condition.toLowerCase().includes(search.toLowerCase()) ||
-        g.summary.toLowerCase().includes(search.toLowerCase()) ||
-        g.region.toLowerCase().includes(search.toLowerCase())
-      )
-    : ebpGuidelines;
+  // Pre-compute classifications once
+  const enriched = useMemo(
+    () => ebpGuidelines.map(g => ({ ...g, _types: classifyTypes(g), _topRegion: topRegion(g.region) })),
+    []
+  );
+
+  const allRegions = useMemo(
+    () => Array.from(new Set(enriched.map(g => g._topRegion))).sort(),
+    [enriched]
+  );
+  const allTypes = useMemo(
+    () => Array.from(new Set(enriched.flatMap(g => g._types))).sort(),
+    [enriched]
+  );
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return enriched.filter(g => {
+      if (regionFilter !== "all" && g._topRegion !== regionFilter) return false;
+      if (typeFilter !== "all" && !g._types.includes(typeFilter)) return false;
+      if (!q) return true;
+      return (
+        g.condition.toLowerCase().includes(q) ||
+        g.summary.toLowerCase().includes(q) ||
+        g.region.toLowerCase().includes(q) ||
+        g._types.some(t => t.toLowerCase().includes(q))
+      );
+    });
+  }, [enriched, search, regionFilter, typeFilter]);
+
+  // Group output
+  const grouped = useMemo(() => {
+    if (groupBy === "none") return [{ label: "All Guidelines", items: filtered }];
+    const map = new Map<string, typeof filtered>();
+    filtered.forEach(g => {
+      const keys = groupBy === "region" ? [g._topRegion] : g._types;
+      keys.forEach(k => {
+        if (!map.has(k)) map.set(k, []);
+        map.get(k)!.push(g);
+      });
+    });
+    return Array.from(map.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([label, items]) => ({ label, items }));
+  }, [filtered, groupBy]);
+
+  const clearFilters = () => { setSearch(""); setRegionFilter("all"); setTypeFilter("all"); };
+  const hasFilters = search || regionFilter !== "all" || typeFilter !== "all";
 
   return (
     <div className="p-4 md:p-8 max-w-5xl mx-auto animate-fade-in">
