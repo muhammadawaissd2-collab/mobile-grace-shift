@@ -6,8 +6,9 @@ import { BookmarkButton } from "@/components/BookmarkButton";
 import { RelatedSpecialTests } from "@/components/RelatedSpecialTests";
 import {
   BookOpen, ChevronDown, ChevronUp, Award, FileText, ClipboardList, Link2,
-  Brain, AlertOctagon, Target, Clock, Lightbulb, MessageSquare, Activity, Stethoscope,
+  Brain, AlertOctagon, Target, Clock, Lightbulb, MessageSquare, Activity, Stethoscope, Search, Filter, X,
 } from "lucide-react";
+import { Input } from "@/components/ui/input";
 import { PageHeader } from "@/components/PageHeader";
 
 // ---------- Clinically derived enrichment ----------
