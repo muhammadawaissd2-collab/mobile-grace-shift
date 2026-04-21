@@ -1,10 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
-import { ebpGuidelines } from "@/data";
+import { ebpGuidelines, disorders } from "@/data";
 import { RegionTag } from "@/components/EBPBadge";
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { RelatedSpecialTests } from "@/components/RelatedSpecialTests";
-import { BookOpen, ChevronDown, ChevronUp, Award, FileText, ClipboardList, Link2 } from "lucide-react";
+import {
+  BookOpen, ChevronDown, ChevronUp, Award, FileText, ClipboardList, Link2,
+  Brain, AlertOctagon, Target, Clock, Lightbulb, MessageSquare, Activity, Stethoscope,
+} from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
 
 export default function EBPPage() {
