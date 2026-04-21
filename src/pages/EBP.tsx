@@ -191,163 +191,272 @@ export default function EBPPage() {
         subtitle="Evidence-based practice summaries — graded recommendations, key interventions, outcome measures and references."
         stats={[
           { label: "Guidelines", value: ebpGuidelines.length, tone: "primary" },
+          { label: "Regions", value: allRegions.length },
+          { label: "Types", value: allTypes.length },
           { label: "Showing", value: filtered.length, tone: "muted" },
         ]}
       />
 
-      {search && (
+      {/* Search + group control */}
+      <div className="flex flex-wrap gap-2 mb-3 items-center">
+        <div className="relative flex-1 min-w-[220px]">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+          <Input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search condition, summary, or intervention type…"
+            className="pl-10 h-10 bg-secondary/50 border-border/50 text-sm"
+          />
+        </div>
+        <div className="flex items-center gap-1 text-xs">
+          <span className="text-muted-foreground mr-1">Group by</span>
+          {(["region", "type", "none"] as const).map(opt => (
+            <button
+              key={opt}
+              onClick={() => setGroupBy(opt)}
+              className={`px-2.5 py-1.5 rounded-md border transition-colors ${
+                groupBy === opt
+                  ? "bg-primary/15 border-primary/40 text-primary"
+                  : "bg-secondary/40 border-border/40 text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              {opt === "none" ? "Flat" : opt[0].toUpperCase() + opt.slice(1)}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Region filter chips */}
+      <div className="flex flex-wrap gap-1.5 mb-2">
+        <span className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider self-center mr-1 flex items-center gap-1">
+          <Filter className="h-3 w-3" /> Region
+        </span>
+        <button
+          onClick={() => setRegionFilter("all")}
+          className={`text-xs px-2 py-1 rounded-full border transition-colors ${
+            regionFilter === "all" ? "bg-primary/15 text-primary border-primary/40" : "bg-secondary/40 text-muted-foreground border-border/40 hover:text-foreground"
+          }`}
+        >
+          All
+        </button>
+        {allRegions.map(r => (
+          <button
+            key={r}
+            onClick={() => setRegionFilter(r === regionFilter ? "all" : r)}
+            className={`text-xs px-2 py-1 rounded-full border transition-colors ${
+              regionFilter === r ? "bg-primary/15 text-primary border-primary/40" : "bg-secondary/40 text-muted-foreground border-border/40 hover:text-foreground"
+            }`}
+          >
+            {r}
+          </button>
+        ))}
+      </div>
+
+      {/* Type filter chips */}
+      <div className="flex flex-wrap gap-1.5 mb-4">
+        <span className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider self-center mr-1 flex items-center gap-1">
+          <Activity className="h-3 w-3" /> Type
+        </span>
+        <button
+          onClick={() => setTypeFilter("all")}
+          className={`text-xs px-2 py-1 rounded-full border transition-colors ${
+            typeFilter === "all" ? "bg-primary/15 text-primary border-primary/40" : "bg-secondary/40 text-muted-foreground border-border/40 hover:text-foreground"
+          }`}
+        >
+          All
+        </button>
+        {allTypes.map(t => (
+          <button
+            key={t}
+            onClick={() => setTypeFilter(t === typeFilter ? "all" : t)}
+            className={`text-xs px-2 py-1 rounded-full border transition-colors ${
+              typeFilter === t ? "bg-primary/15 text-primary border-primary/40" : "bg-secondary/40 text-muted-foreground border-border/40 hover:text-foreground"
+            }`}
+          >
+            {t}
+          </button>
+        ))}
+      </div>
+
+      {hasFilters && (
         <div className="mb-3">
-          <button onClick={() => setSearch("")} className="text-xs text-primary hover:text-primary/80">
-            ← Clear search "{search}"
+          <button onClick={clearFilters} className="text-xs text-primary hover:text-primary/80 inline-flex items-center gap-1">
+            <X className="h-3 w-3" /> Clear filters
           </button>
         </div>
       )}
 
-      <div className="space-y-3">
-        {filtered.map((g) => {
-          const expanded = expandedId === g.id;
-          return (
-            <div key={g.id} className="elevated !p-0 overflow-hidden mb-3">
-              <button
-                onClick={() => setExpandedId(expanded ? null : g.id)}
-                className="w-full p-4 text-left flex items-center justify-between"
-              >
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-                    <p className="text-base font-semibold text-foreground">{g.condition}</p>
-                    <span className={gradeColor(g.grade)}>Grade {g.grade}</span>
-                  </div>
-                  <p className="text-sm text-muted-foreground line-clamp-2">{g.summary}</p>
-                </div>
-                <div className="flex items-center gap-2 shrink-0 ml-2">
-                  <BookmarkButton id={g.id} type="ebp-guideline" name={g.condition} />
-                  <RegionTag region={g.region} />
-                  {expanded ? <ChevronUp className="h-4 w-4 text-muted-foreground" /> : <ChevronDown className="h-4 w-4 text-muted-foreground" />}
-                </div>
-              </button>
+      {filtered.length === 0 && (
+        <div className="elevated text-center py-10 text-sm text-muted-foreground">
+          No guidelines match these filters.
+        </div>
+      )}
 
-              {expanded && (
-                <div className="px-4 pb-4 space-y-4 border-t border-border/50 pt-4 animate-fade-in">
-                  <p className="text-sm text-foreground/90">{g.summary}</p>
-
-                  <div>
-                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <Award className="h-3.5 w-3.5 text-primary" /> Key Interventions & Dose
-                    </h3>
-                    <div className="space-y-1.5">
-                      {g.key_interventions.map((ki, i) => (
-                        <div key={i} className="bg-secondary/30 rounded-lg px-3 py-2">
-                          <div className="flex items-center justify-between gap-2">
-                            <span className="text-sm font-medium text-foreground">{ki.intervention}</span>
-                            <span className="text-xs text-primary font-medium shrink-0">{ki.evidence}</span>
-                          </div>
-                          <p className="text-xs text-muted-foreground mt-1 flex items-start gap-1.5">
-                            <Clock className="h-3 w-3 mt-0.5 shrink-0 text-primary/60" />
-                            <span>{dosageHints(ki.intervention)}</span>
-                          </p>
+      <div className="space-y-6">
+        {grouped.map(section => (
+          <div key={section.label}>
+            {groupBy !== "none" && (
+              <div className="flex items-center justify-between mb-2 px-1">
+                <h2 className="text-sm font-display font-semibold text-foreground flex items-center gap-2">
+                  <span className="w-1 h-4 bg-primary/70 rounded-full" />
+                  {section.label}
+                </h2>
+                <span className="text-[10px] text-muted-foreground">{section.items.length} guideline{section.items.length === 1 ? "" : "s"}</span>
+              </div>
+            )}
+            <div className="space-y-3">
+              {section.items.map((g) => {
+                const expanded = expandedId === g.id;
+                return (
+                  <div key={`${section.label}-${g.id}`} className="elevated !p-0 overflow-hidden">
+                    <button
+                      onClick={() => setExpandedId(expanded ? null : g.id)}
+                      className="w-full p-4 text-left flex items-center justify-between"
+                    >
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+                          <p className="text-base font-semibold text-foreground">{g.condition}</p>
+                          <span className={gradeColor(g.grade)}>Grade {g.grade}</span>
                         </div>
-                      ))}
-                    </div>
+                        <p className="text-sm text-muted-foreground line-clamp-2">{g.summary}</p>
+                        <div className="flex flex-wrap gap-1 mt-1.5">
+                          {g._types.slice(0, 4).map(t => (
+                            <span key={t} className="text-[10px] px-1.5 py-0.5 rounded bg-secondary/60 text-muted-foreground border border-border/40">{t}</span>
+                          ))}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 shrink-0 ml-2">
+                        <BookmarkButton id={g.id} type="ebp-guideline" name={g.condition} />
+                        <RegionTag region={g.region} />
+                        {expanded ? <ChevronUp className="h-4 w-4 text-muted-foreground" /> : <ChevronDown className="h-4 w-4 text-muted-foreground" />}
+                      </div>
+                    </button>
+
+                    {expanded && (
+                      <div className="px-4 pb-4 space-y-4 border-t border-border/50 pt-4 animate-fade-in">
+                        <p className="text-sm text-foreground/90">{g.summary}</p>
+
+                        <div>
+                          <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                            <Award className="h-3.5 w-3.5 text-primary" /> Key Interventions & Dose
+                          </h3>
+                          <div className="space-y-1.5">
+                            {g.key_interventions.map((ki, i) => (
+                              <div key={i} className="bg-secondary/30 rounded-lg px-3 py-2">
+                                <div className="flex items-center justify-between gap-2">
+                                  <span className="text-sm font-medium text-foreground">{ki.intervention}</span>
+                                  <span className="text-xs text-primary font-medium shrink-0">{ki.evidence}</span>
+                                </div>
+                                <p className="text-xs text-muted-foreground mt-1 flex items-start gap-1.5">
+                                  <Clock className="h-3 w-3 mt-0.5 shrink-0 text-primary/60" />
+                                  <span>{dosageHints(ki.intervention)}</span>
+                                </p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        <div>
+                          <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                            <Brain className="h-3.5 w-3.5 text-primary" /> Clinical Reasoning Pearls
+                          </h3>
+                          <ul className="space-y-1">
+                            {reasoningPearls(g).map((p, i) => (
+                              <li key={i} className="text-xs text-foreground/80 flex items-start gap-1.5">
+                                <Lightbulb className="h-3 w-3 mt-0.5 shrink-0 text-amber-400" />
+                                <span>{p}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        <div className="grid sm:grid-cols-2 gap-3">
+                          <div className="bg-secondary/20 rounded-lg p-3">
+                            <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
+                              <Target className="h-3.5 w-3.5 text-primary" /> Expected Outcome
+                            </h3>
+                            <p className="text-xs text-muted-foreground">{expectedOutcome(g.grade)}</p>
+                          </div>
+                          <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-3">
+                            <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
+                              <AlertOctagon className="h-3.5 w-3.5 text-amber-400" /> Precautions
+                            </h3>
+                            <ul className="space-y-0.5">
+                              {generalPrecautions(g.region, g.condition).map((p, i) => (
+                                <li key={i} className="text-xs text-foreground/80">• {p}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div>
+                          <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                            <MessageSquare className="h-3.5 w-3.5 text-primary" /> Patient Education Talking Points
+                          </h3>
+                          <ul className="space-y-1">
+                            {educationPoints(g.condition).map((e, i) => (
+                              <li key={i} className="text-xs text-foreground/80">• {e}</li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        <RelatedDisorders condition={g.condition} region={g.region} navigate={navigate} />
+
+                        <div>
+                          <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                            <ClipboardList className="h-3.5 w-3.5 text-primary" /> Outcome Measures
+                          </h3>
+                          <div className="flex flex-wrap gap-1.5">
+                            {g.outcome_measures.map((om, i) => (
+                              <span key={i} className="text-xs bg-secondary/50 text-muted-foreground px-2 py-1 rounded-full">{om}</span>
+                            ))}
+                          </div>
+                        </div>
+
+                        <RelatedSpecialTests region={g.region} condition={g.condition} />
+
+                        <div>
+                          <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                            <Link2 className="h-3.5 w-3.5 text-primary" /> Related Modules
+                          </h3>
+                          <div className="flex flex-wrap gap-1.5">
+                            <button onClick={() => navigate(`/impairments?search=${encodeURIComponent(g.condition)}`)}
+                              className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
+                              Impairments
+                            </button>
+                            <button onClick={() => navigate(`/exercises?search=${encodeURIComponent(g.condition)}`)}
+                              className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
+                              Exercises
+                            </button>
+                            <button onClick={() => navigate(`/manual-therapy?search=${encodeURIComponent(g.region)}`)}
+                              className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
+                              Manual Therapy
+                            </button>
+                            <button onClick={() => navigate(`/sports-injuries?search=${encodeURIComponent(g.condition)}`)}
+                              className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
+                              Sports Injuries
+                            </button>
+                          </div>
+                        </div>
+
+                        <div>
+                          <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                            <FileText className="h-3.5 w-3.5 text-primary" /> Key References
+                          </h3>
+                          <ul className="space-y-0.5">
+                            {g.key_references.map((ref, i) => (
+                              <li key={i} className="text-xs text-muted-foreground">• {ref}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
                   </div>
-
-                  <div>
-                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <Brain className="h-3.5 w-3.5 text-primary" /> Clinical Reasoning Pearls
-                    </h3>
-                    <ul className="space-y-1">
-                      {reasoningPearls(g).map((p, i) => (
-                        <li key={i} className="text-xs text-foreground/80 flex items-start gap-1.5">
-                          <Lightbulb className="h-3 w-3 mt-0.5 shrink-0 text-amber-400" />
-                          <span>{p}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="grid sm:grid-cols-2 gap-3">
-                    <div className="bg-secondary/20 rounded-lg p-3">
-                      <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
-                        <Target className="h-3.5 w-3.5 text-primary" /> Expected Outcome
-                      </h3>
-                      <p className="text-xs text-muted-foreground">{expectedOutcome(g.grade)}</p>
-                    </div>
-                    <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-3">
-                      <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
-                        <AlertOctagon className="h-3.5 w-3.5 text-amber-400" /> Precautions
-                      </h3>
-                      <ul className="space-y-0.5">
-                        {generalPrecautions(g.region, g.condition).map((p, i) => (
-                          <li key={i} className="text-xs text-foreground/80">• {p}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <MessageSquare className="h-3.5 w-3.5 text-primary" /> Patient Education Talking Points
-                    </h3>
-                    <ul className="space-y-1">
-                      {educationPoints(g.condition).map((e, i) => (
-                        <li key={i} className="text-xs text-foreground/80">• {e}</li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <RelatedDisorders condition={g.condition} region={g.region} navigate={navigate} />
-
-                  <div>
-                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <ClipboardList className="h-3.5 w-3.5 text-primary" /> Outcome Measures
-                    </h3>
-                    <div className="flex flex-wrap gap-1.5">
-                      {g.outcome_measures.map((om, i) => (
-                        <span key={i} className="text-xs bg-secondary/50 text-muted-foreground px-2 py-1 rounded-full">{om}</span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <RelatedSpecialTests region={g.region} condition={g.condition} />
-
-                  <div>
-                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <Link2 className="h-3.5 w-3.5 text-primary" /> Related Modules
-                    </h3>
-                    <div className="flex flex-wrap gap-1.5">
-                      <button onClick={() => navigate(`/impairments?search=${encodeURIComponent(g.condition)}`)}
-                        className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
-                        Impairments
-                      </button>
-                      <button onClick={() => navigate(`/exercises?search=${encodeURIComponent(g.condition)}`)}
-                        className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
-                        Exercises
-                      </button>
-                      <button onClick={() => navigate(`/manual-therapy?search=${encodeURIComponent(g.region)}`)}
-                        className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
-                        Manual Therapy
-                      </button>
-                      <button onClick={() => navigate(`/sports-injuries?search=${encodeURIComponent(g.condition)}`)}
-                        className="px-2 py-1 rounded bg-primary/10 text-primary text-xs border border-primary/30 hover:bg-primary/20">
-                        Sports Injuries
-                      </button>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <FileText className="h-3.5 w-3.5 text-primary" /> Key References
-                    </h3>
-                    <ul className="space-y-0.5">
-                      {g.key_references.map((ref, i) => (
-                        <li key={i} className="text-xs text-muted-foreground">• {ref}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              )}
+                );
+              })}
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );
