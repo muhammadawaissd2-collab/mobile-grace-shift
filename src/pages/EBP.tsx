@@ -274,3 +274,42 @@ export default function EBPPage() {
     </div>
   );
 }
+
+// ---------- Related disorders helper component ----------
+function RelatedDisorders({ condition, region, navigate }: { condition: string; region: string; navigate: (p: string) => void }) {
+  const matches = useMemo(() => {
+    const c = condition.toLowerCase();
+    const r = region.toLowerCase();
+    const tokens = c.split(/\s+/).filter(t => t.length > 3);
+    return disorders
+      .filter(d => {
+        const name = d.name?.toLowerCase() ?? "";
+        const reg = d.region?.toLowerCase() ?? "";
+        if (name.includes(c) || c.includes(name)) return true;
+        if (reg === r && tokens.some(t => name.includes(t))) return true;
+        return false;
+      })
+      .slice(0, 6);
+  }, [condition, region]);
+
+  if (matches.length === 0) return null;
+
+  return (
+    <div>
+      <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+        <Stethoscope className="h-3.5 w-3.5 text-primary" /> Related Disorders
+      </h3>
+      <div className="flex flex-wrap gap-1.5">
+        {matches.map(d => (
+          <button
+            key={d.id}
+            onClick={() => navigate(`/disorders?id=${d.id}`)}
+            className="px-2 py-1 rounded bg-secondary/40 text-foreground/90 text-xs border border-border/40 hover:bg-secondary/70 hover:text-primary transition-colors"
+          >
+            {d.name}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
