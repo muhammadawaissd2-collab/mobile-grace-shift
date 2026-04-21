@@ -154,17 +154,69 @@ export default function EBPPage() {
 
                   <div>
                     <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                      <Award className="h-3.5 w-3.5 text-primary" /> Key Interventions
+                      <Award className="h-3.5 w-3.5 text-primary" /> Key Interventions & Dose
                     </h3>
                     <div className="space-y-1.5">
                       {g.key_interventions.map((ki, i) => (
-                        <div key={i} className="flex items-center justify-between bg-secondary/30 rounded-lg px-3 py-2">
-                          <span className="text-sm text-foreground">{ki.intervention}</span>
-                          <span className="text-xs text-primary font-medium">{ki.evidence}</span>
+                        <div key={i} className="bg-secondary/30 rounded-lg px-3 py-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="text-sm font-medium text-foreground">{ki.intervention}</span>
+                            <span className="text-xs text-primary font-medium shrink-0">{ki.evidence}</span>
+                          </div>
+                          <p className="text-xs text-muted-foreground mt-1 flex items-start gap-1.5">
+                            <Clock className="h-3 w-3 mt-0.5 shrink-0 text-primary/60" />
+                            <span>{dosageHints(ki.intervention)}</span>
+                          </p>
                         </div>
                       ))}
                     </div>
                   </div>
+
+                  <div>
+                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                      <Brain className="h-3.5 w-3.5 text-primary" /> Clinical Reasoning Pearls
+                    </h3>
+                    <ul className="space-y-1">
+                      {reasoningPearls(g).map((p, i) => (
+                        <li key={i} className="text-xs text-foreground/80 flex items-start gap-1.5">
+                          <Lightbulb className="h-3 w-3 mt-0.5 shrink-0 text-amber-400" />
+                          <span>{p}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    <div className="bg-secondary/20 rounded-lg p-3">
+                      <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
+                        <Target className="h-3.5 w-3.5 text-primary" /> Expected Outcome
+                      </h3>
+                      <p className="text-xs text-muted-foreground">{expectedOutcome(g.grade)}</p>
+                    </div>
+                    <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-3">
+                      <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
+                        <AlertOctagon className="h-3.5 w-3.5 text-amber-400" /> Precautions
+                      </h3>
+                      <ul className="space-y-0.5">
+                        {generalPrecautions(g.region, g.condition).map((p, i) => (
+                          <li key={i} className="text-xs text-foreground/80">• {p}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                      <MessageSquare className="h-3.5 w-3.5 text-primary" /> Patient Education Talking Points
+                    </h3>
+                    <ul className="space-y-1">
+                      {educationPoints(g.condition).map((e, i) => (
+                        <li key={i} className="text-xs text-foreground/80">• {e}</li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <RelatedDisorders condition={g.condition} region={g.region} navigate={navigate} />
 
                   <div>
                     <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
