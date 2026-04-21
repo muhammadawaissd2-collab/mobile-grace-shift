@@ -356,7 +356,7 @@ export default function MusclesPage() {
                                   </TableCell>
                                 </TableRow>
                               )}
-                            </>
+                            </Fragment>
                           );
                         })}
                       </TableBody>
