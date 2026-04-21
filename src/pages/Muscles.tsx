@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, Fragment } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { muscleGroups as rawMuscleData, exercises } from "@/data";
 import { RegionTag } from "@/components/EBPBadge";
