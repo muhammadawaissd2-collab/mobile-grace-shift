@@ -25,14 +25,16 @@ export function CommandPalette({ open, onOpenChange }: { open: boolean; onOpenCh
       id: `e-${e.id}`, label: e.name, sub: `${e.region} • ${e.category}`,
       path: `/exercises?id=${e.id}`, icon: <Dumbbell className="h-4 w-4 text-emerald-400" />, group: "Exercises",
     }));
-    muscleGroups.forEach(mg => {
+    (muscleGroups as any[]).forEach((mg, gi) => {
+      const id = typeof mg?.id === "number" ? mg.id : 9000 + gi;
       items.push({
-        id: `mg-${mg.id}`, label: mg.name, sub: `Muscle group • ${mg.region}`,
-        path: `/muscles?id=${mg.id}`, icon: <Activity className="h-4 w-4 text-rose-400" />, group: "Muscles",
+        id: `mg-${id}`, label: mg?.name ?? "Muscle", sub: `Muscle group • ${mg?.region ?? "Other"}`,
+        path: `/muscles?id=${id}`, icon: <Activity className="h-4 w-4 text-rose-400" />, group: "Muscles",
       });
-      mg.muscles.forEach((m, i) => items.push({
-        id: `m-${mg.id}-${i}`, label: m.name, sub: `Muscle • ${mg.name}`,
-        path: `/muscles?id=${mg.id}`, icon: <Activity className="h-4 w-4 text-rose-300" />, group: "Muscles",
+      const subMuscles = Array.isArray(mg?.muscles) ? mg.muscles : [];
+      subMuscles.forEach((m: any, i: number) => items.push({
+        id: `m-${id}-${i}`, label: m?.name ?? "Muscle", sub: `Muscle • ${mg?.name ?? ""}`,
+        path: `/muscles?id=${id}`, icon: <Activity className="h-4 w-4 text-rose-300" />, group: "Muscles",
       }));
     });
     specialTests.forEach((t, i) => items.push({

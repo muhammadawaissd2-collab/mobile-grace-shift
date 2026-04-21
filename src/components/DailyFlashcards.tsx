@@ -1,19 +1,33 @@
-import { useState } from "react";
-import { getDailyFlashcards } from "@/data/flashcards";
-import { Sparkles, ChevronLeft, ChevronRight, Eye, EyeOff, Bookmark } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+import { useEffect, useMemo, useState } from "react";
+import { getDailyFlashcards, dailyKey } from "@/data/flashcards";
+import { ChevronLeft, ChevronRight, Eye, EyeOff, Bookmark } from "lucide-react";
 import { useBookmarks } from "@/contexts/BookmarkContext";
 
 export function DailyFlashcards() {
-  const cards = getDailyFlashcards();
+  // Re-key on local-date change so the deck refreshes at midnight without a reload.
+  const [today, setToday] = useState(() => dailyKey());
+  useEffect(() => {
+    const tick = () => {
+      const k = dailyKey();
+      if (k !== today) setToday(k);
+    };
+    const interval = window.setInterval(tick, 60_000);
+    const onVisible = () => tick();
+    document.addEventListener("visibilitychange", onVisible);
+    return () => { window.clearInterval(interval); document.removeEventListener("visibilitychange", onVisible); };
+  }, [today]);
+
+  const cards = useMemo(() => getDailyFlashcards(new Date()), [today]);
   const [idx, setIdx] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  useEffect(() => { setIdx(0); setRevealed(false); }, [today]);
+
   const card = cards[idx];
   const { toggleBookmark, isBookmarked } = useBookmarks();
 
   const next = () => { setRevealed(false); setIdx((idx + 1) % cards.length); };
   const prev = () => { setRevealed(false); setIdx((idx - 1 + cards.length) % cards.length); };
-  
+
   const bookmarked = isBookmarked(card.id, "flashcard");
 
   return (
