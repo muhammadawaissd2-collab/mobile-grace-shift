@@ -40466,5 +40466,970 @@
     "id": 1000,
     "msk_tests": [],
     "red_flags": []
+  },
+  {
+    "id": 1001,
+    "name": "Pressure Ulcer (Stage I-IV)",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Localised tissue damage over bony prominence due to sustained pressure/shear, common in immobile patients.",
+    "causes": [
+      "Prolonged immobility",
+      "Shear/friction",
+      "Moisture",
+      "Malnutrition"
+    ],
+    "key_findings": "Non-blanchable erythema progressing to full-thickness skin loss with exposed muscle/bone in advanced stages.",
+    "diagnostic_tips": "Use Braden Scale to predict risk; stage by NPUAP guidelines; image with consistent positioning.",
+    "treatment_plan": {
+      "acute": "Pressure offloading every 2 h, wound cleansing, moisture-balanced dressing, nutrition optimisation.",
+      "subacute": "Negative pressure wound therapy for stage III-IV, debridement of necrotic tissue, mobility progression.",
+      "chronic": "Surgical flap if non-healing >6 months; long-term seating/bed surface review; carer education."
+    },
+    "special_tests": [
+      {
+        "name": "Braden Scale",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Braden Scale"
+    ],
+    "red_flags": [
+      "Sepsis",
+      "Osteomyelitis under wound",
+      "Rapidly expanding necrosis"
+    ],
+    "types": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV",
+      "Unstageable",
+      "Deep Tissue Injury"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Cellulitis (Lower Limb)",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Acute",
+    "description": "Acute bacterial infection of dermis and subcutaneous tissue, usually streptococcal or staphylococcal.",
+    "causes": [
+      "Skin breach (tinea pedis, ulcer, IVDU)",
+      "Lymphoedema",
+      "Diabetes",
+      "Venous insufficiency"
+    ],
+    "key_findings": "Hot, red, tender, poorly demarcated swelling with systemic features (fever, malaise).",
+    "diagnostic_tips": "Mark erythema border to track progression; differentiate from DVT (pain pattern, Wells score) and stasis dermatitis (chronic, bilateral).",
+    "treatment_plan": {
+      "acute": "Refer for IV/PO antibiotics, limb elevation, immobilisation initially; defer exercise.",
+      "subacute": "Once afebrile and erythema receding: graded mobilisation, compression for residual oedema.",
+      "chronic": "Address underlying skin barrier (treat tinea, manage lymphoedema, foot care education)."
+    },
+    "special_tests": [
+      {
+        "name": "Wells DVT Score",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Wells DVT Score"
+    ],
+    "red_flags": [
+      "Necrotising fasciitis (pain out of proportion, crepitus)",
+      "Sepsis",
+      "Rapidly spreading erythema"
+    ],
+    "types": []
+  },
+  {
+    "id": 1003,
+    "name": "Stasis Dermatitis",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Inflammatory skin change of lower leg secondary to chronic venous hypertension.",
+    "causes": [
+      "Chronic venous insufficiency",
+      "DVT history",
+      "Obesity",
+      "Prolonged standing"
+    ],
+    "key_findings": "Hyperpigmentation, scaling, weeping over medial gaiter area; often misdiagnosed as cellulitis.",
+    "diagnostic_tips": "Bilateral and chronic \u2014 unlike unilateral acute cellulitis. Confirm with venous duplex.",
+    "treatment_plan": {
+      "acute": "Topical emollient, mild steroid for flare, leg elevation.",
+      "subacute": "Graded compression (20-30 mmHg if ABI \u22650.8), calf-pump exercise programme.",
+      "chronic": "Lifelong compression hosiery, weight management, structured walking programme."
+    },
+    "special_tests": [
+      {
+        "name": "ABPI (Ankle-Brachial Pressure Index)",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "ABPI (Ankle-Brachial Pressure Index)"
+    ],
+    "red_flags": [
+      "ABPI <0.5 (severe arterial disease)",
+      "Acutely painful ulcer",
+      "Suspected malignancy in chronic ulcer"
+    ],
+    "types": []
+  },
+  {
+    "id": 1004,
+    "name": "Hidradenitis Suppurativa",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Chronic inflammatory follicular skin disease affecting intertriginous areas.",
+    "causes": [
+      "Genetic predisposition",
+      "Smoking",
+      "Obesity",
+      "Hormonal factors"
+    ],
+    "key_findings": "Recurrent painful nodules, abscesses, sinus tracts in axillae, groin, perineum.",
+    "diagnostic_tips": "Hurley staging (I-III) guides management; differentiate from simple folliculitis or furunculosis.",
+    "treatment_plan": {
+      "acute": "Refer dermatology; warm compresses, avoid tight clothing.",
+      "subacute": "Address contributing factors: smoking cessation, weight management, gentle mobility for affected joints.",
+      "chronic": "Surgical excision for stage III; ROM exercises post-op to prevent contracture (esp. axilla)."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Limited",
+    "msk_tests": [],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1005,
+    "name": "Lipoedema",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Symmetrical adipose tissue disorder of legs (and sometimes arms) with pain and easy bruising \u2014 distinct from obesity and lymphoedema.",
+    "causes": [
+      "Hormonal triggers (puberty, pregnancy, menopause)",
+      "Genetic predisposition"
+    ],
+    "key_findings": "Bilateral symmetrical 'column-like' fat deposition sparing feet (cuff sign), tenderness to pressure.",
+    "diagnostic_tips": "Stemmer's sign negative (vs lymphoedema). Bilateral symmetrical distribution sparing feet is pathognomonic.",
+    "treatment_plan": {
+      "acute": "Education, skin care, light compression if tolerated.",
+      "subacute": "Flat-knit graduated compression, low-impact aquatic exercise, lymphatic drainage.",
+      "chronic": "Tumescent liposuction in selected severe cases; lifelong compression and exercise."
+    },
+    "special_tests": [
+      {
+        "name": "Stemmer's Sign",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Limited",
+    "msk_tests": [
+      "Stemmer's Sign"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1006,
+    "name": "Lymphoedema (Secondary)",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Chronic interstitial fluid accumulation due to lymphatic insufficiency, often post node-dissection or radiotherapy.",
+    "causes": [
+      "Cancer node-dissection",
+      "Radiotherapy",
+      "Filariasis",
+      "Recurrent cellulitis"
+    ],
+    "key_findings": "Unilateral non-pitting (chronic) swelling, positive Stemmer's sign, skin thickening.",
+    "diagnostic_tips": "Stemmer's sign positive in lymphoedema. ISL Stage 0-III guides intensity of complete decongestive therapy.",
+    "treatment_plan": {
+      "acute": "Skin care, MLD initiation, education.",
+      "subacute": "Complete Decongestive Therapy: MLD + multilayer bandaging + exercise + skin care for 2-4 weeks.",
+      "chronic": "Maintenance: flat-knit garments, self-MLD, deep breathing, graduated exercise."
+    },
+    "special_tests": [
+      {
+        "name": "Stemmer's Sign",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Stemmer's Sign"
+    ],
+    "red_flags": [
+      "Sudden increase suggesting DVT",
+      "Cellulitis",
+      "Truncal/genital swelling needing specialist input"
+    ],
+    "types": []
+  },
+  {
+    "id": 1007,
+    "name": "Burn Injury (Partial-Thickness)",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Acute",
+    "description": "Thermal/chemical/electrical injury to dermis with risk of contracture if joints involved.",
+    "causes": [
+      "Thermal",
+      "Chemical",
+      "Electrical",
+      "Radiation"
+    ],
+    "key_findings": "Painful red blistered skin, blanches with pressure; healing within 2-3 weeks if uncomplicated.",
+    "diagnostic_tips": "Estimate %TBSA (rule of nines/Lund-Browder); refer if >10% adult, >5% child, face/hands/perineum or full-thickness.",
+    "treatment_plan": {
+      "acute": "Cool with running water 20 min, dressings, analgesia, splint joints in anti-deformity position.",
+      "subacute": "Active and AAROM within pain limits, scar massage once healed, pressure garments at maturation.",
+      "chronic": "Long-term scar management 12-24 months; address psychological sequelae, return to function."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [],
+    "red_flags": [
+      "Airway burn",
+      "Circumferential full-thickness (compartment syndrome)",
+      "Electrical burn (cardiac monitoring)"
+    ],
+    "types": [
+      "Superficial",
+      "Superficial Partial-Thickness",
+      "Deep Partial-Thickness",
+      "Full-Thickness"
+    ]
+  },
+  {
+    "id": 1008,
+    "name": "Hypertrophic / Keloid Scar",
+    "region": "Systemic/Any",
+    "category": "Skin Disorders",
+    "subcategory": "Chronic",
+    "description": "Pathological scar response with excessive collagen deposition; keloid extends beyond original wound.",
+    "causes": [
+      "Genetic predisposition",
+      "Wound under tension",
+      "Burns",
+      "Surgical incisions in high-tension areas"
+    ],
+    "key_findings": "Raised, red/dark, often itchy/painful scar; keloid grows beyond wound margins.",
+    "diagnostic_tips": "Hypertrophic stays within wound borders; keloid extends beyond. Both can limit ROM if over a joint.",
+    "treatment_plan": {
+      "acute": "Wound healing optimisation, silicone sheet/gel, sun protection.",
+      "subacute": "Pressure garment 23 h/day, scar massage, mobilisation if joint involved.",
+      "chronic": "Intralesional steroid, laser, surgical revision with adjuvant therapy for refractory keloid."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [],
+    "red_flags": [
+      "Suspected malignant change in chronic scar"
+    ],
+    "types": []
+  },
+  {
+    "id": 1009,
+    "name": "Osteochondral Lesion of Talus (OLT)",
+    "region": "Foot/Ankle",
+    "category": "Cartilage Disorders",
+    "subcategory": "Subacute",
+    "description": "Focal injury of talar dome cartilage and underlying subchondral bone, often post ankle sprain.",
+    "causes": [
+      "Lateral ankle sprain",
+      "Trauma",
+      "Repetitive microtrauma"
+    ],
+    "key_findings": "Persistent deep ankle pain, catching, swelling after ankle sprain that fails to settle.",
+    "diagnostic_tips": "MRI is gold standard; Berndt-Harty classification grades severity.",
+    "treatment_plan": {
+      "acute": "Boot immobilisation if acute, NSAIDs, offloading.",
+      "subacute": "Progressive ROM, peroneal strengthening, proprioception, gradual loading.",
+      "chronic": "Microfracture, OATS or autologous chondrocyte implantation if non-responsive."
+    },
+    "special_tests": [
+      {
+        "name": "Anterior Drawer (Ankle)",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "Anterior Drawer (Ankle)"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1010,
+    "name": "Chondral Defect of Knee (Outerbridge II-III)",
+    "region": "Knee",
+    "category": "Cartilage Disorders",
+    "subcategory": "Chronic",
+    "description": "Focal cartilage damage of femoral condyle or trochlea, often traumatic or secondary to malalignment.",
+    "causes": [
+      "Trauma",
+      "Patellar dislocation",
+      "Malalignment",
+      "OCD"
+    ],
+    "key_findings": "Catching, locking, effusion after activity; often a discrete history.",
+    "diagnostic_tips": "MRI with cartilage-sensitive sequences; arthroscopy for definitive grading.",
+    "treatment_plan": {
+      "acute": "Activity modification, offloading brace, NSAIDs.",
+      "subacute": "Quad/glute strengthening, range restoration, low-impact aerobic.",
+      "chronic": "Surgical options: microfracture, MACI, osteotomy if malaligned."
+    },
+    "special_tests": [
+      {
+        "name": "McMurray's Test",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "McMurray's Test"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1011,
+    "name": "Synovial Chondromatosis",
+    "region": "Knee",
+    "category": "Cartilage Disorders",
+    "subcategory": "Chronic",
+    "description": "Metaplastic formation of cartilaginous nodules within synovium, can detach as loose bodies.",
+    "causes": [
+      "Idiopathic",
+      "Secondary to OA"
+    ],
+    "key_findings": "Mechanical symptoms (catching, locking), effusion, restricted ROM.",
+    "diagnostic_tips": "Radiographs show calcified loose bodies; MRI confirms synovial origin.",
+    "treatment_plan": {
+      "acute": "Activity modification, NSAIDs.",
+      "subacute": "ROM exercises, quadriceps strengthening, avoid impact loading.",
+      "chronic": "Arthroscopic removal of loose bodies and synovectomy."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1012,
+    "name": "Acetabular Labral Tear",
+    "region": "Hip",
+    "category": "Labral tears",
+    "subcategory": "Subacute",
+    "description": "Tear of fibrocartilaginous labrum surrounding acetabulum, common with FAI morphology.",
+    "causes": [
+      "FAI (cam/pincer)",
+      "Trauma",
+      "Capsular laxity",
+      "Dysplasia"
+    ],
+    "key_findings": "Anterior groin pain (C-sign), clicking, catching with hip flexion/IR.",
+    "diagnostic_tips": "FADIR test sensitive; MR arthrogram is gold standard.",
+    "treatment_plan": {
+      "acute": "Activity modification, NSAIDs, hip flexor downtraining.",
+      "subacute": "Hip stabilisers (glute med/min), motor control, avoid provocative end-range positions.",
+      "chronic": "Arthroscopic labral repair/debridement with FAI correction if morphology present."
+    },
+    "special_tests": [
+      {
+        "name": "FADIR Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "FABER Test",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "FADIR Test",
+      "FABER Test"
+    ],
+    "red_flags": [],
+    "types": [
+      "Anterior",
+      "Posterior",
+      "Superior",
+      "Bucket-handle",
+      "Cam-type FAI associated",
+      "Pincer-type FAI associated"
+    ]
+  },
+  {
+    "id": 1013,
+    "name": "Glenoid Labral Tear \u2014 Type V SLAP",
+    "region": "Shoulder",
+    "category": "Labral tears",
+    "subcategory": "Subacute",
+    "description": "SLAP tear extending into anteroinferior labrum (Bankart-type extension).",
+    "causes": [
+      "Anterior dislocation",
+      "Throwing athletes",
+      "Combined traction-compression injury"
+    ],
+    "key_findings": "Anterior instability + biceps anchor symptoms; positive apprehension and SLAP signs.",
+    "diagnostic_tips": "MR arthrogram superior to plain MRI for SLAP detection.",
+    "treatment_plan": {
+      "acute": "Sling for comfort, avoid provocative positions.",
+      "subacute": "Scapular and rotator cuff retraining; biceps load management.",
+      "chronic": "Arthroscopic SLAP repair + Bankart repair if instability persists."
+    },
+    "special_tests": [
+      {
+        "name": "O'Brien's Active Compression Test",
+        "sensitivity": "High",
+        "specificity": "Low"
+      },
+      {
+        "name": "Apprehension Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "O'Brien's Active Compression Test",
+      "Apprehension Test"
+    ],
+    "red_flags": [],
+    "types": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV",
+      "Type V",
+      "Type VI",
+      "Type VII"
+    ]
+  },
+  {
+    "id": 1014,
+    "name": "Meralgia Paresthetica",
+    "region": "Pelvis",
+    "category": "Nerve Disorders",
+    "subcategory": "Chronic",
+    "description": "Compression neuropathy of lateral femoral cutaneous nerve at inguinal ligament.",
+    "causes": [
+      "Tight belts/clothing",
+      "Obesity",
+      "Pregnancy",
+      "Direct trauma",
+      "Iliac crest bone graft"
+    ],
+    "key_findings": "Burning, numbness, tingling over anterolateral thigh; no motor deficit.",
+    "diagnostic_tips": "Pelvic compression test reproduces symptoms; ultrasound-guided block confirms diagnosis.",
+    "treatment_plan": {
+      "acute": "Remove compressive factor (belt, clothing), weight management, NSAIDs.",
+      "subacute": "Soft-tissue mobilisation, neural mobilisation, postural retraining.",
+      "chronic": "Local anaesthetic \u00b1 steroid block; surgical decompression if refractory."
+    },
+    "special_tests": [
+      {
+        "name": "Pelvic Compression Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "Pelvic Compression Test"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1015,
+    "name": "Tarsal Tunnel Syndrome",
+    "region": "Foot/Ankle",
+    "category": "Nerve Disorders",
+    "subcategory": "Chronic",
+    "description": "Posterior tibial nerve compression beneath flexor retinaculum at medial ankle.",
+    "causes": [
+      "Pes planus",
+      "Space-occupying lesion",
+      "Trauma",
+      "Tenosynovitis"
+    ],
+    "key_findings": "Burning medial foot pain radiating to sole, worse with standing/walking.",
+    "diagnostic_tips": "Tinel's at tarsal tunnel; NCS confirms; MRI for space-occupying lesion.",
+    "treatment_plan": {
+      "acute": "Activity modification, orthoses for pronation control, NSAIDs.",
+      "subacute": "Neural gliding, intrinsic foot strengthening, posterior tibialis training.",
+      "chronic": "Surgical decompression if conservative fails after 3-6 months."
+    },
+    "special_tests": [
+      {
+        "name": "Tinel's Sign at Tarsal Tunnel",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "Tinel's Sign at Tarsal Tunnel"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1016,
+    "name": "Piriformis Syndrome",
+    "region": "Hip",
+    "category": "Nerve Disorders",
+    "subcategory": "Chronic",
+    "description": "Sciatic nerve irritation by piriformis muscle, deep gluteal pain \u00b1 radicular features.",
+    "causes": [
+      "Anatomical variant",
+      "Overuse",
+      "Trauma",
+      "Prolonged sitting"
+    ],
+    "key_findings": "Deep buttock pain reproduced by sitting/hip IR; may radiate down leg.",
+    "diagnostic_tips": "FAIR test, Pace's sign; MRI to exclude lumbar pathology.",
+    "treatment_plan": {
+      "acute": "Avoid provocative sitting, NSAIDs, gentle stretching.",
+      "subacute": "Piriformis stretching, glute med strengthening, neural mobilisation.",
+      "chronic": "Image-guided injection; surgical release rare."
+    },
+    "special_tests": [
+      {
+        "name": "FAIR Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      },
+      {
+        "name": "Pace's Sign",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "FAIR Test",
+      "Pace's Sign"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1017,
+    "name": "Saturday Night Palsy (Radial Nerve)",
+    "region": "Upper/Lower Extremity",
+    "category": "Nerve Disorders",
+    "subcategory": "Acute",
+    "description": "Radial nerve compression at spiral groove of humerus, classically after compressed sleep.",
+    "causes": [
+      "Compression during deep sleep/intoxication",
+      "Crutch use",
+      "Humeral fracture"
+    ],
+    "key_findings": "Wrist drop, finger extensor weakness, sensory loss dorsal hand.",
+    "diagnostic_tips": "EMG/NCS at 3 weeks; recovery typically over weeks-months if neuropraxia.",
+    "treatment_plan": {
+      "acute": "Cock-up wrist splint, avoid further compression, neural protection.",
+      "subacute": "Active assisted ROM, tendon gliding, sensory re-education.",
+      "chronic": "Surgical exploration if no recovery by 3-6 months or open injury."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1018,
+    "name": "Stress Fracture of Tibia",
+    "region": "Foot/Ankle",
+    "category": "Bone Disorders",
+    "subcategory": "Subacute",
+    "description": "Microscopic bone failure from repetitive submaximal loading exceeding remodelling capacity.",
+    "causes": [
+      "Sudden training load increase",
+      "Low energy availability",
+      "Poor footwear",
+      "Female athlete triad"
+    ],
+    "key_findings": "Localised pain on tibial border worse with impact, focal tenderness, eased by rest.",
+    "diagnostic_tips": "MRI more sensitive than X-ray (which lags 2-4 weeks); BMD if recurrent.",
+    "treatment_plan": {
+      "acute": "Activity cessation, boot for high-risk sites, address energy availability.",
+      "subacute": "Cross-train (cycle/swim), graduated walk-jog programme once pain-free.",
+      "chronic": "Address training load, biomechanics, nutrition; bone density review if recurrent."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [],
+    "red_flags": [
+      "Anterior tibial cortex (high-risk)",
+      "RED-S",
+      "Suspected pathological fracture"
+    ],
+    "types": [
+      "Low-risk (posteromedial tibia)",
+      "High-risk (anterior tibia, femoral neck, navicular)"
+    ]
+  },
+  {
+    "id": 1019,
+    "name": "Osteitis Pubis",
+    "region": "Pelvis",
+    "category": "Bone Disorders",
+    "subcategory": "Chronic",
+    "description": "Inflammatory/overuse condition of pubic symphysis common in kicking sports.",
+    "causes": [
+      "Repetitive kicking/cutting",
+      "Adductor overload",
+      "Pregnancy/post-partum"
+    ],
+    "key_findings": "Anterior pelvic pain reproduced with adductor squeeze and resisted sit-up.",
+    "diagnostic_tips": "Adductor squeeze test at 0/45/90\u00b0; MRI shows symphyseal oedema.",
+    "treatment_plan": {
+      "acute": "Relative rest, NSAIDs, address contributing biomechanics.",
+      "subacute": "Adductor strengthening (Holmich), core control, gradual return-to-running.",
+      "chronic": "Maintain conditioning; surgical curettage rare and last-line."
+    },
+    "special_tests": [
+      {
+        "name": "Adductor Squeeze Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "Adductor Squeeze Test"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1020,
+    "name": "Os Trigonum Syndrome",
+    "region": "Foot/Ankle",
+    "category": "Bone Disorders",
+    "subcategory": "Chronic",
+    "description": "Posterior ankle impingement from accessory ossicle posterior to talus, common in dancers.",
+    "causes": [
+      "Ballet (en pointe)",
+      "Repetitive plantarflexion",
+      "Trauma"
+    ],
+    "key_findings": "Posterior ankle pain with forced plantarflexion; relieved by avoidance.",
+    "diagnostic_tips": "Forced plantarflexion test reproduces pain; lateral X-ray identifies ossicle; MRI confirms.",
+    "treatment_plan": {
+      "acute": "Activity modification, boot if severe, NSAIDs.",
+      "subacute": "Ankle mobility, calf flexibility, FHL gliding, return to dance progression.",
+      "chronic": "Image-guided injection; arthroscopic excision if refractory."
+    },
+    "special_tests": [
+      {
+        "name": "Forced Plantarflexion Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "Forced Plantarflexion Test"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1021,
+    "name": "Sternoclavicular Joint Sprain",
+    "region": "Shoulder",
+    "category": "Joints Disorders",
+    "subcategory": "Acute",
+    "description": "Injury to SC joint capsule/ligaments from direct or indirect trauma.",
+    "causes": [
+      "Contact sports",
+      "Fall on shoulder",
+      "MVA"
+    ],
+    "key_findings": "Localised SC pain, swelling, pain with overhead/horizontal adduction.",
+    "diagnostic_tips": "Rule out posterior dislocation (vascular emergency) \u2014 urgent CT if suspected.",
+    "treatment_plan": {
+      "acute": "Sling, ice, analgesia; URGENT CT if posterior dislocation suspected.",
+      "subacute": "Scapular and shoulder girdle strengthening, gradual return to overhead.",
+      "chronic": "Conservative for grade I-II; surgical reduction if posterior dislocation."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [],
+    "red_flags": [
+      "Posterior dislocation (mediastinal compression)",
+      "Vascular compromise"
+    ],
+    "types": []
+  },
+  {
+    "id": 1022,
+    "name": "Acromioclavicular Joint Sprain",
+    "region": "Shoulder",
+    "category": "Joints Disorders",
+    "subcategory": "Acute",
+    "description": "AC joint ligament/capsule injury graded I-VI (Rockwood) by displacement.",
+    "causes": [
+      "Fall on point of shoulder",
+      "Contact sport",
+      "MVA"
+    ],
+    "key_findings": "Pain over AC joint, deformity in higher grades, painful cross-body adduction.",
+    "diagnostic_tips": "Rockwood I-VI; weight-bearing X-ray for subtle separation.",
+    "treatment_plan": {
+      "acute": "Sling, ice, analgesia, early scapular setting.",
+      "subacute": "Scapular stabiliser progression, rotator cuff loading, AROM in pain-free range.",
+      "chronic": "Conservative for I-III; surgical for IV-VI or persistent symptomatic III."
+    },
+    "special_tests": [
+      {
+        "name": "Cross-Body Adduction Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Cross-Body Adduction Test"
+    ],
+    "red_flags": [],
+    "types": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV",
+      "Type V",
+      "Type VI"
+    ]
+  },
+  {
+    "id": 1023,
+    "name": "Sacroiliac Joint Dysfunction",
+    "region": "Pelvis",
+    "category": "Joints Disorders",
+    "subcategory": "Chronic",
+    "description": "Pain arising from SI joint, often unilateral over PSIS, mechanical or inflammatory.",
+    "causes": [
+      "Pregnancy",
+      "Trauma",
+      "Leg-length discrepancy",
+      "Spondyloarthropathy"
+    ],
+    "key_findings": "Unilateral pain below L5, \u22653 positive provocation tests increase likelihood.",
+    "diagnostic_tips": "Cluster of Laslett (\u22653/5 positive) has good diagnostic utility.",
+    "treatment_plan": {
+      "acute": "Pelvic belt for symptom modulation, NSAIDs, education.",
+      "subacute": "Motor control of pelvic stabilisers, glute strengthening, manual therapy.",
+      "chronic": "Address contributors (leg-length, pregnancy biomechanics); injection if refractory."
+    },
+    "special_tests": [
+      {
+        "name": "Distraction Test",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      },
+      {
+        "name": "Compression Test",
+        "sensitivity": "Moderate",
+        "specificity": "High"
+      },
+      {
+        "name": "Thigh Thrust",
+        "sensitivity": "High",
+        "specificity": "High"
+      },
+      {
+        "name": "FABER Test",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      },
+      {
+        "name": "Gaenslen's Test",
+        "sensitivity": "Moderate",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Distraction Test",
+      "Compression Test",
+      "Thigh Thrust",
+      "FABER Test",
+      "Gaenslen's Test"
+    ],
+    "red_flags": [
+      "Inflammatory back pain (HLA-B27, age <45)",
+      "Bilateral SI involvement"
+    ],
+    "types": []
+  },
+  {
+    "id": 1024,
+    "name": "Spring Ligament (Plantar Calcaneonavicular) Sprain",
+    "region": "Foot/Ankle",
+    "category": "Ligament Disorders",
+    "subcategory": "Subacute",
+    "description": "Plantar calcaneonavicular ligament insufficiency contributing to acquired flatfoot.",
+    "causes": [
+      "Trauma",
+      "Tibialis posterior dysfunction",
+      "Chronic overload"
+    ],
+    "key_findings": "Medial midfoot pain, navicular drop, single-heel-rise weakness.",
+    "diagnostic_tips": "MRI to assess integrity; correlate with tib post function.",
+    "treatment_plan": {
+      "acute": "Offloading orthoses (medial post), boot if acute, NSAIDs.",
+      "subacute": "Tibialis posterior strengthening, intrinsic foot training, calf flexibility.",
+      "chronic": "Surgical reconstruction if progressive deformity."
+    },
+    "special_tests": [
+      {
+        "name": "Single-Leg Heel Raise",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Moderate",
+    "msk_tests": [
+      "Single-Leg Heel Raise"
+    ],
+    "red_flags": [],
+    "types": []
+  },
+  {
+    "id": 1025,
+    "name": "Lisfranc Ligament Injury",
+    "region": "Foot/Ankle",
+    "category": "Ligament Disorders",
+    "subcategory": "Acute",
+    "description": "Disruption of tarsometatarsal joint complex \u2014 easily missed and high morbidity if untreated.",
+    "causes": [
+      "Forced plantarflexion + axial load",
+      "MVA",
+      "Sports collisions"
+    ],
+    "key_findings": "Midfoot pain, plantar bruising, inability to weight-bear, gap between 1st-2nd MT.",
+    "diagnostic_tips": "Weight-bearing X-ray; CT for subtle injuries; high index of suspicion needed.",
+    "treatment_plan": {
+      "acute": "NWB, boot/cast, urgent orthopaedic review.",
+      "subacute": "Stable injuries: graduated WB, intrinsic strengthening, gait re-education.",
+      "chronic": "Unstable: ORIF or primary fusion; long-term arch support."
+    },
+    "special_tests": [],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [],
+    "red_flags": [
+      "Vascular injury",
+      "Compartment syndrome of foot",
+      "Open injury"
+    ],
+    "types": []
+  },
+  {
+    "id": 1026,
+    "name": "Hamstring Strain \u2014 Type I (Sprinting Type)",
+    "region": "Knee",
+    "category": "Muscle Disorders",
+    "subcategory": "Acute",
+    "description": "High-speed running injury at proximal biceps femoris musculotendinous junction.",
+    "causes": [
+      "Sprinting",
+      "Insufficient warm-up",
+      "Previous injury",
+      "Fatigue"
+    ],
+    "key_findings": "Sudden posterior thigh pain mid-sprint, palpable defect possible, weakness in hip extension.",
+    "diagnostic_tips": "British Athletics Muscle Injury Classification (0-IV); MRI guides return-to-play.",
+    "treatment_plan": {
+      "acute": "POLICE, crutches if antalgic, isometric loading from day 1.",
+      "subacute": "Eccentric loading (Nordic, Askling L-protocol), running progression.",
+      "chronic": "Maintenance Nordic programme, address kinetic chain, criteria-based RTP."
+    },
+    "special_tests": [
+      {
+        "name": "Askling H-Test",
+        "sensitivity": "High",
+        "specificity": "Moderate"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Askling H-Test"
+    ],
+    "red_flags": [
+      "Complete proximal avulsion (palpable defect, severe weakness)"
+    ],
+    "types": [
+      "Type I (sprinting)",
+      "Type II (stretching)",
+      "Proximal avulsion"
+    ]
+  },
+  {
+    "id": 1027,
+    "name": "Calf Strain (Medial Gastrocnemius \u2014 Tennis Leg)",
+    "region": "Foot/Ankle",
+    "category": "Muscle Disorders",
+    "subcategory": "Acute",
+    "description": "Acute tear of medial head of gastrocnemius at musculotendinous junction.",
+    "causes": [
+      "Push-off in racquet sports",
+      "Middle-aged athletes",
+      "Sudden eccentric load"
+    ],
+    "key_findings": "Sudden 'shot in the calf' sensation, posterior calf pain/swelling, antalgic gait.",
+    "diagnostic_tips": "Ultrasound visualises tear and excludes DVT (Wells score).",
+    "treatment_plan": {
+      "acute": "POLICE, heel raise, crutches if antalgic, EXCLUDE DVT.",
+      "subacute": "Calf isometrics \u2192 isotonic, calf raise progression, gait normalisation.",
+      "chronic": "Plyometric progression, return-to-sport criteria; address calf stiffness."
+    },
+    "special_tests": [
+      {
+        "name": "Thompson Test",
+        "sensitivity": "High",
+        "specificity": "High"
+      }
+    ],
+    "ebp_level": "EBP Strong",
+    "msk_tests": [
+      "Thompson Test"
+    ],
+    "red_flags": [
+      "DVT (must be excluded)",
+      "Achilles rupture (Thompson positive)"
+    ],
+    "types": []
   }
 ]

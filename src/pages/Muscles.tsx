@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, Fragment } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { muscleGroups as rawMuscleData, exercises } from "@/data";
 import { RegionTag } from "@/components/EBPBadge";
@@ -118,6 +118,7 @@ export default function MusclesPage() {
   });
   const [selectedExercise, setSelectedExercise] = useState<Exercise | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
+  const [openMuscleKey, setOpenMuscleKey] = useState<string | null>(null);
 
   useEffect(() => {
     const id = searchParams.get("id");
@@ -286,19 +287,78 @@ export default function MusclesPage() {
                         </TableRow>
                       </TableHeader>
                       <TableBody>
-                        {group.muscles.map((muscle, idx) => (
-                          <TableRow
-                            key={`${muscle.name}-${idx}`}
-                            className={idx % 2 === 0 ? "bg-background/30" : "bg-secondary/10"}
-                          >
-                            <TableCell className="text-sm font-medium text-foreground py-3">{muscle.name || "—"}</TableCell>
-                            <TableCell className="text-sm text-muted-foreground py-3">{muscle.origin || "—"}</TableCell>
-                            <TableCell className="text-sm text-muted-foreground py-3">{muscle.insertion || "—"}</TableCell>
-                            <TableCell className="text-sm text-foreground/90 font-medium py-3">{muscle.primary_action || "—"}</TableCell>
-                            <TableCell className="text-sm text-muted-foreground py-3">{muscle.secondary_action || "—"}</TableCell>
-                            <TableCell className="text-sm text-muted-foreground py-3">{muscle.innervation || "—"}</TableCell>
-                          </TableRow>
-                        ))}
+                        {group.muscles.map((muscle, idx) => {
+                          const muscleKey = `${group.id}-${muscle.name}-${idx}`;
+                          const isOpen = openMuscleKey === muscleKey;
+                          const muscleTests = isOpen
+                            ? findRelatedTests({
+                                region: group.region,
+                                muscleNames: [muscle.name].filter(Boolean) as string[],
+                                limit: 6,
+                              })
+                            : [];
+                          return (
+                            <Fragment key={muscleKey}>
+                              <TableRow
+                                onClick={() => setOpenMuscleKey(isOpen ? null : muscleKey)}
+                                className={`${idx % 2 === 0 ? "bg-background/30" : "bg-secondary/10"} cursor-pointer hover:bg-primary/5 transition-colors`}
+                                title="Tap to view MSK tests for this muscle"
+                              >
+                                <TableCell className="text-sm font-medium text-foreground py-3">
+                                  <span className="flex items-center gap-1.5">
+                                    {isOpen
+                                      ? <ChevronDown className="h-3 w-3 text-primary shrink-0" />
+                                      : <ChevronRight className="h-3 w-3 text-muted-foreground shrink-0" />}
+                                    {muscle.name || "—"}
+                                  </span>
+                                </TableCell>
+                                <TableCell className="text-sm text-muted-foreground py-3">{muscle.origin || "—"}</TableCell>
+                                <TableCell className="text-sm text-muted-foreground py-3">{muscle.insertion || "—"}</TableCell>
+                                <TableCell className="text-sm text-foreground/90 font-medium py-3">{muscle.primary_action || "—"}</TableCell>
+                                <TableCell className="text-sm text-muted-foreground py-3">{muscle.secondary_action || "—"}</TableCell>
+                                <TableCell className="text-sm text-muted-foreground py-3">{muscle.innervation || "—"}</TableCell>
+                              </TableRow>
+                              {isOpen && (
+                                <TableRow key={`${muscleKey}-tests`} className="bg-primary/5 hover:bg-primary/5">
+                                  <TableCell colSpan={6} className="py-3 px-4">
+                                    <div className="space-y-2">
+                                      <p className="text-[10px] font-semibold text-primary uppercase tracking-wider flex items-center gap-1.5">
+                                        <ClipboardCheck className="h-3 w-3" />
+                                        MSK tests for {muscle.name}
+                                        {muscleTests.length > 0 && (
+                                          <span className="text-muted-foreground font-normal">({muscleTests.length})</span>
+                                        )}
+                                      </p>
+                                      {muscleTests.length === 0 ? (
+                                        <p className="text-xs text-muted-foreground italic">No directly-mapped MSK test in catalogue. Browse the Special Tests page for region-level tests.</p>
+                                      ) : (
+                                        <div className="grid sm:grid-cols-2 gap-2">
+                                          {muscleTests.map(t => (
+                                            <button
+                                              key={t.id}
+                                              onClick={(e) => { e.stopPropagation(); navigate(`/special-tests?search=${encodeURIComponent(t.name)}`); }}
+                                              className="text-left glass-card !p-2.5 group hover:border-primary/40 transition-colors"
+                                            >
+                                              <div className="flex items-center justify-between gap-2 mb-0.5">
+                                                <p className="text-xs font-semibold text-foreground group-hover:text-primary truncate">{t.name}</p>
+                                                <ArrowRight className="h-3 w-3 text-muted-foreground group-hover:text-primary shrink-0" />
+                                              </div>
+                                              <p className="text-[10px] text-muted-foreground truncate">{t.condition}</p>
+                                              <div className="flex gap-2 mt-1 text-[10px]">
+                                                <span className="text-primary/80">Sn {t.sensitivity}</span>
+                                                <span className="text-muted-foreground">Sp {t.specificity}</span>
+                                              </div>
+                                            </button>
+                                          ))}
+                                        </div>
+                                      )}
+                                    </div>
+                                  </TableCell>
+                                </TableRow>
+                              )}
+                            </Fragment>
+                          );
+                        })}
                       </TableBody>
                     </Table>
                   </div>
