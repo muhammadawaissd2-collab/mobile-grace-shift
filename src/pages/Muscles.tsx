@@ -298,9 +298,8 @@ export default function MusclesPage() {
                               })
                             : [];
                           return (
-                            <>
+                            <Fragment key={muscleKey}>
                               <TableRow
-                                key={muscleKey}
                                 onClick={() => setOpenMuscleKey(isOpen ? null : muscleKey)}
                                 className={`${idx % 2 === 0 ? "bg-background/30" : "bg-secondary/10"} cursor-pointer hover:bg-primary/5 transition-colors`}
                                 title="Tap to view MSK tests for this muscle"
