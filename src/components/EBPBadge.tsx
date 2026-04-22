@@ -1,24 +1,45 @@
-interface EBPBadgeProps {
+import { forwardRef, HTMLAttributes } from "react";
+
+interface EBPBadgeProps extends HTMLAttributes<HTMLSpanElement> {
   level: string;
-  className?: string;
 }
 
-export function EBPBadge({ level, className = "" }: EBPBadgeProps) {
-  const normalized = level?.toLowerCase() || "";
-  if (normalized.includes("strong")) return <span className={`ebp-badge-strong ${className}`}>EBP Strong</span>;
-  if (normalized.includes("moderate")) return <span className={`ebp-badge-moderate ${className}`}>EBP Moderate</span>;
-  if (normalized.includes("limited")) return <span className={`ebp-badge-limited ${className}`}>EBP Limited</span>;
-  return <span className={`ebp-badge-moderate ${className}`}>{level}</span>;
+export const EBPBadge = forwardRef<HTMLSpanElement, EBPBadgeProps>(
+  function EBPBadge({ level, className = "", ...rest }, ref) {
+    const normalized = level?.toLowerCase() || "";
+    if (normalized.includes("strong"))
+      return <span ref={ref} className={`ebp-badge-strong ${className}`} {...rest}>EBP Strong</span>;
+    if (normalized.includes("moderate"))
+      return <span ref={ref} className={`ebp-badge-moderate ${className}`} {...rest}>EBP Moderate</span>;
+    if (normalized.includes("limited"))
+      return <span ref={ref} className={`ebp-badge-limited ${className}`} {...rest}>EBP Limited</span>;
+    return <span ref={ref} className={`ebp-badge-moderate ${className}`} {...rest}>{level}</span>;
+  },
+);
+
+interface DifficultyBadgeProps extends HTMLAttributes<HTMLSpanElement> {
+  difficulty: string;
 }
 
-export function DifficultyBadge({ difficulty, className = "" }: { difficulty: string; className?: string }) {
-  const normalized = difficulty?.toLowerCase() || "";
-  if (normalized.includes("beginner")) return <span className={`difficulty-beginner ${className}`}>Beginner</span>;
-  if (normalized.includes("intermediate")) return <span className={`difficulty-intermediate ${className}`}>Intermediate</span>;
-  if (normalized.includes("advanced")) return <span className={`difficulty-advanced ${className}`}>Advanced</span>;
-  return <span className={`difficulty-beginner ${className}`}>{difficulty}</span>;
+export const DifficultyBadge = forwardRef<HTMLSpanElement, DifficultyBadgeProps>(
+  function DifficultyBadge({ difficulty, className = "", ...rest }, ref) {
+    const normalized = difficulty?.toLowerCase() || "";
+    if (normalized.includes("beginner"))
+      return <span ref={ref} className={`difficulty-beginner ${className}`} {...rest}>Beginner</span>;
+    if (normalized.includes("intermediate"))
+      return <span ref={ref} className={`difficulty-intermediate ${className}`} {...rest}>Intermediate</span>;
+    if (normalized.includes("advanced"))
+      return <span ref={ref} className={`difficulty-advanced ${className}`} {...rest}>Advanced</span>;
+    return <span ref={ref} className={`difficulty-beginner ${className}`} {...rest}>{difficulty}</span>;
+  },
+);
+
+interface RegionTagProps extends HTMLAttributes<HTMLSpanElement> {
+  region: string;
 }
 
-export function RegionTag({ region, className = "" }: { region: string; className?: string }) {
-  return <span className={`region-tag ${className}`}>{region}</span>;
-}
+export const RegionTag = forwardRef<HTMLSpanElement, RegionTagProps>(
+  function RegionTag({ region, className = "", ...rest }, ref) {
+    return <span ref={ref} className={`region-tag ${className}`} {...rest}>{region}</span>;
+  },
+);

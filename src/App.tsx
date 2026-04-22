@@ -25,46 +25,48 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <ThemeProvider>
-      <BookmarkProvider>
-        <TooltipProvider>
-          <Toaster />
-          <Sonner />
-          <BrowserRouter>
-            <Layout>
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/exercises" element={<ExercisesPage />} />
-                <Route path="/muscles" element={<MusclesPage />} />
-                <Route path="/disorders" element={<DisordersPage />} />
-                <Route path="/differential-diagnosis" element={<DifferentialDiagnosisPage />} />
-                <Route path="/ebp" element={<EBPPage />} />
-                <Route path="/sports-injuries" element={<SportsInjuriesPage />} />
-                <Route path="/manual-therapy" element={<ManualTherapyPage />} />
-                <Route path="/special-tests" element={<SpecialTestsPage />} />
-                <Route path="/bookmarks" element={<BookmarksPage />} />
-                <Route path="/settings" element={<SettingsPage />} />
-                
-                {/* AI Tools */}
-                <Route path="/ai-diagnosis" element={<AiDiagnosisPage />} />
-                <Route path="/ai-assessment" element={<AiAssessmentPage />} />
-                <Route path="/physio-plan" element={<PhysioPlanPage />} />
-                <Route path="/ai-search" element={<AiSearchPage />} />
-                
-                {/* Legacy redirect */}
-                <Route path="/impairments" element={<Navigate to="/disorders" replace />} />
-                <Route path="/books" element={<Navigate to="/" replace />} />
-                <Route path="/search" element={<Navigate to="/" replace />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </Layout>
-          </BrowserRouter>
-        </TooltipProvider>
-      </BookmarkProvider>
-    </ThemeProvider>
-  </QueryClientProvider>
-);
+function App() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider>
+        <BookmarkProvider>
+          <TooltipProvider>
+            <Toaster />
+            <Sonner />
+            <BrowserRouter>
+              <Layout>
+                <Routes>
+                  <Route path="/" element={<Index />} />
+                  <Route path="/exercises" element={<ExercisesPage />} />
+                  <Route path="/muscles" element={<MusclesPage />} />
+                  <Route path="/disorders" element={<DisordersPage />} />
+                  <Route path="/differential-diagnosis" element={<DifferentialDiagnosisPage />} />
+                  <Route path="/ebp" element={<EBPPage />} />
+                  <Route path="/sports-injuries" element={<SportsInjuriesPage />} />
+                  <Route path="/manual-therapy" element={<ManualTherapyPage />} />
+                  <Route path="/special-tests" element={<SpecialTestsPage />} />
+                  <Route path="/bookmarks" element={<BookmarksPage />} />
+                  <Route path="/settings" element={<SettingsPage />} />
+
+                  {/* AI Tools */}
+                  <Route path="/ai-diagnosis" element={<AiDiagnosisPage />} />
+                  <Route path="/ai-assessment" element={<AiAssessmentPage />} />
+                  <Route path="/physio-plan" element={<PhysioPlanPage />} />
+                  <Route path="/ai-search" element={<AiSearchPage />} />
+
+                  {/* Legacy redirect */}
+                  <Route path="/impairments" element={<Navigate to="/disorders" replace />} />
+                  <Route path="/books" element={<Navigate to="/" replace />} />
+                  <Route path="/search" element={<Navigate to="/" replace />} />
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </Layout>
+            </BrowserRouter>
+          </TooltipProvider>
+        </BookmarkProvider>
+      </ThemeProvider>
+    </QueryClientProvider>
+  );
+}
 
 export default App;
