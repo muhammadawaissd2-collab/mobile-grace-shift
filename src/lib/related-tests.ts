@@ -1,4 +1,5 @@
 import { specialTests, type SpecialTest } from "@/data/special-tests";
+import { getTestsForMuscle } from "./muscle-test-map";
 
 const REGION_ALIASES: Record<string, string[]> = {
   "Cervical Spine": ["cervical", "neck"],
@@ -17,6 +18,16 @@ const REGION_ALIASES: Record<string, string[]> = {
 
 const norm = (s: string) => (s || "").toLowerCase();
 
+/**
+ * Find related special tests.
+ *
+ * IMPORTANT: When `muscleNames` is supplied, the result is restricted to the
+ * authoritative MUSCLE_TEST_MAP only. This prevents random region-based
+ * matches (e.g. a forearm muscle pulling shoulder tests just because both
+ * share the "Upper Limb" region).
+ *
+ * For region/condition/exercise queries, fuzzy keyword scoring is still used.
+ */
 export function findRelatedTests(opts: {
   region?: string;
   condition?: string;
@@ -25,10 +36,23 @@ export function findRelatedTests(opts: {
   limit?: number;
 }): SpecialTest[] {
   const { region, condition, muscleNames = [], exerciseName, limit = 6 } = opts;
+
+  // ===== Strict muscle-driven lookup =====
+  if (muscleNames.length > 0 && !condition && !exerciseName) {
+    const wanted = new Set<string>();
+    for (const m of muscleNames) {
+      for (const name of getTestsForMuscle(m)) wanted.add(name.toLowerCase());
+    }
+    if (wanted.size === 0) return [];
+    const matched = specialTests.filter(t => wanted.has(norm(t.name)));
+    // Preserve clinical priority by keeping order from the map
+    return matched.slice(0, limit);
+  }
+
+  // ===== Fuzzy multi-criteria scoring =====
   const regionTokens = region
     ? [norm(region), ...(REGION_ALIASES[region] || [])]
     : [];
-
   const condTokens = condition ? norm(condition).split(/[\s/&]+/).filter(w => w.length > 3) : [];
   const muscleTokens = muscleNames.map(norm).filter(Boolean);
   const exTokens = exerciseName ? norm(exerciseName).split(/\s+/).filter(w => w.length > 3) : [];
