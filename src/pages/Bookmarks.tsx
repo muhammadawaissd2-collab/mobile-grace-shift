@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Bookmark, Dumbbell, Users, AlertTriangle, Activity, ClipboardCheck, Hand, BookOpen, Trash2, ArrowRight, Stethoscope, Sparkles, type LucideIcon } from "lucide-react";
 import { useBookmarks, BookmarkType } from "@/contexts/BookmarkContext";
 import { PageHeader } from "@/components/PageHeader";
+import { flashcards } from "@/data/flashcards";
 
 const TYPE_META: Record<BookmarkType, { label: string; icon: LucideIcon; path: (id: number) => string; color: string }> = {
   exercise: { label: "Exercises", icon: Dumbbell, path: id => `/exercises?id=${id}`, color: "text-teal-400" },
@@ -14,10 +15,10 @@ const TYPE_META: Record<BookmarkType, { label: string; icon: LucideIcon; path: (
   "manual-technique": { label: "Manual Therapy", icon: Hand, path: id => `/manual-therapy?id=${id}`, color: "text-cyan-400" },
   "ebp-guideline": { label: "EBP Guidelines", icon: BookOpen, path: id => `/ebp?id=${id}`, color: "text-purple-400" },
   "differential-diagnosis": { label: "Differential Diagnosis", icon: Stethoscope, path: id => `/differential-diagnosis?id=${id}`, color: "text-indigo-400" },
-  flashcard: { label: "Flashcards", icon: Sparkles, path: () => `/`, color: "text-yellow-400" },
+  flashcard: { label: "Saved Flashcards", icon: Sparkles, path: () => `/`, color: "text-yellow-400" },
 };
 
-const ORDER: BookmarkType[] = ["exercise", "muscle", "disorder", "impairment", "sports-injury", "differential-diagnosis", "special-test", "manual-technique", "ebp-guideline", "flashcard"];
+const ORDER: BookmarkType[] = ["flashcard", "exercise", "muscle", "disorder", "impairment", "sports-injury", "differential-diagnosis", "special-test", "manual-technique", "ebp-guideline"];
 
 export default function BookmarksPage() {
   const { bookmarks, toggleBookmark, clearAll } = useBookmarks();
@@ -31,6 +32,12 @@ export default function BookmarksPage() {
     });
     return map;
   }, [bookmarks]);
+
+  const flashcardLookup = useMemo(() => {
+    const m = new Map<number, typeof flashcards[number]>();
+    flashcards.forEach(f => m.set(f.id, f));
+    return m;
+  }, []);
 
   return (
     <div className="p-4 md:p-8 max-w-5xl mx-auto animate-fade-in">
@@ -54,7 +61,7 @@ export default function BookmarksPage() {
         <div className="text-center py-16 text-muted-foreground">
           <Bookmark className="h-10 w-10 mx-auto mb-2 opacity-40" />
           <p className="text-sm">No bookmarks yet.</p>
-          <p className="text-xs mt-1">Tap the bookmark icon on any exercise, muscle, impairment, test or technique to save it here.</p>
+          <p className="text-xs mt-1">Tap the bookmark icon on any exercise, muscle, impairment, test, technique or flashcard to save it here.</p>
         </div>
       )}
 
@@ -70,26 +77,64 @@ export default function BookmarksPage() {
                 {meta.label}
                 <span className="text-muted-foreground/60 text-xs font-normal">({items.length})</span>
               </h2>
-              <div className="space-y-1.5">
-                {items.map(b => (
-                  <div key={`${b.type}-${b.id}`} className="elevated !p-3 flex items-center justify-between gap-2 group mb-2">
-                    <button
-                      onClick={() => navigate(meta.path(b.id))}
-                      className="flex-1 min-w-0 text-left flex items-center gap-2"
-                    >
-                      <ArrowRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary shrink-0" />
-                      <span className="text-sm text-foreground group-hover:text-primary transition-colors truncate">{b.name}</span>
-                    </button>
-                    <button
-                      onClick={() => toggleBookmark(b.id, b.type, b.name)}
-                      className="text-muted-foreground/60 hover:text-red-400 shrink-0"
-                      title="Remove bookmark"
-                    >
-                      <Trash2 className="h-3.5 w-3.5" />
-                    </button>
-                  </div>
-                ))}
-              </div>
+
+              {type === "flashcard" ? (
+                <div className="space-y-2">
+                  {items.map(b => {
+                    const card = flashcardLookup.get(b.id);
+                    return (
+                      <div key={`flash-${b.id}`} className="elevated !p-4 group">
+                        <div className="flex items-start justify-between gap-2 mb-2">
+                          <span className="text-[10px] uppercase tracking-wider text-primary/80 font-semibold">
+                            {card?.category || "Flashcard"}
+                          </span>
+                          <button
+                            onClick={() => toggleBookmark(b.id, b.type, b.name)}
+                            className="text-muted-foreground/60 hover:text-red-400 shrink-0"
+                            title="Remove bookmark"
+                          >
+                            <Trash2 className="h-3.5 w-3.5" />
+                          </button>
+                        </div>
+                        <p className="text-sm font-medium text-foreground mb-2 leading-snug">
+                          Q: {card?.question || b.name}
+                        </p>
+                        {card ? (
+                          <div className="inner-elevated rounded-lg p-3 mt-2">
+                            <p className="text-sm text-primary leading-relaxed">A: {card.answer}</p>
+                            {card.source && (
+                              <p className="text-[11px] text-muted-foreground/70 italic mt-2">— {card.source}</p>
+                            )}
+                          </div>
+                        ) : (
+                          <p className="text-xs text-muted-foreground italic">Card no longer in deck.</p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="space-y-1.5">
+                  {items.map(b => (
+                    <div key={`${b.type}-${b.id}`} className="elevated !p-3 flex items-center justify-between gap-2 group mb-2">
+                      <button
+                        onClick={() => navigate(meta.path(b.id))}
+                        className="flex-1 min-w-0 text-left flex items-center gap-2"
+                      >
+                        <ArrowRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary shrink-0" />
+                        <span className="text-sm text-foreground group-hover:text-primary transition-colors truncate">{b.name}</span>
+                      </button>
+                      <button
+                        onClick={() => toggleBookmark(b.id, b.type, b.name)}
+                        className="text-muted-foreground/60 hover:text-red-400 shrink-0"
+                        title="Remove bookmark"
+                      >
+                        <Trash2 className="h-3.5 w-3.5" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
             </section>
           );
         })}

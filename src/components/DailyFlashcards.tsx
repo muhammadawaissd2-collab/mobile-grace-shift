@@ -37,8 +37,9 @@ export function DailyFlashcards() {
           Daily Flashcards
         </h2>
         <div className="flex items-center gap-3">
-          <button 
-             onClick={() => toggleBookmark(card.id, "flashcard", "Flashcard: " + card.question)}
+          <button
+             onClick={() => toggleBookmark(card.id, "flashcard", card.question)}
+             title={bookmarked ? "Remove from bookmarks" : "Save flashcard with answer"}
              className={`${bookmarked ? 'text-primary' : 'text-muted-foreground hover:text-foreground'}`}
           >
              <Bookmark className={`h-4 w-4 ${bookmarked ? 'fill-current' : ''}`} />
