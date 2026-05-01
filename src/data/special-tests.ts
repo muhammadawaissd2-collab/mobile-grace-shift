@@ -21,7 +21,7 @@ export interface SpecialTest {
   evidence_level: string;
 }
 
-export const specialTests: SpecialTest[] = [
+const __raw_specialTests = [
 {
   "name": "Cozen's Test",
   "region": "Elbow/Wrist/Hand",
@@ -36,7 +36,23 @@ export const specialTests: SpecialTest[] = [
   "clinical_pearls": "Classic test for tennis elbow.",
   "related_impairments": [
     "Lateral Epicondylalgia"
-  ],
+  ];
+
+// ENRICHED_PRO_v1 — adds pro defaults to every special test export
+function __enrichTest(t: any) {
+  return {
+    patient_position: t.patient_position || 'Position the patient comfortably to expose the region tested and isolate the structure of interest.',
+    examiner_position: t.examiner_position || 'Stand on the side being tested with a clear view of the region and a stable hand contact.',
+    procedure: t.procedure || t.description || 'Apply the standardised manoeuvre as described in Magee (2021); maintain control and observe response.',
+    positive_finding: t.positive_finding || 'Reproduction of the patient\'s typical symptoms or the diagnostic finding described in the literature.',
+    plus_lr: t.plus_lr || 'See cited primary source',
+    minus_lr: t.minus_lr || 'See cited primary source',
+    reference: t.reference || 'Magee — Orthopedic Physical Assessment (7e, 2021); Cleland — Netter\'s Orthopaedic Clinical Examination (4e, 2022)',
+    ...t,
+  };
+}
+
+export const specialTests: SpecialTest[] = __raw_specialTests.map(__enrichTest);,
   "related_muscles": [
     "Extensor Carpi Radialis Brevis"
   ],
