@@ -37,6 +37,7 @@ export const specialTests: SpecialTest[] = [
   "related_impairments": [
     "Lateral Epicondylalgia"
   ],
+
   "related_muscles": [
     "Extensor Carpi Radialis Brevis"
   ],

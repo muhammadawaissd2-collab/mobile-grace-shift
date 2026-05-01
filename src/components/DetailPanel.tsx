@@ -7,7 +7,7 @@ import type { Exercise, MuscleGroup, Disorder, DifferentialDiagnosis } from "@/t
 import { useNavigate } from "react-router-dom";
 import { exercises, disorders, muscleGroups, differentialDiagnoses } from "@/data";
 import { findRelatedBooks } from "@/data/books";
-import { Dumbbell, Target, Stethoscope, BookOpen, ArrowRight, FlaskConical, AlertCircle, ExternalLink, Library, type LucideIcon } from "lucide-react";
+import { Dumbbell, Target, Stethoscope, BookOpen, ArrowRight, FlaskConical, AlertCircle, ExternalLink, Library, Activity, TrendingUp, GraduationCap, Microscope, FileText, Repeat, Image as ImageIcon, type LucideIcon } from "lucide-react";
 import { MuscleAnatomyPlaceholder } from "@/components/MuscleAnatomyPlaceholder";
 import { ExerciseProcedurePlaceholder } from "@/components/ExerciseProcedurePlaceholder";
 import { BookmarkButton } from "@/components/BookmarkButton";
@@ -76,6 +76,28 @@ function SectionTitle({ icon: Icon, title }: { icon: LucideIcon; title: string }
   );
 }
 
+function ProText({ icon, title, text }: { icon: LucideIcon; title: string; text?: string }) {
+  if (!text) return null;
+  return (
+    <>
+      <SectionTitle icon={icon} title={title} />
+      <p className="text-sm text-foreground/85 leading-relaxed">{text}</p>
+    </>
+  );
+}
+
+function ProList({ icon, title, items, accent }: { icon: LucideIcon; title: string; items?: string[]; accent?: string }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <>
+      <SectionTitle icon={icon} title={title} />
+      <ul className="list-disc list-inside text-sm text-foreground/85 space-y-0.5">
+        {items.map((c, i) => <li key={i} className={accent}>{c}</li>)}
+      </ul>
+    </>
+  );
+}
+
 function BookReferences({ keyword, onNavigate }: { keyword: string; onNavigate: (p: string) => void }) {
   const related = findRelatedBooks(keyword);
   if (related.length === 0) return null;
@@ -132,7 +154,27 @@ function ExerciseDetail({ exercise, onNavigate }: { exercise: Exercise; onNaviga
       <SectionTitle icon={Dumbbell} title="Sets & Reps" />
       <div className="glass-card !p-3">
         <p className="text-sm font-medium text-primary">{exercise.sets_reps}</p>
+        {exercise.load_dosage && <p className="text-xs text-muted-foreground mt-1">{exercise.load_dosage}</p>}
+        {exercise.tempo && <p className="text-xs text-muted-foreground">Tempo: {exercise.tempo}</p>}
+        {exercise.breathing && <p className="text-xs text-muted-foreground">Breathing: {exercise.breathing}</p>}
       </div>
+
+      <ProText icon={Activity} title="Starting Position" text={exercise.starting_position} />
+      <ProList icon={FileText} title="Execution Steps" items={exercise.execution_steps} />
+      <ProList icon={GraduationCap} title="Coaching Cues" items={exercise.cueing} />
+      <ProList icon={AlertCircle} title="Common Errors" items={exercise.common_errors} accent="marker:text-amber-500" />
+      <ProList icon={TrendingUp} title="Progressions" items={exercise.progressions} />
+      <ProList icon={Repeat} title="Regressions" items={exercise.regressions} />
+      <ProList icon={AlertCircle} title="Contraindications" items={exercise.contraindications} accent="marker:text-rose-500" />
+      <ProList icon={Stethoscope} title="Indications" items={exercise.indications} />
+      {exercise.equipment && exercise.equipment.length > 0 && (
+        <>
+          <SectionTitle icon={Dumbbell} title="Equipment" />
+          <div className="flex flex-wrap gap-1">
+            {exercise.equipment.map((e, i) => <Badge key={i} variant="secondary" className="text-[10px]">{e}</Badge>)}
+          </div>
+        </>
+      )}
 
       <SectionTitle icon={Target} title="Target Muscles" />
       <div className="space-y-1.5">
@@ -220,6 +262,8 @@ function ExerciseDetail({ exercise, onNavigate }: { exercise: Exercise; onNaviga
         exerciseName={exercise.name}
         muscleNames={[...(exercise.primary_muscles || []), ...(exercise.secondary_muscles || [])]}
       />
+
+      <ProList icon={Library} title="References" items={exercise.references} />
 
       {/* Book References */}
       <BookReferences keyword={bookKeyword} onNavigate={onNavigate} />
@@ -354,6 +398,11 @@ function DisorderDetail({ disorder }: { disorder: Disorder; onNavigate: (p: stri
   return (
     <div className="space-y-1">
       <p className="text-sm text-muted-foreground">{disorder.description}</p>
+      {disorder.icd10 && <p className="text-[10px] uppercase tracking-wider text-muted-foreground mt-1">ICD-10: <span className="text-foreground/80">{disorder.icd10}</span></p>}
+      <ProText icon={Activity} title="Etiology" text={disorder.etiology} />
+      <ProText icon={TrendingUp} title="Epidemiology" text={disorder.epidemiology} />
+      <ProText icon={Microscope} title="Pathophysiology" text={disorder.pathophysiology} />
+      <ProList icon={Stethoscope} title="Clinical Presentation" items={disorder.clinical_presentation} />
 
       {disorder.causes && disorder.causes.length > 0 && (
         <>
@@ -489,6 +538,14 @@ function DisorderDetail({ disorder }: { disorder: Disorder; onNavigate: (p: stri
       )}
 
       {/* Relevant MSK Special Tests */}
+      <ProList icon={ImageIcon} title="Imaging" items={disorder.imaging} />
+      <ProText icon={TrendingUp} title="Prognosis" text={disorder.prognosis} />
+      <ProList icon={FileText} title="Outcome Measures" items={disorder.outcome_measures} />
+      <ProList icon={GraduationCap} title="Patient Education" items={disorder.patient_education} />
+      <ProText icon={Activity} title="Return to Activity" text={disorder.return_to_activity} />
+      <ProList icon={Library} title="References" items={disorder.references} />
+
+      {/* Relevant MSK Special Tests */}
       <RelatedSpecialTests region={disorder.region} condition={disorder.name} />
 
       {/* Book References */}
@@ -501,6 +558,11 @@ function DifferentialDiagnosisDetail({ dx, onNavigate }: { dx: DifferentialDiagn
   return (
     <div className="space-y-1">
       <p className="text-sm text-muted-foreground">{dx.description}</p>
+
+      <ProText icon={Microscope} title="Pathophysiology" text={dx.pathophysiology} />
+      <ProText icon={TrendingUp} title="Epidemiology" text={dx.epidemiology} />
+      <ProList icon={Stethoscope} title="Clinical Features" items={dx.clinical_features} />
+      <ProList icon={FileText} title="History Clues" items={dx.history_clues} />
 
       {dx.red_flags && dx.red_flags.length > 0 && (
         <>
@@ -556,6 +618,12 @@ function DifferentialDiagnosisDetail({ dx, onNavigate }: { dx: DifferentialDiagn
       <div className="glass-card !p-3">
         <p className="text-sm text-foreground/90 font-medium text-amber-500/90">{dx.referral_criteria}</p>
       </div>
+
+      <ProList icon={ImageIcon} title="Imaging" items={dx.imaging} />
+      <ProList icon={FlaskConical} title="Labs" items={dx.labs} />
+      <ProText icon={BookOpen} title="Management Overview" text={dx.management_overview} />
+      <ProText icon={TrendingUp} title="Prognosis" text={dx.prognosis} />
+      <ProList icon={Library} title="References" items={dx.references} />
 
       <BookReferences keyword={dx.name.split(" ")[0]} onNavigate={onNavigate} />
     </div>

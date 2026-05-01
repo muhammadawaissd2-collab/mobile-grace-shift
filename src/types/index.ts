@@ -14,6 +14,20 @@ export interface Exercise {
   instructions: string;
   sets_reps: string;
   clinical_notes: string;
+  // Pro fields
+  starting_position?: string;
+  execution_steps?: string[];
+  breathing?: string;
+  tempo?: string;
+  load_dosage?: string;
+  progressions?: string[];
+  regressions?: string[];
+  cueing?: string[];
+  common_errors?: string[];
+  contraindications?: string[];
+  equipment?: string[];
+  indications?: string[];
+  references?: string[];
 }
 
 export interface Muscle {
@@ -26,6 +40,10 @@ export interface Muscle {
   innervation: string;
   primary_exercises?: string[];
   other_exercises?: string[];
+  blood_supply?: string;
+  nerve_root?: string;
+  trigger_points?: string;
+  functional_role?: string;
 }
 
 export interface MuscleGroup {
@@ -39,6 +57,14 @@ export interface SpecialTest {
   name: string;
   sensitivity: string;
   specificity: string;
+  // Pro fields
+  patient_position?: string;
+  examiner_position?: string;
+  procedure?: string;
+  positive_finding?: string;
+  plus_lr?: string;
+  minus_lr?: string;
+  reference?: string;
 }
 
 export interface TreatmentPlan {
@@ -65,14 +91,28 @@ export interface Disorder {
   differential_diagnosis?: string;
   related_exercises?: number[];
   related_muscles?: string[];
+  // Pro fields
+  etiology?: string;
+  epidemiology?: string;
+  pathophysiology?: string;
+  clinical_presentation?: string[];
+  signs_symptoms?: string[];
+  imaging?: string[];
+  prognosis?: string;
+  outcome_measures?: string[];
+  patient_education?: string[];
+  return_to_activity?: string;
+  references?: string[];
+  icd10?: string;
 }
 
-// Keep backward compat
 export type Impairment = Disorder;
 
 export interface EBPIntervention {
   intervention: string;
   evidence: string;
+  description?: string;
+  dosage?: string;
 }
 
 export interface EBPGuideline {
@@ -84,6 +124,14 @@ export interface EBPGuideline {
   key_interventions: EBPIntervention[];
   outcome_measures: string[];
   key_references: string[];
+  // Pro fields
+  classification?: string;
+  diagnosis_criteria?: string[];
+  recommended_against?: string[];
+  prognosis?: string;
+  red_flags?: string[];
+  guideline_source?: string;
+  year?: string;
 }
 
 export interface SportsInjury {
@@ -110,6 +158,12 @@ export interface SportsInjury {
   ebp_level: string;
   related_exercises?: number[];
   related_disorders?: number[];
+  // Pro fields
+  epidemiology?: string;
+  imaging?: string[];
+  return_to_play_criteria?: string[];
+  outcome_measures?: string[];
+  references?: string[];
 }
 
 export interface DifferentialDiagnosis {
@@ -126,4 +180,14 @@ export interface DifferentialDiagnosis {
   referral_criteria: string;
   related_disorders?: number[];
   related_exercises?: number[];
+  // Pro fields
+  pathophysiology?: string;
+  epidemiology?: string;
+  clinical_features?: string[];
+  history_clues?: string[];
+  imaging?: string[];
+  labs?: string[];
+  management_overview?: string;
+  prognosis?: string;
+  references?: string[];
 }
