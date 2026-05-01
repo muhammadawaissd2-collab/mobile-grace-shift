@@ -460,6 +460,41 @@ export default function EBPPage() {
                           </div>
                         </div>
 
+                        {g.recommended_against && g.recommended_against.length > 0 && (
+                          <div className="bg-rose-500/5 border border-rose-500/20 rounded-lg p-3">
+                            <h3 className="text-xs font-display font-semibold text-rose-400 mb-1.5 flex items-center gap-1.5">
+                              <AlertOctagon className="h-3.5 w-3.5" /> Recommended Against
+                            </h3>
+                            <ul className="space-y-0.5">
+                              {g.recommended_against.map((r, i) => (
+                                <li key={i} className="text-xs text-foreground/80">• {r}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {g.prognosis && (
+                          <div>
+                            <h3 className="text-xs font-display font-semibold text-foreground mb-1.5 flex items-center gap-1.5">
+                              <Target className="h-3.5 w-3.5 text-primary" /> Prognosis
+                            </h3>
+                            <p className="text-xs text-foreground/80">{g.prognosis}</p>
+                          </div>
+                        )}
+
+                        {g.red_flags && g.red_flags.length > 0 && (
+                          <div className="bg-rose-500/10 border border-rose-500/20 rounded-lg p-3">
+                            <h3 className="text-xs font-display font-semibold text-rose-400 mb-1.5 flex items-center gap-1.5">
+                              <AlertOctagon className="h-3.5 w-3.5" /> Red Flags
+                            </h3>
+                            <ul className="space-y-0.5">
+                              {g.red_flags.map((r, i) => (
+                                <li key={i} className="text-xs text-foreground/85">• {r}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
                         <div>
                           <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
                             <FileText className="h-3.5 w-3.5 text-primary" /> Key References
