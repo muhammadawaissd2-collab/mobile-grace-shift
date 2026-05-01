@@ -398,6 +398,11 @@ function DisorderDetail({ disorder }: { disorder: Disorder; onNavigate: (p: stri
   return (
     <div className="space-y-1">
       <p className="text-sm text-muted-foreground">{disorder.description}</p>
+      {disorder.icd10 && <p className="text-[10px] uppercase tracking-wider text-muted-foreground mt-1">ICD-10: <span className="text-foreground/80">{disorder.icd10}</span></p>}
+      <ProText icon={Activity} title="Etiology" text={disorder.etiology} />
+      <ProText icon={TrendingUp} title="Epidemiology" text={disorder.epidemiology} />
+      <ProText icon={Microscope} title="Pathophysiology" text={disorder.pathophysiology} />
+      <ProList icon={Stethoscope} title="Clinical Presentation" items={disorder.clinical_presentation} />
 
       {disorder.causes && disorder.causes.length > 0 && (
         <>
