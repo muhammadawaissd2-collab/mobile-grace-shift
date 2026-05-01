@@ -263,6 +263,8 @@ function ExerciseDetail({ exercise, onNavigate }: { exercise: Exercise; onNaviga
         muscleNames={[...(exercise.primary_muscles || []), ...(exercise.secondary_muscles || [])]}
       />
 
+      <ProList icon={Library} title="References" items={exercise.references} />
+
       {/* Book References */}
       <BookReferences keyword={bookKeyword} onNavigate={onNavigate} />
 
