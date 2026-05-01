@@ -76,6 +76,28 @@ function SectionTitle({ icon: Icon, title }: { icon: LucideIcon; title: string }
   );
 }
 
+function ProText({ icon, title, text }: { icon: LucideIcon; title: string; text?: string }) {
+  if (!text) return null;
+  return (
+    <>
+      <SectionTitle icon={icon} title={title} />
+      <p className="text-sm text-foreground/85 leading-relaxed">{text}</p>
+    </>
+  );
+}
+
+function ProList({ icon, title, items, accent }: { icon: LucideIcon; title: string; items?: string[]; accent?: string }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <>
+      <SectionTitle icon={icon} title={title} />
+      <ul className="list-disc list-inside text-sm text-foreground/85 space-y-0.5">
+        {items.map((c, i) => <li key={i} className={accent}>{c}</li>)}
+      </ul>
+    </>
+  );
+}
+
 function BookReferences({ keyword, onNavigate }: { keyword: string; onNavigate: (p: string) => void }) {
   const related = findRelatedBooks(keyword);
   if (related.length === 0) return null;
