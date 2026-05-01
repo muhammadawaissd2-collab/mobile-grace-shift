@@ -559,6 +559,11 @@ function DifferentialDiagnosisDetail({ dx, onNavigate }: { dx: DifferentialDiagn
     <div className="space-y-1">
       <p className="text-sm text-muted-foreground">{dx.description}</p>
 
+      <ProText icon={Microscope} title="Pathophysiology" text={dx.pathophysiology} />
+      <ProText icon={TrendingUp} title="Epidemiology" text={dx.epidemiology} />
+      <ProList icon={Stethoscope} title="Clinical Features" items={dx.clinical_features} />
+      <ProList icon={FileText} title="History Clues" items={dx.history_clues} />
+
       {dx.red_flags && dx.red_flags.length > 0 && (
         <>
           <SectionTitle icon={AlertCircle} title="Red Flags" />
