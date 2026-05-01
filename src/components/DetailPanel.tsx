@@ -176,6 +176,7 @@ function ExerciseDetail({ exercise, onNavigate }: { exercise: Exercise; onNaviga
         </>
       )}
 
+      <SectionTitle icon={Target} title="Target Muscles" />
       <div className="space-y-1.5">
         {exercise.primary_muscles?.length > 0 && (
           <div className="flex items-start gap-2">
