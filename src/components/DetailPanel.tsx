@@ -619,6 +619,12 @@ function DifferentialDiagnosisDetail({ dx, onNavigate }: { dx: DifferentialDiagn
         <p className="text-sm text-foreground/90 font-medium text-amber-500/90">{dx.referral_criteria}</p>
       </div>
 
+      <ProList icon={ImageIcon} title="Imaging" items={dx.imaging} />
+      <ProList icon={FlaskConical} title="Labs" items={dx.labs} />
+      <ProText icon={BookOpen} title="Management Overview" text={dx.management_overview} />
+      <ProText icon={TrendingUp} title="Prognosis" text={dx.prognosis} />
+      <ProList icon={Library} title="References" items={dx.references} />
+
       <BookReferences keyword={dx.name.split(" ")[0]} onNavigate={onNavigate} />
     </div>
   );
