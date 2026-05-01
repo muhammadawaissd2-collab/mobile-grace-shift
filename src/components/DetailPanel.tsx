@@ -33,9 +33,9 @@ export function DetailPanel({ open, onClose, type, data }: DetailPanelProps) {
 
   return (
     <Sheet open={open} onOpenChange={(o) => !o && onClose()}>
-      <SheetContent className="w-full sm:max-w-lg bg-card border-border/50 p-0 overflow-hidden">
-        <ScrollArea className="h-full">
-          <div className="p-6">
+      <SheetContent className="w-full sm:max-w-lg bg-card border-border/50 !p-0 overflow-hidden flex flex-col h-[100dvh] max-h-[100dvh]">
+        <ScrollArea className="flex-1 min-h-0 w-full">
+          <div className="p-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(6rem,calc(env(safe-area-inset-bottom)+5rem))]">
             <SheetHeader className="text-left mb-4">
               <SheetTitle className="font-display text-xl text-foreground pr-6 flex items-center gap-2">
                 {data.name}
