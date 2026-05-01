@@ -336,6 +336,27 @@ export default function EBPPage() {
                       <div className="px-4 pb-4 space-y-4 border-t border-border/50 pt-4 animate-fade-in">
                         <p className="text-sm text-foreground/90">{g.summary}</p>
 
+                        {(g.classification || g.guideline_source || g.year) && (
+                          <div className="flex flex-wrap gap-2 text-[10px]">
+                            {g.classification && <span className="px-2 py-1 rounded-full bg-primary/10 text-primary border border-primary/20">{g.classification}</span>}
+                            {g.guideline_source && <span className="px-2 py-1 rounded-full bg-secondary/60 text-muted-foreground border border-border/40">Source: {g.guideline_source}</span>}
+                            {g.year && <span className="px-2 py-1 rounded-full bg-secondary/60 text-muted-foreground border border-border/40">{g.year}</span>}
+                          </div>
+                        )}
+
+                        {g.diagnosis_criteria && g.diagnosis_criteria.length > 0 && (
+                          <div>
+                            <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
+                              <ClipboardList className="h-3.5 w-3.5 text-primary" /> Diagnosis Criteria
+                            </h3>
+                            <ul className="space-y-0.5">
+                              {g.diagnosis_criteria.map((d, i) => (
+                                <li key={i} className="text-xs text-foreground/80">• {d}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
                         <div>
                           <h3 className="text-xs font-display font-semibold text-foreground mb-2 flex items-center gap-1.5">
                             <Award className="h-3.5 w-3.5 text-primary" /> Key Interventions & Dose
