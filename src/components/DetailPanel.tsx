@@ -7,7 +7,7 @@ import type { Exercise, MuscleGroup, Disorder, DifferentialDiagnosis } from "@/t
 import { useNavigate } from "react-router-dom";
 import { exercises, disorders, muscleGroups, differentialDiagnoses } from "@/data";
 import { findRelatedBooks } from "@/data/books";
-import { Dumbbell, Target, Stethoscope, BookOpen, ArrowRight, FlaskConical, AlertCircle, ExternalLink, Library, type LucideIcon } from "lucide-react";
+import { Dumbbell, Target, Stethoscope, BookOpen, ArrowRight, FlaskConical, AlertCircle, ExternalLink, Library, Activity, TrendingUp, GraduationCap, Microscope, FileText, Repeat, Image as ImageIcon, type LucideIcon } from "lucide-react";
 import { MuscleAnatomyPlaceholder } from "@/components/MuscleAnatomyPlaceholder";
 import { ExerciseProcedurePlaceholder } from "@/components/ExerciseProcedurePlaceholder";
 import { BookmarkButton } from "@/components/BookmarkButton";
