@@ -154,9 +154,28 @@ function ExerciseDetail({ exercise, onNavigate }: { exercise: Exercise; onNaviga
       <SectionTitle icon={Dumbbell} title="Sets & Reps" />
       <div className="glass-card !p-3">
         <p className="text-sm font-medium text-primary">{exercise.sets_reps}</p>
+        {exercise.load_dosage && <p className="text-xs text-muted-foreground mt-1">{exercise.load_dosage}</p>}
+        {exercise.tempo && <p className="text-xs text-muted-foreground">Tempo: {exercise.tempo}</p>}
+        {exercise.breathing && <p className="text-xs text-muted-foreground">Breathing: {exercise.breathing}</p>}
       </div>
 
-      <SectionTitle icon={Target} title="Target Muscles" />
+      <ProText icon={Activity} title="Starting Position" text={exercise.starting_position} />
+      <ProList icon={FileText} title="Execution Steps" items={exercise.execution_steps} />
+      <ProList icon={GraduationCap} title="Coaching Cues" items={exercise.cueing} />
+      <ProList icon={AlertCircle} title="Common Errors" items={exercise.common_errors} accent="marker:text-amber-500" />
+      <ProList icon={TrendingUp} title="Progressions" items={exercise.progressions} />
+      <ProList icon={Repeat} title="Regressions" items={exercise.regressions} />
+      <ProList icon={AlertCircle} title="Contraindications" items={exercise.contraindications} accent="marker:text-rose-500" />
+      <ProList icon={Stethoscope} title="Indications" items={exercise.indications} />
+      {exercise.equipment && exercise.equipment.length > 0 && (
+        <>
+          <SectionTitle icon={Dumbbell} title="Equipment" />
+          <div className="flex flex-wrap gap-1">
+            {exercise.equipment.map((e, i) => <Badge key={i} variant="secondary" className="text-[10px]">{e}</Badge>)}
+          </div>
+        </>
+      )}
+
       <div className="space-y-1.5">
         {exercise.primary_muscles?.length > 0 && (
           <div className="flex items-start gap-2">
