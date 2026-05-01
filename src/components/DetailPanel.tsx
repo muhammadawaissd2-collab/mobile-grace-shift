@@ -538,6 +538,14 @@ function DisorderDetail({ disorder }: { disorder: Disorder; onNavigate: (p: stri
       )}
 
       {/* Relevant MSK Special Tests */}
+      <ProList icon={ImageIcon} title="Imaging" items={disorder.imaging} />
+      <ProText icon={TrendingUp} title="Prognosis" text={disorder.prognosis} />
+      <ProList icon={FileText} title="Outcome Measures" items={disorder.outcome_measures} />
+      <ProList icon={GraduationCap} title="Patient Education" items={disorder.patient_education} />
+      <ProText icon={Activity} title="Return to Activity" text={disorder.return_to_activity} />
+      <ProList icon={Library} title="References" items={disorder.references} />
+
+      {/* Relevant MSK Special Tests */}
       <RelatedSpecialTests region={disorder.region} condition={disorder.name} />
 
       {/* Book References */}
