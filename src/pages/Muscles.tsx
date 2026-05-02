@@ -12,7 +12,14 @@ import {
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { findRelatedTests } from "@/lib/related-tests";
+import { getCuratedExercisesForMuscle, type MuscleExerciseEntry } from "@/lib/muscle-exercise-map";
 import type { Exercise } from "@/types";
+
+const LEVEL_STYLES: Record<MuscleExerciseEntry["level"], string> = {
+  Beginner: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
+  Intermediate: "bg-amber-500/15 text-amber-300 border-amber-500/30",
+  Advanced: "bg-rose-500/15 text-rose-300 border-rose-500/30",
+};
 
 /**
  * The muscles JSON is a mix of:
