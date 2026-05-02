@@ -328,37 +328,100 @@ export default function MusclesPage() {
                               {isOpen && (
                                 <TableRow key={`${muscleKey}-tests`} className="bg-primary/5 hover:bg-primary/5">
                                   <TableCell colSpan={6} className="py-3 px-4">
-                                    <div className="space-y-2">
-                                      <p className="text-[10px] font-semibold text-primary uppercase tracking-wider flex items-center gap-1.5">
-                                        <ClipboardCheck className="h-3 w-3" />
-                                        MSK tests for {muscle.name}
-                                        {muscleTests.length > 0 && (
-                                          <span className="text-muted-foreground font-normal">({muscleTests.length})</span>
+                                    <div className="space-y-4">
+                                      {/* Curated graded exercises for THIS muscle */}
+                                      {(() => {
+                                        const curated = getCuratedExercisesForMuscle(muscle.name || "");
+                                        if (curated.length === 0) return null;
+                                        const byLevel: Record<MuscleExerciseEntry["level"], MuscleExerciseEntry[]> = {
+                                          Beginner: [], Intermediate: [], Advanced: [],
+                                        };
+                                        curated.forEach(c => byLevel[c.level].push(c));
+                                        const exByName = new Map(exercises.map(e => [e.name.toLowerCase(), e]));
+                                        return (
+                                          <div className="space-y-3">
+                                            <p className="text-[10px] font-semibold text-primary uppercase tracking-wider flex items-center gap-1.5">
+                                              <Dumbbell className="h-3 w-3" />
+                                              Specific exercises for {muscle.name}
+                                              <span className="text-muted-foreground font-normal">({curated.length})</span>
+                                            </p>
+                                            {(["Beginner", "Intermediate", "Advanced"] as const).map(lvl => (
+                                              byLevel[lvl].length === 0 ? null : (
+                                                <div key={lvl}>
+                                                  <p className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                                                    <span className={`inline-block px-1.5 py-0.5 rounded border text-[9px] ${LEVEL_STYLES[lvl]}`}>
+                                                      {lvl === "Beginner" ? "Mild" : lvl}
+                                                    </span>
+                                                    <span>{byLevel[lvl].length} exercises</span>
+                                                  </p>
+                                                  <div className="flex flex-wrap gap-1.5">
+                                                    {byLevel[lvl].map(item => {
+                                                      const ex = exByName.get(item.name.toLowerCase());
+                                                      return (
+                                                        <button
+                                                          key={`${lvl}-${item.name}`}
+                                                          onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            if (ex) {
+                                                              setSelectedExercise(ex);
+                                                              setPanelOpen(true);
+                                                            } else {
+                                                              navigate(`/exercises?search=${encodeURIComponent(item.name)}`);
+                                                            }
+                                                          }}
+                                                          title={item.note || (ex ? "View full prescription" : "Search in exercise catalogue")}
+                                                          className={`text-xs px-2.5 py-1 rounded-md border transition-colors ${
+                                                            ex
+                                                              ? "bg-primary/10 text-primary border-primary/25 hover:bg-primary/20"
+                                                              : "bg-secondary/60 text-muted-foreground border-border/50 hover:bg-secondary hover:text-foreground"
+                                                          }`}
+                                                        >
+                                                          {item.name}
+                                                          {!ex && <span className="ml-1 opacity-60">↗</span>}
+                                                        </button>
+                                                      );
+                                                    })}
+                                                  </div>
+                                                </div>
+                                              )
+                                            ))}
+                                          </div>
+                                        );
+                                      })()}
+
+                                      {/* MSK tests for this specific muscle */}
+                                      <div className="space-y-2">
+                                        <p className="text-[10px] font-semibold text-primary uppercase tracking-wider flex items-center gap-1.5">
+                                          <ClipboardCheck className="h-3 w-3" />
+                                          MSK tests for {muscle.name}
+                                          {muscleTests.length > 0 && (
+                                            <span className="text-muted-foreground font-normal">({muscleTests.length})</span>
+                                          )}
+                                        </p>
+                                        {muscleTests.length === 0 ? (
+                                          <p className="text-xs text-muted-foreground italic">No directly-mapped MSK test in catalogue. Browse the Special Tests page for region-level tests.</p>
+                                        ) : (
+                                          <div className="grid sm:grid-cols-2 gap-2">
+                                            {muscleTests.map(t => (
+                                              <button
+                                                key={t.id}
+                                                onClick={(e) => { e.stopPropagation(); navigate(`/special-tests?search=${encodeURIComponent(t.name)}`); }}
+                                                className="text-left glass-card !p-2.5 group hover:border-primary/40 transition-colors"
+                                              >
+                                                <div className="flex items-center justify-between gap-2 mb-0.5">
+                                                  <p className="text-xs font-semibold text-foreground group-hover:text-primary truncate">{t.name}</p>
+                                                  <ArrowRight className="h-3 w-3 text-muted-foreground group-hover:text-primary shrink-0" />
+                                                </div>
+                                                <p className="text-[10px] text-muted-foreground truncate">{t.condition}</p>
+                                                <div className="flex gap-2 mt-1 text-[10px]">
+                                                  <span className="text-primary/80">Sn {t.sensitivity}</span>
+                                                  <span className="text-muted-foreground">Sp {t.specificity}</span>
+                                                </div>
+                                              </button>
+                                            ))}
+                                          </div>
                                         )}
-                                      </p>
-                                      {muscleTests.length === 0 ? (
-                                        <p className="text-xs text-muted-foreground italic">No directly-mapped MSK test in catalogue. Browse the Special Tests page for region-level tests.</p>
-                                      ) : (
-                                        <div className="grid sm:grid-cols-2 gap-2">
-                                          {muscleTests.map(t => (
-                                            <button
-                                              key={t.id}
-                                              onClick={(e) => { e.stopPropagation(); navigate(`/special-tests?search=${encodeURIComponent(t.name)}`); }}
-                                              className="text-left glass-card !p-2.5 group hover:border-primary/40 transition-colors"
-                                            >
-                                              <div className="flex items-center justify-between gap-2 mb-0.5">
-                                                <p className="text-xs font-semibold text-foreground group-hover:text-primary truncate">{t.name}</p>
-                                                <ArrowRight className="h-3 w-3 text-muted-foreground group-hover:text-primary shrink-0" />
-                                              </div>
-                                              <p className="text-[10px] text-muted-foreground truncate">{t.condition}</p>
-                                              <div className="flex gap-2 mt-1 text-[10px]">
-                                                <span className="text-primary/80">Sn {t.sensitivity}</span>
-                                                <span className="text-muted-foreground">Sp {t.specificity}</span>
-                                              </div>
-                                            </button>
-                                          ))}
-                                        </div>
-                                      )}
+                                      </div>
                                     </div>
                                   </TableCell>
                                 </TableRow>
