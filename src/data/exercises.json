@@ -25845,7 +25845,7 @@
     ],
     "instructions": "Slowly extend neck looking upward. Return to neutral.",
     "sets_reps": "2 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Cervical Extensors"
     ],
@@ -25915,7 +25915,7 @@
     ],
     "instructions": "Glide chin forward then retract. Rhythmic motion.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -25985,7 +25985,7 @@
     ],
     "instructions": "Towel-assisted sustained natural apophyseal glide at C5-6.",
     "sets_reps": "6 reps",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate mobility for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Cervical Spine"
     ],
@@ -26057,7 +26057,7 @@
     ],
     "instructions": "Supine with pressure biofeedback under occiput. Perform cranio-cervical flexion to target pressures.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate isometric for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -26128,7 +26128,7 @@
     ],
     "instructions": "Maintain chin tuck while performing arm movements.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -26202,7 +26202,7 @@
     ],
     "instructions": "Raise arm in scapular plane with thumb down to shoulder height.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Supraspinatus"
     ],
@@ -26275,7 +26275,7 @@
     ],
     "instructions": "Elbow at side, rotate forearm outward against band.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Infraspinatus"
     ],
@@ -26349,7 +26349,7 @@
     ],
     "instructions": "Supine, use dowel to assist shoulder flexion with uninvolved arm.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Shoulder Flexors"
     ],
@@ -26422,7 +26422,7 @@
     ],
     "instructions": "Reach behind back with towel. Pull upward with top hand.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Subscapularis"
     ],
@@ -26495,7 +26495,7 @@
     ],
     "instructions": "Push arm outward against wall without movement.",
     "sets_reps": "3 x 10 x 5 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deltoid"
     ],
@@ -26569,7 +26569,7 @@
     ],
     "instructions": "Hold door frame overhead, lean away stretching lat.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Latissimus Dorsi"
     ],
@@ -26642,7 +26642,7 @@
     ],
     "instructions": "Supine, feet on wall at 90° hip/knee. Lift tailbone slightly.",
     "sets_reps": "3 x 10 breaths",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -26715,7 +26715,7 @@
     ],
     "instructions": "Prone, extend hip keeping knee bent. Focus on glute activation.",
     "sets_reps": "3 x 12 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gluteus Maximus"
     ],
@@ -26787,7 +26787,7 @@
     ],
     "instructions": "Supine, knees bent, drop knees side to side.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hip Rotators"
     ],
@@ -26860,7 +26860,7 @@
     ],
     "instructions": "Half kneeling hip flexor stretch adding thoracic rotation.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate stretching for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Iliopsoas"
     ],
@@ -26934,7 +26934,7 @@
     ],
     "instructions": "Step down over 4 seconds. Control eccentric.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Quadriceps"
     ],
@@ -27005,7 +27005,7 @@
     ],
     "instructions": "Bridge position, walk feet out and back maintaining hips.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hamstrings"
     ],
@@ -27079,7 +27079,7 @@
     ],
     "instructions": "Walk on heels with toes lifted.",
     "sets_reps": "3 x 20m",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Tibialis Anterior"
     ],
@@ -27152,7 +27152,7 @@
     ],
     "instructions": "Walk on toes.",
     "sets_reps": "3 x 20m",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gastrocnemius"
     ],
@@ -27226,7 +27226,7 @@
     ],
     "instructions": "Sit, gently invert ankle to stretch peroneals.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Peroneals"
     ],
@@ -27298,7 +27298,7 @@
     ],
     "instructions": "ULTT1 position with alternating wrist/neck movements.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate mobility for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Median Nerve"
     ],
@@ -27370,7 +27370,7 @@
     ],
     "instructions": "Depression, IR, pronation, wrist flexion with alternating components.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate mobility for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Radial Nerve"
     ],
@@ -27442,7 +27442,7 @@
     ],
     "instructions": "ULTT3 position with alternating elbow/wrist movements.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate mobility for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Ulnar Nerve"
     ],
@@ -27515,7 +27515,7 @@
     ],
     "instructions": "Single leg squat on BOSU ball.",
     "sets_reps": "3 x 8 each",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced balance for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Lower Extremity"
     ],
@@ -27590,7 +27590,7 @@
     ],
     "instructions": "Walk heel-to-toe in straight line.",
     "sets_reps": "3 x 10m",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner balance for Full Body rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -27664,7 +27664,7 @@
     ],
     "instructions": "Stand on wobble board, maintain balance in all planes.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate balance for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Ankle Stabilisers"
     ],
@@ -27737,7 +27737,7 @@
     ],
     "instructions": "Kneeling ab wheel rollout. Maintain neutral spine.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced strengthening for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -27810,7 +27810,7 @@
     ],
     "instructions": "Support body face-up on hands and heels.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate isometric for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -27885,7 +27885,7 @@
     ],
     "instructions": "Side plank lifting top leg.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced strengthening for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Obliques"
     ],
@@ -27960,7 +27960,7 @@
     ],
     "instructions": "Alternate elbow to opposite knee while cycling legs.",
     "sets_reps": "3 x 20",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Obliques"
     ],
@@ -28035,7 +28035,7 @@
     ],
     "instructions": "Balance on sit bones with legs and torso elevated.",
     "sets_reps": "3 x 20 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced isometric for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Rectus Abdominis"
     ],
@@ -28109,7 +28109,7 @@
     ],
     "instructions": "Plank position, alternate reaching arms forward.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -28182,7 +28182,7 @@
     ],
     "instructions": "Plank position, alternate bringing knees to chest slowly.",
     "sets_reps": "3 x 20",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -28256,7 +28256,7 @@
     ],
     "instructions": "Squat with arms overhead holding dowel. Maintain posture.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced functional for Full Body rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Full Body"
     ],
@@ -28327,7 +28327,7 @@
     ],
     "instructions": "Walk with weight in one hand.",
     "sets_reps": "3 x 40m each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Full Body rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -28402,7 +28402,7 @@
     ],
     "instructions": "Plank on dumbbells, alternate rowing.",
     "sets_reps": "3 x 8 each",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced strengthening for Full Body rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Back"
     ],
@@ -28477,7 +28477,7 @@
     ],
     "instructions": "Press barbell in landmine attachment overhead.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Shoulders"
     ],
@@ -28552,7 +28552,7 @@
     ],
     "instructions": "Hold band at chest, pull apart horizontally.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Posterior Deltoid"
     ],
@@ -28627,7 +28627,7 @@
     ],
     "instructions": "Wall angel with light band around wrists for resistance.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Lower Trapezius"
     ],
@@ -28701,7 +28701,7 @@
     ],
     "instructions": "Push-up position, protract and retract scapulae without bending elbows.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Serratus Anterior"
     ],
@@ -28774,7 +28774,7 @@
     ],
     "instructions": "Plank position, alternate tapping opposite shoulder.",
     "sets_reps": "3 x 20",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -28848,7 +28848,7 @@
     ],
     "instructions": "Arms on corner walls at 90°, lean through.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Pectoralis Major"
     ],
@@ -28921,7 +28921,7 @@
     ],
     "instructions": "Prone, pull heel toward buttock with hand or strap.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Quadriceps"
     ],
@@ -28995,7 +28995,7 @@
     ],
     "instructions": "Sit with soles together, gently press knees down.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Adductors"
     ],
@@ -29067,7 +29067,7 @@
     ],
     "instructions": "Wide stance, shift weight to one side.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Adductors"
     ],
@@ -29140,7 +29140,7 @@
     ],
     "instructions": "Supine, ankle on opposite knee, pull toward chest.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gluteus Maximus"
     ],
@@ -29214,7 +29214,7 @@
     ],
     "instructions": "Foot on elevated surface, hinge forward at hips.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hamstrings"
     ],
@@ -29286,7 +29286,7 @@
     ],
     "instructions": "Sit with front and back leg at 90°. Lean forward.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hip Rotators"
     ],
@@ -29356,7 +29356,7 @@
     ],
     "instructions": "Squeeze ball between knees in various positions.",
     "sets_reps": "3 x 10 x 5 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Adductors"
     ],
@@ -29428,7 +29428,7 @@
     ],
     "instructions": "Single leg heel raise emphasising inversion. Slow eccentric.",
     "sets_reps": "3 x 15 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Tibialis Posterior"
     ],
@@ -29498,7 +29498,7 @@
     ],
     "instructions": "Pull ball of foot toward heel without curling toes.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Intrinsic Foot"
     ],
@@ -29570,7 +29570,7 @@
     ],
     "instructions": "Chin tuck with additional hand pressure at end range.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate mobility for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -29642,7 +29642,7 @@
     ],
     "instructions": "Gentle nodding motion activating deep flexors. Minimal range.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -29712,7 +29712,7 @@
     ],
     "instructions": "Maintain chin tuck while walking. Postural retraining.",
     "sets_reps": "3 x 5 min",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -29782,7 +29782,7 @@
     ],
     "instructions": "Hammer eccentric radial deviation. Slow controlled.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Wrist Radial Deviators"
     ],
@@ -29852,7 +29852,7 @@
     ],
     "instructions": "Push back of hand against immovable object. Hold.",
     "sets_reps": "3 x 10 x 10 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Wrist Extensors"
     ],
@@ -29922,7 +29922,7 @@
     ],
     "instructions": "Side-lying, slowly lower top leg from abducted position.",
     "sets_reps": "3 x 12 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Adductors"
     ],
@@ -29994,7 +29994,7 @@
     ],
     "instructions": "Prone, flex knee against gravity. Add ankle weight.",
     "sets_reps": "3 x 15 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hamstrings"
     ],
@@ -30064,7 +30064,7 @@
     ],
     "instructions": "Prone or seated, allow knees to fall inward.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "External Rotators"
     ],
@@ -30136,7 +30136,7 @@
     ],
     "instructions": "Seated, cross ankle on knee, lean forward.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Internal Rotators"
     ],
@@ -30208,7 +30208,7 @@
     ],
     "instructions": "Stand on band, raise arm forward to 90°.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Anterior Deltoid"
     ],
@@ -30281,7 +30281,7 @@
     ],
     "instructions": "Band attached in front, pull arm backward.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Latissimus Dorsi"
     ],
@@ -30356,7 +30356,7 @@
     ],
     "instructions": "Stand on band, raise arm to side to 90°.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deltoid"
     ],
@@ -30430,7 +30430,7 @@
     ],
     "instructions": "Band around head, rotate against resistance.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Cervical Rotators"
     ],
@@ -30502,7 +30502,7 @@
     ],
     "instructions": "Maintain chin tuck while adding rotation.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Deep Cervical Flexors"
     ],
@@ -30575,7 +30575,7 @@
     ],
     "instructions": "Partner applies unexpected pushes while patient maintains balance.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced balance for Full Body rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -30649,7 +30649,7 @@
     ],
     "instructions": "Stand on one leg on foam pad.",
     "sets_reps": "3 x 30 sec each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate balance for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Ankle Stabilisers"
     ],
@@ -30722,7 +30722,7 @@
     ],
     "instructions": "Stand heel-to-toe. Hold position.",
     "sets_reps": "3 x 30 sec each foot forward",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner balance for Full Body rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -30795,7 +30795,7 @@
     ],
     "instructions": "On all fours, shift weight in all directions.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner balance for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -30869,7 +30869,7 @@
     ],
     "instructions": "Sit on swiss ball maintaining balance. Add arm movements.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner balance for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -30939,7 +30939,7 @@
     ],
     "instructions": "Jump and land on single leg with unexpected direction change.",
     "sets_reps": "3 x 8 each",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced plyometric for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Lower Extremity"
     ],
@@ -31012,7 +31012,7 @@
     ],
     "instructions": "Quick lateral shuffling steps.",
     "sets_reps": "3 x 20m",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gluteus Medius"
     ],
@@ -31087,7 +31087,7 @@
     ],
     "instructions": "Lateral movement with crossover steps.",
     "sets_reps": "3 x 20m each direction",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate functional for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hip Rotators"
     ],
@@ -31162,7 +31162,7 @@
     ],
     "instructions": "Walk backward with controlled steps.",
     "sets_reps": "3 x 20m",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner functional for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Quadriceps"
     ],
@@ -31236,7 +31236,7 @@
     ],
     "instructions": "Hop forward on single leg and stick the landing.",
     "sets_reps": "3 x 8 each",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced plyometric for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Lower Extremity"
     ],
@@ -31308,7 +31308,7 @@
     ],
     "instructions": "Controlled jaw opening maintaining midline.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Jaw Muscles"
     ],
@@ -31380,7 +31380,7 @@
     ],
     "instructions": "Shift jaw side to side in controlled manner.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Cervical Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Lateral Pterygoid"
     ],
@@ -31452,7 +31452,7 @@
     ],
     "instructions": "Sit, interlace hands behind head, extend over chair back.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Thoracic Extensors"
     ],
@@ -31524,7 +31524,7 @@
     ],
     "instructions": "On all fours, hand behind head, rotate thorax upward.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Thoracic Rotators"
     ],
@@ -31596,7 +31596,7 @@
     ],
     "instructions": "Supine on foam roller along spine. Open arms.",
     "sets_reps": "3 x 60 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Spine rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Thoracic Extensors"
     ],
@@ -31666,7 +31666,7 @@
     ],
     "instructions": "Rise bilateral, lower single leg with straight knee. Step edge.",
     "sets_reps": "3 x 15 twice daily",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gastrocnemius"
     ],
@@ -31736,7 +31736,7 @@
     ],
     "instructions": "Rise bilateral, lower single leg with knee slightly bent.",
     "sets_reps": "3 x 15 twice daily",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Soleus"
     ],
@@ -31809,7 +31809,7 @@
     ],
     "instructions": "Seated and standing calf raises 6RM progressing to 8RM.",
     "sets_reps": "3 x 6-8",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gastrocnemius"
     ],
@@ -31884,7 +31884,7 @@
     ],
     "instructions": "Hold calf raise at mid-range for pain relief.",
     "sets_reps": "5 x 45 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gastrocnemius"
     ],
@@ -31959,7 +31959,7 @@
     ],
     "instructions": "Prone, lift arm to side at 90° with thumb up.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Posterior Deltoid"
     ],
@@ -32034,7 +32034,7 @@
     ],
     "instructions": "Band around back, push forward in hugging motion with protraction.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Serratus Anterior"
     ],
@@ -32109,7 +32109,7 @@
     ],
     "instructions": "90/90 position, eccentrically control IR.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Infraspinatus"
     ],
@@ -32184,7 +32184,7 @@
     ],
     "instructions": "Squeeze pillow between arm and body.",
     "sets_reps": "3 x 10 x 5 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Pectoralis Major"
     ],
@@ -32258,7 +32258,7 @@
     ],
     "instructions": "Push forward against band at 90° flexion.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Serratus Anterior"
     ],
@@ -32330,7 +32330,7 @@
     ],
     "instructions": "Use wand to assist flexion ROM. Uninvolved arm helps.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Shoulder Flexors"
     ],
@@ -32400,7 +32400,7 @@
     ],
     "instructions": "Side-lying ER with pillow support under arm for comfort.",
     "sets_reps": "3 x 15",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Infraspinatus"
     ],
@@ -32472,7 +32472,7 @@
     ],
     "instructions": "Reach behind back, use towel to assist.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Shoulder IR"
     ],
@@ -32544,7 +32544,7 @@
     ],
     "instructions": "Press ball against wall with outstretched arm. Make circles.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate balance for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Rotator Cuff"
     ],
@@ -32615,7 +32615,7 @@
     ],
     "instructions": "Standard bicep curl with dumbbell.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Biceps"
     ],
@@ -32689,7 +32689,7 @@
     ],
     "instructions": "Overhead tricep extension with dumbbell.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Triceps"
     ],
@@ -32761,7 +32761,7 @@
     ],
     "instructions": "Make circles with wrist in both directions.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Wrist Muscles"
     ],
@@ -32833,7 +32833,7 @@
     ],
     "instructions": "Extend fingers and wrist back gently.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Finger Flexors"
     ],
@@ -32905,7 +32905,7 @@
     ],
     "instructions": "Standing, make large circles with hip.",
     "sets_reps": "3 x 10 each direction",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hip Muscles"
     ],
@@ -32978,7 +32978,7 @@
     ],
     "instructions": "Standing with band around feet, march in place.",
     "sets_reps": "3 x 20",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hip Flexors"
     ],
@@ -33052,7 +33052,7 @@
     ],
     "instructions": "Supine, feet flat, drop knees in and out.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner mobility for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Hip Rotators"
     ],
@@ -33124,7 +33124,7 @@
     ],
     "instructions": "Eccentric calf lower with straight knee, slow 3-sec count.",
     "sets_reps": "3 x 15 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gastrocnemius"
     ],
@@ -33197,7 +33197,7 @@
     ],
     "instructions": "Step up laterally onto box. Control descent.",
     "sets_reps": "3 x 10 each",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Lower Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Gluteus Medius"
     ],
@@ -33270,7 +33270,7 @@
     ],
     "instructions": "Standing, bring knee toward opposite elbow.",
     "sets_reps": "3 x 20",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner functional for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -33345,7 +33345,7 @@
     ],
     "instructions": "Alternate between forearm and hand plank.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Advanced strengthening for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -33419,7 +33419,7 @@
     ],
     "instructions": "Seated lean back, rotate torso with or without weight.",
     "sets_reps": "3 x 20",
-    "clinical_notes": "",
+    "clinical_notes": "Intermediate strengthening for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Obliques"
     ],
@@ -33491,7 +33491,7 @@
     ],
     "instructions": "Standard forearm plank. Maintain neutral spine.",
     "sets_reps": "3 x 30 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner isometric for Core rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Core"
     ],
@@ -33562,7 +33562,7 @@
     ],
     "instructions": "Hang from pull-up bar with full bodyweight.",
     "sets_reps": "3 x 20 sec",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner stretching for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Shoulder Complex"
     ],
@@ -33636,7 +33636,7 @@
     ],
     "instructions": "Seated, press hands into surface and depress scapulae.",
     "sets_reps": "3 x 10",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Lower Trapezius"
     ],
@@ -33709,7 +33709,7 @@
     ],
     "instructions": "Elevate shoulders toward ears with weights.",
     "sets_reps": "3 x 12",
-    "clinical_notes": "",
+    "clinical_notes": "Beginner strengthening for Upper Extremity rehabilitation. Progress when pain ≤2/10 during loading and 24-h symptom recovery.",
     "primary_muscles": [
       "Upper Trapezius"
     ],
@@ -41684,7 +41684,9 @@
     "instructions": "Move the joint actively through full ROM of the Adductor Pollicis (Oblique head) (Left), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Adductor Pollicis (Oblique head) (Left)"
+    ],
     "secondary_muscles": [
       "Adductor Pollicis (Oblique head) (Left)"
     ],
@@ -41827,7 +41829,9 @@
     "instructions": "Passively stretch Splenius Cervicis to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Splenius Cervicis"
+    ],
     "secondary_muscles": [
       "Splenius Cervicis"
     ],
@@ -41897,7 +41901,9 @@
     "instructions": "Place foam roller under Extensor Carpi Radialis Longus (Right). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Extensor Carpi Radialis Longus (Right)"
+    ],
     "secondary_muscles": [
       "Extensor Carpi Radialis Longus (Right)"
     ],
@@ -42251,7 +42257,9 @@
     "instructions": "Passively stretch External Intercostal (2nd space) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "External Intercostal (2nd space)"
+    ],
     "secondary_muscles": [
       "External Intercostal (2nd space)"
     ],
@@ -42464,7 +42472,9 @@
     "instructions": "Passively stretch Flexor Digiti Minimi Brevis (Hand) (Right) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Digiti Minimi Brevis (Hand) (Right)"
+    ],
     "secondary_muscles": [
       "Flexor Digiti Minimi Brevis (Hand) (Right)"
     ],
@@ -42674,7 +42684,9 @@
     "instructions": "Move the joint actively through full ROM of the Intertransversarii Lumborum (Mediales), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Intertransversarii Lumborum (Mediales)"
+    ],
     "secondary_muscles": [
       "Intertransversarii Lumborum (Mediales)"
     ],
@@ -42818,7 +42830,9 @@
     "instructions": "Move the joint actively through full ROM of the Rotator Longus T6-T8, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rotator Longus T6-T8"
+    ],
     "secondary_muscles": [
       "Rotator Longus T6-T8"
     ],
@@ -42962,7 +42976,9 @@
     "instructions": "Passively stretch Soleus (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Soleus (Left)"
+    ],
     "secondary_muscles": [
       "Soleus (Left)"
     ],
@@ -43315,7 +43331,9 @@
     "instructions": "Place foam roller under Tibialis Posterior (Left). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Tibialis Posterior (Left)"
+    ],
     "secondary_muscles": [
       "Tibialis Posterior (Left)"
     ],
@@ -43525,7 +43543,9 @@
     "instructions": "Place foam roller under Multifidus T5 (to T3-T4). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Multifidus T5 (to T3-T4)"
+    ],
     "secondary_muscles": [
       "Multifidus T5 (to T3-T4)"
     ],
@@ -43737,7 +43757,9 @@
     "instructions": "Place foam roller under Anconeus (Left). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Anconeus (Left)"
+    ],
     "secondary_muscles": [
       "Anconeus (Left)"
     ],
@@ -44161,7 +44183,9 @@
     "instructions": "Place foam roller under Semispinalis Cervicis T4-C5. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Semispinalis Cervicis T4-C5"
+    ],
     "secondary_muscles": [
       "Semispinalis Cervicis T4-C5"
     ],
@@ -44584,7 +44608,9 @@
     "instructions": "Passively stretch External Intercostal (11th space) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "External Intercostal (11th space)"
+    ],
     "secondary_muscles": [
       "External Intercostal (11th space)"
     ],
@@ -44935,7 +44961,9 @@
     "instructions": "Passively stretch Subscapularis (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Subscapularis (Left)"
+    ],
     "secondary_muscles": [
       "Subscapularis (Left)"
     ],
@@ -45005,7 +45033,9 @@
     "instructions": "Place foam roller under Interspinalis T2-T3. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Interspinalis T2-T3"
+    ],
     "secondary_muscles": [
       "Interspinalis T2-T3"
     ],
@@ -45075,7 +45105,9 @@
     "instructions": "Move the joint actively through full ROM of the Interspinalis T2-T3, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Interspinalis T2-T3"
+    ],
     "secondary_muscles": [
       "Interspinalis T2-T3"
     ],
@@ -45219,7 +45251,9 @@
     "instructions": "Passively stretch Flexor Pollicis Brevis (Superficial head) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Pollicis Brevis (Superficial head) (Left)"
+    ],
     "secondary_muscles": [
       "Flexor Pollicis Brevis (Superficial head) (Left)"
     ],
@@ -45360,7 +45394,9 @@
     "instructions": "Move the joint actively through full ROM of the Extensor Digitorum (Communis) (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Extensor Digitorum (Communis) (Right)"
+    ],
     "secondary_muscles": [
       "Extensor Digitorum (Communis) (Right)"
     ],
@@ -45573,7 +45609,9 @@
     "instructions": "Place foam roller under Abductor Pollicis Brevis. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Abductor Pollicis Brevis"
+    ],
     "secondary_muscles": [
       "Abductor Pollicis Brevis"
     ],
@@ -45785,7 +45823,9 @@
     "instructions": "Place foam roller under Tensor Fasciae Latae (Right). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Tensor Fasciae Latae (Right)"
+    ],
     "secondary_muscles": [
       "Tensor Fasciae Latae (Right)"
     ],
@@ -45997,7 +46037,9 @@
     "instructions": "Move the joint actively through full ROM of the External Urethral Sphincter, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "External Urethral Sphincter"
+    ],
     "secondary_muscles": [
       "External Urethral Sphincter"
     ],
@@ -46069,7 +46111,9 @@
     "instructions": "Place foam roller under External Urethral Sphincter. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "External Urethral Sphincter"
+    ],
     "secondary_muscles": [
       "External Urethral Sphincter"
     ],
@@ -46139,7 +46183,9 @@
     "instructions": "Passively stretch Gluteus Maximus (Upper fibers) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Gluteus Maximus (Upper fibers)"
+    ],
     "secondary_muscles": [
       "Gluteus Maximus (Upper fibers)"
     ],
@@ -46209,7 +46255,9 @@
     "instructions": "Place foam roller under Gluteus Maximus (Upper fibers). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Gluteus Maximus (Upper fibers)"
+    ],
     "secondary_muscles": [
       "Gluteus Maximus (Upper fibers)"
     ],
@@ -46279,7 +46327,9 @@
     "instructions": "Passively stretch Spinalis Thoracis to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Spinalis Thoracis"
+    ],
     "secondary_muscles": [
       "Spinalis Thoracis"
     ],
@@ -46630,7 +46680,9 @@
     "instructions": "Move the joint actively through full ROM of the Diaphragm (Lumbar part - Right crus), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Diaphragm (Lumbar part - Right crus)"
+    ],
     "secondary_muscles": [
       "Diaphragm (Lumbar part - Right crus)"
     ],
@@ -46774,7 +46826,9 @@
     "instructions": "Move the joint actively through full ROM of the 3rd Palmar Interosseous (Left), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "3rd Palmar Interosseous (Left)"
+    ],
     "secondary_muscles": [
       "3rd Palmar Interosseous (Left)"
     ],
@@ -47057,7 +47111,9 @@
     "instructions": "Move the joint actively through full ROM of the Spinalis Cervicis, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Spinalis Cervicis"
+    ],
     "secondary_muscles": [
       "Spinalis Cervicis"
     ],
@@ -47484,7 +47540,9 @@
     "instructions": "Passively stretch Flexor Digiti Minimi Brevis (Hand) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Digiti Minimi Brevis (Hand)"
+    ],
     "secondary_muscles": [
       "Flexor Digiti Minimi Brevis (Hand)"
     ],
@@ -47554,7 +47612,9 @@
     "instructions": "Move the joint actively through full ROM of the Abductor Pollicis Brevis (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Abductor Pollicis Brevis (Right)"
+    ],
     "secondary_muscles": [
       "Abductor Pollicis Brevis (Right)"
     ],
@@ -47696,7 +47756,9 @@
     "instructions": "Move the joint actively through full ROM of the Biceps Femoris (Long head) (Left), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Biceps Femoris (Long head) (Left)"
+    ],
     "secondary_muscles": [
       "Biceps Femoris (Long head) (Left)"
     ],
@@ -47768,7 +47830,9 @@
     "instructions": "Passively stretch Biceps Femoris (Long head) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Biceps Femoris (Long head) (Left)"
+    ],
     "secondary_muscles": [
       "Biceps Femoris (Long head) (Left)"
     ],
@@ -47908,7 +47972,9 @@
     "instructions": "Place foam roller under Articularis Genus. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Articularis Genus"
+    ],
     "secondary_muscles": [
       "Articularis Genus"
     ],
@@ -48189,7 +48255,9 @@
     "instructions": "Place foam roller under Tibialis Posterior. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Tibialis Posterior"
+    ],
     "secondary_muscles": [
       "Tibialis Posterior"
     ],
@@ -48399,7 +48467,9 @@
     "instructions": "Place foam roller under Flexor Digitorum Superficialis (Left). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Digitorum Superficialis (Left)"
+    ],
     "secondary_muscles": [
       "Flexor Digitorum Superficialis (Left)"
     ],
@@ -48610,7 +48680,9 @@
     "instructions": "Passively stretch Triceps Brachii (Long head) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Triceps Brachii (Long head) (Left)"
+    ],
     "secondary_muscles": [
       "Triceps Brachii (Long head) (Left)"
     ],
@@ -48680,7 +48752,9 @@
     "instructions": "Passively stretch Vastus Medialis Oblique (VMO) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Vastus Medialis Oblique (VMO) (Left)"
+    ],
     "secondary_muscles": [
       "Vastus Medialis Oblique (VMO) (Left)"
     ],
@@ -48820,7 +48894,9 @@
     "instructions": "Move the joint actively through full ROM of the Rotator Longus T8-T10, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rotator Longus T8-T10"
+    ],
     "secondary_muscles": [
       "Rotator Longus T8-T10"
     ],
@@ -48964,7 +49040,9 @@
     "instructions": "Move the joint actively through full ROM of the Diaphragm (Costal part), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Diaphragm (Costal part)"
+    ],
     "secondary_muscles": [
       "Diaphragm (Costal part)"
     ],
@@ -49036,7 +49114,9 @@
     "instructions": "Place foam roller under Diaphragm (Costal part). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Diaphragm (Costal part)"
+    ],
     "secondary_muscles": [
       "Diaphragm (Costal part)"
     ],
@@ -49319,7 +49399,9 @@
     "instructions": "Move the joint actively through full ROM of the Rotator Brevis T1-T2, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rotator Brevis T1-T2"
+    ],
     "secondary_muscles": [
       "Rotator Brevis T1-T2"
     ],
@@ -49391,7 +49473,9 @@
     "instructions": "Move the joint actively through full ROM of the Triceps Brachii (Lateral head), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Triceps Brachii (Lateral head)"
+    ],
     "secondary_muscles": [
       "Triceps Brachii (Lateral head)"
     ],
@@ -49534,7 +49618,9 @@
     "instructions": "Passively stretch Interspinalis T11-T12 to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Interspinalis T11-T12"
+    ],
     "secondary_muscles": [
       "Interspinalis T11-T12"
     ],
@@ -49744,7 +49830,9 @@
     "instructions": "Passively stretch Multifidus T12 (to T10-T11) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Multifidus T12 (to T10-T11)"
+    ],
     "secondary_muscles": [
       "Multifidus T12 (to T10-T11)"
     ],
@@ -49886,7 +49974,9 @@
     "instructions": "Move the joint actively through full ROM of the Serratus Anterior (Upper fibers) (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Serratus Anterior (Upper fibers) (Right)"
+    ],
     "secondary_muscles": [
       "Serratus Anterior (Upper fibers) (Right)"
     ],
@@ -49958,7 +50048,9 @@
     "instructions": "Passively stretch Brachioradialis (Right) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Brachioradialis (Right)"
+    ],
     "secondary_muscles": [
       "Brachioradialis (Right)"
     ],
@@ -50028,7 +50120,9 @@
     "instructions": "Move the joint actively through full ROM of the Brachioradialis (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Brachioradialis (Right)"
+    ],
     "secondary_muscles": [
       "Brachioradialis (Right)"
     ],
@@ -50100,7 +50194,9 @@
     "instructions": "Place foam roller under Articularis Genus (Right). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Articularis Genus (Right)"
+    ],
     "secondary_muscles": [
       "Articularis Genus (Right)"
     ],
@@ -50241,7 +50337,9 @@
     "instructions": "Passively stretch Trapezius (Middle Fibres) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Trapezius (Middle Fibres)"
+    ],
     "secondary_muscles": [
       "Trapezius (Middle Fibres)"
     ],
@@ -50523,7 +50621,9 @@
     "instructions": "Passively stretch Psoas Minor (when present) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Psoas Minor (when present)"
+    ],
     "secondary_muscles": [
       "Psoas Minor (when present)"
     ],
@@ -50805,7 +50905,9 @@
     "instructions": "Passively stretch Fibularis Brevis (Peroneus Brevis) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Fibularis Brevis (Peroneus Brevis)"
+    ],
     "secondary_muscles": [
       "Fibularis Brevis (Peroneus Brevis)"
     ],
@@ -51160,7 +51262,9 @@
     "instructions": "Passively stretch Pubovaginalis (Females) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Pubovaginalis (Females)"
+    ],
     "secondary_muscles": [
       "Pubovaginalis (Females)"
     ],
@@ -51442,7 +51546,9 @@
     "instructions": "Place foam roller under Intertransversarii Cervicis (Anterior C4-C5). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Intertransversarii Cervicis (Anterior C4-C5)"
+    ],
     "secondary_muscles": [
       "Intertransversarii Cervicis (Anterior C4-C5)"
     ],
@@ -51654,7 +51760,9 @@
     "instructions": "Passively stretch Rhomboid Minor to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rhomboid Minor"
+    ],
     "secondary_muscles": [
       "Rhomboid Minor"
     ],
@@ -52432,7 +52540,9 @@
     "instructions": "Passively stretch Coracobrachialis (Right) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Coracobrachialis (Right)"
+    ],
     "secondary_muscles": [
       "Coracobrachialis (Right)"
     ],
@@ -52574,7 +52684,9 @@
     "instructions": "Move the joint actively through full ROM of the Piriformis (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Piriformis (Right)"
+    ],
     "secondary_muscles": [
       "Piriformis (Right)"
     ],
@@ -52858,7 +52970,9 @@
     "instructions": "Move the joint actively through full ROM of the Pronator Teres, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Pronator Teres"
+    ],
     "secondary_muscles": [
       "Pronator Teres"
     ],
@@ -53211,7 +53325,9 @@
     "instructions": "Passively stretch Deltoid (Middle fibers) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Deltoid (Middle fibers) (Left)"
+    ],
     "secondary_muscles": [
       "Deltoid (Middle fibers) (Left)"
     ],
@@ -53351,7 +53467,9 @@
     "instructions": "Passively stretch Intertransversarii Posteriores Cervicis to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Intertransversarii Posteriores Cervicis"
+    ],
     "secondary_muscles": [
       "Intertransversarii Posteriores Cervicis"
     ],
@@ -53634,7 +53752,9 @@
     "instructions": "Move the joint actively through full ROM of the Rectus Abdominis, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rectus Abdominis"
+    ],
     "secondary_muscles": [
       "Rectus Abdominis"
     ],
@@ -53776,7 +53896,9 @@
     "instructions": "Passively stretch Rotator Brevis T10-T11 to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rotator Brevis T10-T11"
+    ],
     "secondary_muscles": [
       "Rotator Brevis T10-T11"
     ],
@@ -53989,7 +54111,9 @@
     "instructions": "Move the joint actively through full ROM of the Rectus Femoris (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Rectus Femoris (Right)"
+    ],
     "secondary_muscles": [
       "Rectus Femoris (Right)"
     ],
@@ -54627,7 +54751,9 @@
     "instructions": "Passively stretch Popliteus (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Popliteus (Left)"
+    ],
     "secondary_muscles": [
       "Popliteus (Left)"
     ],
@@ -54768,7 +54894,9 @@
     "instructions": "Move the joint actively through full ROM of the Iliocostalis Cervicis, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Iliocostalis Cervicis"
+    ],
     "secondary_muscles": [
       "Iliocostalis Cervicis"
     ],
@@ -54840,7 +54968,9 @@
     "instructions": "Passively stretch Iliocostalis Cervicis to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Iliocostalis Cervicis"
+    ],
     "secondary_muscles": [
       "Iliocostalis Cervicis"
     ],
@@ -54910,7 +55040,9 @@
     "instructions": "Passively stretch Flexor Digitorum Superficialis (Radial head) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Digitorum Superficialis (Radial head) (Left)"
+    ],
     "secondary_muscles": [
       "Flexor Digitorum Superficialis (Radial head) (Left)"
     ],
@@ -55123,7 +55255,9 @@
     "instructions": "Move the joint actively through full ROM of the Puboprostaticus (Males), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Puboprostaticus (Males)"
+    ],
     "secondary_muscles": [
       "Puboprostaticus (Males)"
     ],
@@ -55195,7 +55329,9 @@
     "instructions": "Passively stretch Extensor Pollicis Brevis (Right) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Extensor Pollicis Brevis (Right)"
+    ],
     "secondary_muscles": [
       "Extensor Pollicis Brevis (Right)"
     ],
@@ -55265,7 +55401,9 @@
     "instructions": "Move the joint actively through full ROM of the Extensor Pollicis Brevis (Right), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Extensor Pollicis Brevis (Right)"
+    ],
     "secondary_muscles": [
       "Extensor Pollicis Brevis (Right)"
     ],
@@ -55549,7 +55687,9 @@
     "instructions": "Move the joint actively through full ROM of the Intertransversarii Medialis (L2-L3), holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Intertransversarii Medialis (L2-L3)"
+    ],
     "secondary_muscles": [
       "Intertransversarii Medialis (L2-L3)"
     ],
@@ -55692,7 +55832,9 @@
     "instructions": "Passively stretch Flexor Digitorum Brevis to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Digitorum Brevis"
+    ],
     "secondary_muscles": [
       "Flexor Digitorum Brevis"
     ],
@@ -56047,7 +56189,9 @@
     "instructions": "Passively stretch Multifidus T6 (to T4-T5) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Multifidus T6 (to T4-T5)"
+    ],
     "secondary_muscles": [
       "Multifidus T6 (to T4-T5)"
     ],
@@ -56401,7 +56545,9 @@
     "instructions": "Passively stretch Adductor Magnus (Adductor portion) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Adductor Magnus (Adductor portion) (Left)"
+    ],
     "secondary_muscles": [
       "Adductor Magnus (Adductor portion) (Left)"
     ],
@@ -56541,7 +56687,9 @@
     "instructions": "Passively stretch Pronator Teres (Humeral head) (Left) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Pronator Teres (Humeral head) (Left)"
+    ],
     "secondary_muscles": [
       "Pronator Teres (Humeral head) (Left)"
     ],
@@ -57105,7 +57253,9 @@
     "instructions": "Place foam roller under Sartorius (Right). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Sartorius (Right)"
+    ],
     "secondary_muscles": [
       "Sartorius (Right)"
     ],
@@ -57245,7 +57395,9 @@
     "instructions": "Passively stretch Interspinales Cervicis (C3-C4) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Interspinales Cervicis (C3-C4)"
+    ],
     "secondary_muscles": [
       "Interspinales Cervicis (C3-C4)"
     ],
@@ -57458,7 +57610,9 @@
     "instructions": "Move the joint actively through full ROM of the Teres Minor, holding end range briefly before returning.",
     "sets_reps": "2 x 10 reps each side",
     "clinical_notes": "Use as warm-up. Avoid bouncing; controlled motion only.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Teres Minor"
+    ],
     "secondary_muscles": [
       "Teres Minor"
     ],
@@ -57601,7 +57755,9 @@
     "instructions": "Passively stretch Pectoralis Major (Abdominal head) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Pectoralis Major (Abdominal head)"
+    ],
     "secondary_muscles": [
       "Pectoralis Major (Abdominal head)"
     ],
@@ -58025,7 +58181,9 @@
     "instructions": "Passively stretch External Intercostals to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "External Intercostals"
+    ],
     "secondary_muscles": [
       "External Intercostals"
     ],
@@ -58520,7 +58678,9 @@
     "instructions": "Place foam roller under External Intercostal (5th space). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "External Intercostal (5th space)"
+    ],
     "secondary_muscles": [
       "External Intercostal (5th space)"
     ],
@@ -58660,7 +58820,9 @@
     "instructions": "Place foam roller under Flexor Pollicis Brevis (Deep head) (Left). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Pollicis Brevis (Deep head) (Left)"
+    ],
     "secondary_muscles": [
       "Flexor Pollicis Brevis (Deep head) (Left)"
     ],
@@ -58730,7 +58892,9 @@
     "instructions": "Place foam roller under Flexor Carpi Ulnaris. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Flexor Carpi Ulnaris"
+    ],
     "secondary_muscles": [
       "Flexor Carpi Ulnaris"
     ],
@@ -58943,7 +59107,9 @@
     "instructions": "Place foam roller under Vastus Medialis Oblique (VMO). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Vastus Medialis Oblique (VMO)"
+    ],
     "secondary_muscles": [
       "Vastus Medialis Oblique (VMO)"
     ],
@@ -59154,7 +59320,9 @@
     "instructions": "Passively stretch 2nd Lumbrical (Foot) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "2nd Lumbrical (Foot)"
+    ],
     "secondary_muscles": [
       "2nd Lumbrical (Foot)"
     ],
@@ -59578,7 +59746,9 @@
     "instructions": "Place foam roller under Intertransversarii Lateralis (L1-L2). Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Intertransversarii Lateralis (L1-L2)"
+    ],
     "secondary_muscles": [
       "Intertransversarii Lateralis (L1-L2)"
     ],
@@ -59648,7 +59818,9 @@
     "instructions": "Passively stretch Intertransversarii Lateralis (L1-L2) to first resistance. Contract isometrically 5 sec, relax, then increase stretch.",
     "sets_reps": "3-4 cycles x 30 sec each",
     "clinical_notes": "Greater ROM gains than static stretching for most muscle groups (Sharman 2006).",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Intertransversarii Lateralis (L1-L2)"
+    ],
     "secondary_muscles": [
       "Intertransversarii Lateralis (L1-L2)"
     ],
@@ -59718,7 +59890,9 @@
     "instructions": "Place foam roller under Deep Transverse Perineal. Roll slowly from origin to insertion, pausing on tender points 30 sec.",
     "sets_reps": "1-2 min per side, pre/post exercise",
     "clinical_notes": "Improves short-term ROM without strength loss; less effective than mobility drills for long-term ROM.",
-    "primary_muscles": [],
+    "primary_muscles": [
+      "Deep Transverse Perineal"
+    ],
     "secondary_muscles": [
       "Deep Transverse Perineal"
     ],
