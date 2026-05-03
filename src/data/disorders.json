@@ -95608,7 +95608,20 @@
       "Sepsis",
       "Rapidly spreading erythema"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common systemic/any presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -95679,7 +95692,20 @@
       "Acutely painful ulcer",
       "Suspected malignancy in chronic ulcer"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common systemic/any presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -95758,7 +95784,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common systemic/any presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -95829,7 +95868,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common systemic/any presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -95900,7 +95952,20 @@
       "Cellulitis",
       "Truncal/genital swelling needing specialist input"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common systemic/any presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -96057,7 +96122,20 @@
     "red_flags": [
       "Suspected malignant change in chronic scar"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common systemic/any presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -96129,7 +96207,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common foot/ankle presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -96204,7 +96295,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common knee presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -96285,7 +96389,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common knee presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -96539,7 +96656,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Mechanical compression, traction or ischaemia of neural tissue, often combined with inflammatory mediators.",
     "epidemiology": "Common pelvis presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Local demyelination from compression/ischaemia disrupts axonal conduction; chronic compression causes axonal loss.",
@@ -96619,7 +96749,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Mechanical compression, traction or ischaemia of neural tissue, often combined with inflammatory mediators.",
     "epidemiology": "Common foot/ankle presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Local demyelination from compression/ischaemia disrupts axonal conduction; chronic compression causes axonal loss.",
@@ -96707,7 +96850,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Mechanical compression, traction or ischaemia of neural tissue, often combined with inflammatory mediators.",
     "epidemiology": "Common hip presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Local demyelination from compression/ischaemia disrupts axonal conduction; chronic compression causes axonal loss.",
@@ -96794,7 +96950,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Mechanical compression, traction or ischaemia of neural tissue, often combined with inflammatory mediators.",
     "epidemiology": "Common upper/lower extremity presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Local demyelination from compression/ischaemia disrupts axonal conduction; chronic compression causes axonal loss.",
@@ -96955,7 +97124,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common pelvis presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -97027,7 +97209,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical, biopsychosocial and tissue-specific contributors interact to produce the clinical presentation.",
     "epidemiology": "Common foot/ankle presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -97104,7 +97299,20 @@
       "Posterior dislocation (mediastinal compression)",
       "Vascular compromise"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Excessive tensile or shear load on the ligament beyond its physiological limit, typically traumatic or biomechanical.",
     "epidemiology": "Common shoulder presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Cartilage matrix breakdown, subchondral bone remodelling, synovial inflammation and capsular changes producing pain and stiffness.",
@@ -97297,7 +97505,20 @@
       "Inflammatory back pain (HLA-B27, age <45)",
       "Bilateral SI involvement"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Multifactorial — mechanical loading, age-related cartilage degeneration, prior joint injury, genetics and metabolic factors.",
     "epidemiology": "Common pelvis presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Cartilage matrix breakdown, subchondral bone remodelling, synovial inflammation and capsular changes producing pain and stiffness.",
@@ -97376,7 +97597,20 @@
       "Fever or systemic symptoms",
       "History of cancer or immunosuppression"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Excessive tensile or shear load on the ligament beyond its physiological limit, typically traumatic or biomechanical.",
     "epidemiology": "Common foot/ankle presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -97456,7 +97690,20 @@
       "Compartment syndrome of foot",
       "Open injury"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Excessive tensile or shear load on the ligament beyond its physiological limit, typically traumatic or biomechanical.",
     "epidemiology": "Common foot/ankle presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Tissue-specific structural and neurophysiological changes contribute to nociception and functional limitation.",
@@ -97610,7 +97857,20 @@
       "DVT (must be excluded)",
       "Achilles rupture (Thompson positive)"
     ],
-    "types": [],
+    "types": [
+      {
+        "name": "Acute / Reactive",
+        "note": "Recent onset, high irritability — unload & symptom-control."
+      },
+      {
+        "name": "Subacute / Reparative",
+        "note": "Decreasing irritability — graded loading and ROM."
+      },
+      {
+        "name": "Chronic / Degenerative",
+        "note": "Long-standing — heavy slow resistance & capacity building."
+      }
+    ],
     "etiology": "Eccentric overload of muscle fibres beyond tolerance, often during high-velocity activity or fatigue states.",
     "epidemiology": "Common foot/ankle presentation in MSK practice; exact prevalence varies by population and diagnostic criteria.",
     "pathophysiology": "Microscopic fibre disruption, inflammatory cascade and connective tissue remodelling during healing phases.",
