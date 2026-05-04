@@ -461,15 +461,23 @@ BASE.forEach(([name, region, category, subcategory, description]) => {
   push(name, region, category, subcategory, description);
 });
 
-// Generate variants until we exceed 800
+// Generate variants round-robin across base items so distribution is balanced
 const TARGET = 820;
-outer:
-for (const [name, region, category, subcategory, description] of BASE) {
-  if (out.length >= TARGET) break;
-  const vs = variantsFor(name, region, category, subcategory);
-  for (const v of vs) {
-    if (out.length >= TARGET) break outer;
-    push(name + v.suffix, region, category, subcategory, description + v.descSuffix);
+const allVariants = BASE.map(([name, region, category, subcategory, description]) => ({
+  name, region, category, subcategory, description,
+  variants: variantsFor(name, region, category, subcategory),
+  cursor: 0,
+}));
+
+let progress = true;
+while (out.length < TARGET && progress) {
+  progress = false;
+  for (const item of allVariants) {
+    if (out.length >= TARGET) break;
+    if (item.cursor >= item.variants.length) continue;
+    const v = item.variants[item.cursor++];
+    push(item.name + v.suffix, item.region, item.category, item.subcategory, item.description + v.descSuffix);
+    progress = true;
   }
 }
 
