@@ -95,6 +95,9 @@ export interface Disorder {
   etiology?: string;
   epidemiology?: string;
   pathophysiology?: string;
+  mechanism?: string;
+  anatomy?: string;
+  recommended_exercises?: { id: number; name: string; category?: string }[];
   clinical_presentation?: string[];
   signs_symptoms?: string[];
   imaging?: string[];
