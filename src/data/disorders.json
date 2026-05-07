@@ -74415,5 +74415,3835 @@
     ],
     "mechanism": "Systemic inflammatory or autoimmune process drives synovial inflammation, capsular thickening, cartilage and bone erosion in susceptible joints.",
     "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon."
+  },
+  {
+    "id": 821,
+    "name": "Cervical Zygapophyseal Joint Sprain",
+    "region": "Cervical",
+    "category": "Musculoskeletal",
+    "subcategory": "Joint",
+    "description": "Acute traumatic facet capsule sprain producing localised unilateral neck pain. Affects cervical motion segments and surrounding cervicoscapular musculature. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Cervical Zygapophyseal Joint Sprain on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Spurling Test",
+      "Cervical Distraction Test",
+      "Upper Limb Tension Test 1 (Median)",
+      "Lhermitte Sign",
+      "Modified Wainner Cluster (Cervical Radiculopathy)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Cervical Zygapophyseal Joint Sprain.",
+    "epidemiology": "Cervical musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Grade I (microtearing, no laxity) – Grade II (partial tear, mild laxity) – Grade III (complete rupture, gross laxity) of collagen fibres with associated capsular/synovial irritation.",
+    "clinical_presentation": [
+      "Acute traumatic facet capsule sprain producing localised unilateral neck pain."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the cervical region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Seven cervical vertebrae (C1–C7) form a lordotic curve. C1 (atlas) and C2 (axis) provide ~50% of cervical rotation. Facet joints orient ~45° in lower segments allowing flexion/extension and rotation. Stabilised by deep cervical flexors (longus colli/capitis), suboccipitals, scalenes, SCM and posterior cervical extensors. Neural structures: spinal cord, exiting nerve roots C1–C8 and the vertebral artery passing through transverse foramina C6–C1.",
+    "recommended_exercises": [
+      {
+        "id": 480,
+        "name": "Quadruped QL Side Lift",
+        "category": "Strengthening"
+      },
+      {
+        "id": 400,
+        "name": "Cervical Retraction with Overpressure",
+        "category": "Mobility"
+      },
+      {
+        "id": 467,
+        "name": "Side Bridge (McGill)",
+        "category": "Stability"
+      },
+      {
+        "id": 145,
+        "name": "Upper Trap Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 822,
+    "name": "Klippel-Feil Syndrome",
+    "region": "Cervical",
+    "category": "Musculoskeletal",
+    "subcategory": "Developmental",
+    "description": "Congenital fusion of two or more cervical vertebrae limiting motion. Affects cervical motion segments and surrounding cervicoscapular musculature. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Klippel-Feil Syndrome on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test",
+      "Tinel Sign at Cubital Tunnel",
+      "Elbow Flexion Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Klippel-Feil Syndrome.",
+    "epidemiology": "Cervical musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the developmental of the cervical region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Congenital fusion of two or more cervical vertebrae limiting motion."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the cervical region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Seven cervical vertebrae (C1–C7) form a lordotic curve. C1 (atlas) and C2 (axis) provide ~50% of cervical rotation. Facet joints orient ~45° in lower segments allowing flexion/extension and rotation. Stabilised by deep cervical flexors (longus colli/capitis), suboccipitals, scalenes, SCM and posterior cervical extensors. Neural structures: spinal cord, exiting nerve roots C1–C8 and the vertebral artery passing through transverse foramina C6–C1.",
+    "recommended_exercises": [
+      {
+        "id": 992,
+        "name": "Loaded Neck Harness Flexion",
+        "category": "Strengthening"
+      },
+      {
+        "id": 466,
+        "name": "Seated Thoracic Extension",
+        "category": "Mobility"
+      },
+      {
+        "id": 459,
+        "name": "Bird Dog",
+        "category": "Stability"
+      },
+      {
+        "id": 311,
+        "name": "Prayer Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 823,
+    "name": "Cervical Foraminal Stenosis",
+    "region": "Cervical",
+    "category": "Musculoskeletal",
+    "subcategory": "Stenosis",
+    "description": "Narrowing of the intervertebral foramen producing radicular symptoms. Affects cervical motion segments and surrounding cervicoscapular musculature. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Cervical Foraminal Stenosis on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Spurling Test",
+      "Cervical Distraction Test",
+      "Upper Limb Tension Test 1 (Median)",
+      "Lhermitte Sign",
+      "Modified Wainner Cluster (Cervical Radiculopathy)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Cervical Foraminal Stenosis.",
+    "epidemiology": "Cervical musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the stenosis of the cervical region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Narrowing of the intervertebral foramen producing radicular symptoms."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Progressive narrowing of central canal or lateral foramen by disc bulge, ligamentum flavum hypertrophy and facet osteophytes; vascular compromise of nerve roots produces neurogenic claudication or radicular symptoms.",
+    "anatomy": "Seven cervical vertebrae (C1–C7) form a lordotic curve. C1 (atlas) and C2 (axis) provide ~50% of cervical rotation. Facet joints orient ~45° in lower segments allowing flexion/extension and rotation. Stabilised by deep cervical flexors (longus colli/capitis), suboccipitals, scalenes, SCM and posterior cervical extensors. Neural structures: spinal cord, exiting nerve roots C1–C8 and the vertebral artery passing through transverse foramina C6–C1.",
+    "recommended_exercises": [
+      {
+        "id": 74,
+        "name": "Deep Neck Flexor Exercise (CCFT)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 71,
+        "name": "McKenzie Press-Up (Lumbar Extension)",
+        "category": "Mobility"
+      },
+      {
+        "id": 467,
+        "name": "Side Bridge (McGill)",
+        "category": "Stability"
+      },
+      {
+        "id": 551,
+        "name": "Child's Pose",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 824,
+    "name": "Suboccipital Neuralgia (Occipital)",
+    "region": "Cervical",
+    "category": "Neurological",
+    "subcategory": "Peripheral nerve",
+    "description": "Greater occipital nerve irritation producing posterior head pain. Affects cervical motion segments and surrounding cervicoscapular musculature. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Management addresses neural mobility, source of compression/irritation and graded reloading of the involved myotomes.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Suboccipital Neuralgia (Occipital) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Slump Test",
+      "Slump Test (Lumbar)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Suboccipital Neuralgia (Occipital).",
+    "epidemiology": "Cervical neurological presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the peripheral nerve of the cervical region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Greater occipital nerve irritation producing posterior head pain."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical compression, traction or chemical irritation of neural structures along the relevant pathway produces altered conduction with pain, paraesthesia, sensory or motor deficit.",
+    "anatomy": "Seven cervical vertebrae (C1–C7) form a lordotic curve. C1 (atlas) and C2 (axis) provide ~50% of cervical rotation. Facet joints orient ~45° in lower segments allowing flexion/extension and rotation. Stabilised by deep cervical flexors (longus colli/capitis), suboccipitals, scalenes, SCM and posterior cervical extensors. Neural structures: spinal cord, exiting nerve roots C1–C8 and the vertebral artery passing through transverse foramina C6–C1.",
+    "recommended_exercises": [
+      {
+        "id": 157,
+        "name": "Chin Tuck",
+        "category": "Strengthening"
+      },
+      {
+        "id": 168,
+        "name": "Cervical Retraction with Extension",
+        "category": "Mobility"
+      },
+      {
+        "id": 459,
+        "name": "Bird Dog",
+        "category": "Stability"
+      },
+      {
+        "id": 144,
+        "name": "Scalene Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 825,
+    "name": "Levator Scapulae Syndrome",
+    "region": "Cervical",
+    "category": "Musculoskeletal",
+    "subcategory": "Soft tissue",
+    "description": "Trigger-point dominated pain at the superomedial scapular angle. Affects cervical motion segments and surrounding cervicoscapular musculature. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Levator Scapulae Syndrome on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test",
+      "Tinel Sign at Cubital Tunnel",
+      "Elbow Flexion Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Levator Scapulae Syndrome.",
+    "epidemiology": "Cervical musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the soft tissue of the cervical region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Trigger-point dominated pain at the superomedial scapular angle."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the cervical region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Seven cervical vertebrae (C1–C7) form a lordotic curve. C1 (atlas) and C2 (axis) provide ~50% of cervical rotation. Facet joints orient ~45° in lower segments allowing flexion/extension and rotation. Stabilised by deep cervical flexors (longus colli/capitis), suboccipitals, scalenes, SCM and posterior cervical extensors. Neural structures: spinal cord, exiting nerve roots C1–C8 and the vertebral artery passing through transverse foramina C6–C1.",
+    "recommended_exercises": [
+      {
+        "id": 413,
+        "name": "Chin Tuck with Cervical Rotation",
+        "category": "Strengthening"
+      },
+      {
+        "id": 349,
+        "name": "Cervical Extension AROM",
+        "category": "Mobility"
+      },
+      {
+        "id": 467,
+        "name": "Side Bridge (McGill)",
+        "category": "Stability"
+      },
+      {
+        "id": 310,
+        "name": "Seated Lumbar Flexion Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 826,
+    "name": "Scheuermann's Kyphosis",
+    "region": "Thoracic",
+    "category": "Musculoskeletal",
+    "subcategory": "Deformity",
+    "description": "Adolescent rigid kyphosis with vertebral wedging on imaging. Involves the thoracic spine, costovertebral articulations and posterior chain. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Scheuermann's Kyphosis on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Thoracic Spring Test",
+      "Adam's Forward Bend",
+      "Slump Test",
+      "Rib Compression"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Scheuermann's Kyphosis.",
+    "epidemiology": "Thoracic musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the deformity of the thoracic region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Adolescent rigid kyphosis with vertebral wedging on imaging."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the thoracic region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Twelve thoracic vertebrae articulate with ribs via costovertebral and costotransverse joints, producing a kyphotic curve. Facet orientation favours rotation while limiting flexion/extension. Stabilised by erector spinae, multifidus, rotatores, rhomboids, middle/lower trapezius and the diaphragm/intercostals.",
+    "recommended_exercises": [
+      {
+        "id": 309,
+        "name": "Prone Extension (Swan)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 214,
+        "name": "Thoracic Self-Mobilisation (TPAM)",
+        "category": "Mobility"
+      },
+      {
+        "id": 459,
+        "name": "Bird Dog",
+        "category": "Stability"
+      },
+      {
+        "id": 305,
+        "name": "Child's Pose",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 827,
+    "name": "Lumbar Discogenic Low Back Pain",
+    "region": "Lumbar",
+    "category": "Musculoskeletal",
+    "subcategory": "Disc",
+    "description": "Internal disc disruption with axial pain worse with sitting and flexion. Involves the lumbar motion segments, paraspinals and lumbopelvic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Lumbar Discogenic Low Back Pain on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Crossed Straight Leg Raise",
+      "Straight Leg Raise (SLR)",
+      "Slump Test (Lumbar)",
+      "Crossed SLR",
+      "Bowstring Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Lumbar Discogenic Low Back Pain.",
+    "epidemiology": "Lumbar musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the disc of the lumbar region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Internal disc disruption with axial pain worse with sitting and flexion."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the lumbar region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Five lumbar vertebrae (L1–L5) form a lordotic curve over the sacrum. Sagittally oriented facets favour flexion/extension and limit rotation. Intervertebral discs (anulus fibrosus + nucleus pulposus) bear axial load. Stabilised by multifidus, transversus abdominis, erector spinae, quadratus lumborum and the thoracolumbar fascia. Cauda equina contains L2–S5 nerve roots.",
+    "recommended_exercises": [
+      {
+        "id": 71,
+        "name": "McKenzie Press-Up (Lumbar Extension)",
+        "category": "Mobility"
+      },
+      {
+        "id": 135,
+        "name": "Prone Press-Up (Cobra)",
+        "category": "Mobility"
+      },
+      {
+        "id": 277,
+        "name": "Sciatic Nerve Slider",
+        "category": "Mobility"
+      },
+      {
+        "id": 278,
+        "name": "Sciatic Nerve Tensioner",
+        "category": "Mobility"
+      },
+      {
+        "id": 70,
+        "name": "Cat-Cow Stretch",
+        "category": "Mobility"
+      },
+      {
+        "id": 62,
+        "name": "Bird Dog",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 828,
+    "name": "Lumbar Spondylolysis (Pars Defect)",
+    "region": "Lumbar",
+    "category": "Musculoskeletal",
+    "subcategory": "Bone",
+    "description": "Stress fracture of pars interarticularis, common in young athletes performing repeated extension. Involves the lumbar motion segments, paraspinals and lumbopelvic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Lumbar Spondylolysis (Pars Defect) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "One-Leg Hyperextension Test",
+      "Stork Test Test",
+      "Lumbar Extension Test",
+      "Crossed Straight Leg Raise",
+      "Straight Leg Raise (SLR)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Lumbar Spondylolysis (Pars Defect).",
+    "epidemiology": "Lumbar musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the bone of the lumbar region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Stress fracture of pars interarticularis, common in young athletes performing repeated extension."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Repetitive lumbar extension-rotation (e.g. fast bowling, gymnastics) creates pars interarticularis stress fracture; bilateral defects allow anterior vertebral translation.",
+    "anatomy": "Five lumbar vertebrae (L1–L5) form a lordotic curve over the sacrum. Sagittally oriented facets favour flexion/extension and limit rotation. Intervertebral discs (anulus fibrosus + nucleus pulposus) bear axial load. Stabilised by multifidus, transversus abdominis, erector spinae, quadratus lumborum and the thoracolumbar fascia. Cauda equina contains L2–S5 nerve roots.",
+    "recommended_exercises": [
+      {
+        "id": 219,
+        "name": "Multifidus Activation (Prone)",
+        "category": "Isometric"
+      },
+      {
+        "id": 218,
+        "name": "Transversus Abdominis Activation",
+        "category": "Isometric"
+      },
+      {
+        "id": 220,
+        "name": "Modified Curl-Up (McGill)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 64,
+        "name": "Side Plank",
+        "category": "Strengthening"
+      },
+      {
+        "id": 62,
+        "name": "Bird Dog",
+        "category": "Strengthening"
+      },
+      {
+        "id": 61,
+        "name": "Dead Bug",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 829,
+    "name": "Baastrup's Disease (Kissing Spine)",
+    "region": "Lumbar",
+    "category": "Musculoskeletal",
+    "subcategory": "Joint",
+    "description": "Painful contact between adjacent lumbar spinous processes in extension. Involves the lumbar motion segments, paraspinals and lumbopelvic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Baastrup's Disease (Kissing Spine) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Straight Leg Raise (SLR)",
+      "Slump Test",
+      "Prone Instability Test",
+      "FABER Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Baastrup's Disease (Kissing Spine).",
+    "epidemiology": "Lumbar musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the joint of the lumbar region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Painful contact between adjacent lumbar spinous processes in extension."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the lumbar region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Five lumbar vertebrae (L1–L5) form a lordotic curve over the sacrum. Sagittally oriented facets favour flexion/extension and limit rotation. Intervertebral discs (anulus fibrosus + nucleus pulposus) bear axial load. Stabilised by multifidus, transversus abdominis, erector spinae, quadratus lumborum and the thoracolumbar fascia. Cauda equina contains L2–S5 nerve roots.",
+    "recommended_exercises": [
+      {
+        "id": 531,
+        "name": "Hanging Leg Raise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 472,
+        "name": "QL Release (Tennis Ball)",
+        "category": "Mobility"
+      },
+      {
+        "id": 467,
+        "name": "Side Bridge (McGill)",
+        "category": "Stability"
+      },
+      {
+        "id": 148,
+        "name": "Splenius Capitis Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 830,
+    "name": "Calcific Tendinopathy of Supraspinatus",
+    "region": "Shoulder",
+    "category": "Musculoskeletal",
+    "subcategory": "Tendon",
+    "description": "Hydroxyapatite calcium deposit within rotator cuff tendon producing acute severe shoulder pain. Affects the glenohumeral joint, rotator cuff and scapulothoracic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Calcific Tendinopathy of Supraspinatus on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Empty Can / Jobe Test",
+      "Hawkins-Kennedy Test",
+      "Neer Impingement Test",
+      "Drop Arm Test",
+      "External Rotation Lag Sign"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Calcific Tendinopathy of Supraspinatus.",
+    "epidemiology": "Shoulder musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Tendinopathic continuum (Cook & Purdam): reactive tendinopathy → tendon dysrepair → degenerative tendinopathy. Histology shows collagen disorganisation, increased ground substance, neovascularisation and absence of classic inflammatory infiltrate.",
+    "clinical_presentation": [
+      "Hydroxyapatite calcium deposit within rotator cuff tendon producing acute severe shoulder pain."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Repetitive overhead loading, eccentric overload, age-related tendon degeneration and/or compressive contact under the acromion produce intratendinous disorganisation, partial- or full-thickness tearing.",
+    "anatomy": "Glenohumeral joint is a shallow ball-and-socket relying on the rotator cuff (supraspinatus, infraspinatus, teres minor, subscapularis), labrum and capsuloligamentous complex. Scapulothoracic articulation, AC and SC joints contribute to ~60° scapular rotation during arm elevation (scapulohumeral rhythm). Subacromial space contains supraspinatus tendon, long head of biceps and subacromial bursa.",
+    "recommended_exercises": [
+      {
+        "id": 45,
+        "name": "Side-Lying External Rotation",
+        "category": "Strengthening"
+      },
+      {
+        "id": 354,
+        "name": "Empty Can Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 44,
+        "name": "Prone Y (Lower Trapezius)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 43,
+        "name": "Prone T (Middle Trapezius)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 40,
+        "name": "Serratus Anterior Punch",
+        "category": "Strengthening"
+      },
+      {
+        "id": 283,
+        "name": "Scapular Retraction",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 831,
+    "name": "Long Head of Biceps Tendinopathy",
+    "region": "Shoulder",
+    "category": "Musculoskeletal",
+    "subcategory": "Tendon",
+    "description": "Anterior shoulder pain over bicipital groove with overhead activity. Affects the glenohumeral joint, rotator cuff and scapulothoracic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Long Head of Biceps Tendinopathy on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Speed Test",
+      "Yergason Test",
+      "O'Brien Active Compression",
+      "Upper Cut Test",
+      "Single Leg Decline Squat"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Long Head of Biceps Tendinopathy.",
+    "epidemiology": "Shoulder musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Tendinopathic continuum (Cook & Purdam): reactive tendinopathy → tendon dysrepair → degenerative tendinopathy. Histology shows collagen disorganisation, increased ground substance, neovascularisation and absence of classic inflammatory infiltrate.",
+    "clinical_presentation": [
+      "Anterior shoulder pain over bicipital groove with overhead activity."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the shoulder region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Glenohumeral joint is a shallow ball-and-socket relying on the rotator cuff (supraspinatus, infraspinatus, teres minor, subscapularis), labrum and capsuloligamentous complex. Scapulothoracic articulation, AC and SC joints contribute to ~60° scapular rotation during arm elevation (scapulohumeral rhythm). Subacromial space contains supraspinatus tendon, long head of biceps and subacromial bursa.",
+    "recommended_exercises": [
+      {
+        "id": 830,
+        "name": "Eccentric Biceps Curl",
+        "category": "Strengthening"
+      },
+      {
+        "id": 824,
+        "name": "Isometric Biceps Hold",
+        "category": "Activation"
+      },
+      {
+        "id": 823,
+        "name": "Biceps Stretch (Wall)",
+        "category": "Stretching"
+      },
+      {
+        "id": 511,
+        "name": "Overhead Triceps Extension",
+        "category": "Strengthening"
+      },
+      {
+        "id": 370,
+        "name": "Radial Nerve Slider",
+        "category": "Mobility"
+      }
+    ]
+  },
+  {
+    "id": 832,
+    "name": "SLAP Lesion (Type II)",
+    "region": "Shoulder",
+    "category": "Musculoskeletal",
+    "subcategory": "Labrum",
+    "description": "Superior labral tear from anterior to posterior with biceps anchor involvement. Affects the glenohumeral joint, rotator cuff and scapulothoracic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with SLAP Lesion (Type II) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "O'Brien Active Compression",
+      "Crank Test",
+      "Anterior Slide Test",
+      "Speed Test",
+      "Biceps Load Test II"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in SLAP Lesion (Type II).",
+    "epidemiology": "Shoulder musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Fibrocartilaginous labral tear at the capsulolabral junction; classified by location (anterior/superior/posterior) and morphology (fraying, flap, bucket-handle, SLAP I–IV).",
+    "clinical_presentation": [
+      "Superior labral tear from anterior to posterior with biceps anchor involvement."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Traction (FOOSH with arm overhead, biceps load) or translation (anterior dislocation) injures the glenoid labrum at its capsulolabral attachment, creating instability and clicking.",
+    "anatomy": "Glenohumeral joint is a shallow ball-and-socket relying on the rotator cuff (supraspinatus, infraspinatus, teres minor, subscapularis), labrum and capsuloligamentous complex. Scapulothoracic articulation, AC and SC joints contribute to ~60° scapular rotation during arm elevation (scapulohumeral rhythm). Subacromial space contains supraspinatus tendon, long head of biceps and subacromial bursa.",
+    "recommended_exercises": [
+      {
+        "id": 190,
+        "name": "Rhythmic Stabilisation Shoulder",
+        "category": "Isometric"
+      },
+      {
+        "id": 871,
+        "name": "Scapular Setting",
+        "category": "Activation"
+      },
+      {
+        "id": 45,
+        "name": "Side-Lying External Rotation",
+        "category": "Strengthening"
+      },
+      {
+        "id": 40,
+        "name": "Serratus Anterior Punch",
+        "category": "Strengthening"
+      },
+      {
+        "id": 571,
+        "name": "Closed-Chain Flexor Digiti Minimi Brevis (Hand) (Right) Activation",
+        "category": "Functional"
+      }
+    ]
+  },
+  {
+    "id": 833,
+    "name": "Posterior Shoulder Tightness (GIRD)",
+    "region": "Shoulder",
+    "category": "Musculoskeletal",
+    "subcategory": "Capsule",
+    "description": "Glenohumeral internal rotation deficit common in throwing athletes. Affects the glenohumeral joint, rotator cuff and scapulothoracic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Posterior Shoulder Tightness (GIRD) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Apley's Scratch Test",
+      "Jerk Test",
+      "Posterior Apprehension Test",
+      "Apprehension Test",
+      "Relocation Test (Jobe)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Posterior Shoulder Tightness (GIRD).",
+    "epidemiology": "Shoulder musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the capsule of the shoulder region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Glenohumeral internal rotation deficit common in throwing athletes."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the shoulder region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Glenohumeral joint is a shallow ball-and-socket relying on the rotator cuff (supraspinatus, infraspinatus, teres minor, subscapularis), labrum and capsuloligamentous complex. Scapulothoracic articulation, AC and SC joints contribute to ~60° scapular rotation during arm elevation (scapulohumeral rhythm). Subacromial space contains supraspinatus tendon, long head of biceps and subacromial bursa.",
+    "recommended_exercises": [
+      {
+        "id": 542,
+        "name": "Cable External Rotation",
+        "category": "Strengthening"
+      },
+      {
+        "id": 642,
+        "name": "Abductor Pollicis Brevis (Right) Dynamic Stretch",
+        "category": "Mobility"
+      },
+      {
+        "id": 932,
+        "name": "Forearm Supination Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 834,
+    "name": "Quadrilateral Space Syndrome",
+    "region": "Shoulder",
+    "category": "Neurological",
+    "subcategory": "Peripheral nerve",
+    "description": "Compression of axillary nerve in quadrilateral space producing posterior shoulder pain and deltoid weakness. Affects the glenohumeral joint, rotator cuff and scapulothoracic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Management addresses neural mobility, source of compression/irritation and graded reloading of the involved myotomes.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Quadrilateral Space Syndrome on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Cozen's Test",
+      "Mill's Test",
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Quadrilateral Space Syndrome.",
+    "epidemiology": "Shoulder neurological presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the peripheral nerve of the shoulder region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Compression of axillary nerve in quadrilateral space producing posterior shoulder pain and deltoid weakness."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical compression, traction or chemical irritation of neural structures along the relevant pathway produces altered conduction with pain, paraesthesia, sensory or motor deficit.",
+    "anatomy": "Glenohumeral joint is a shallow ball-and-socket relying on the rotator cuff (supraspinatus, infraspinatus, teres minor, subscapularis), labrum and capsuloligamentous complex. Scapulothoracic articulation, AC and SC joints contribute to ~60° scapular rotation during arm elevation (scapulohumeral rhythm). Subacromial space contains supraspinatus tendon, long head of biceps and subacromial bursa.",
+    "recommended_exercises": [
+      {
+        "id": 581,
+        "name": "Brachioradialis (Left) Isometric Hold",
+        "category": "Strengthening"
+      },
+      {
+        "id": 680,
+        "name": "PNF Stretch for Trapezius (Middle Fibres)",
+        "category": "Mobility"
+      },
+      {
+        "id": 322,
+        "name": "Wrist Flexion Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 835,
+    "name": "Distal Biceps Tendon Rupture",
+    "region": "Elbow",
+    "category": "Musculoskeletal",
+    "subcategory": "Tendon",
+    "description": "Sudden eccentric load (lifting) ruptures distal biceps with audible pop and reverse Popeye sign. Involves the elbow joint complex and surrounding myotendinous structures. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Distal Biceps Tendon Rupture on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Speed Test",
+      "Yergason Test",
+      "O'Brien Active Compression",
+      "Upper Cut Test",
+      "Thompson Test (Simmonds)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Distal Biceps Tendon Rupture.",
+    "epidemiology": "Elbow musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Tendinopathic continuum (Cook & Purdam): reactive tendinopathy → tendon dysrepair → degenerative tendinopathy. Histology shows collagen disorganisation, increased ground substance, neovascularisation and absence of classic inflammatory infiltrate.",
+    "clinical_presentation": [
+      "Sudden eccentric load (lifting) ruptures distal biceps with audible pop and reverse Popeye sign."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the elbow region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Hinge (ulnohumeral, radiohumeral) and pivot (proximal radioulnar) joints. Medial collateral ligament (UCL) resists valgus; lateral collateral ligament complex resists varus and posterolateral rotatory instability. Common extensor origin (lateral epicondyle) and common flexor origin (medial epicondyle). Ulnar nerve passes through cubital tunnel.",
+    "recommended_exercises": [
+      {
+        "id": 608,
+        "name": "Flexor Pollicis Brevis (Superficial head) (Left) Eccentric Loading",
+        "category": "Strengthening"
+      },
+      {
+        "id": 356,
+        "name": "Supine Flexion with Dowel",
+        "category": "Mobility"
+      },
+      {
+        "id": 548,
+        "name": "Pec Stretch (Doorway)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 836,
+    "name": "Posterior Interosseous Nerve Syndrome",
+    "region": "Elbow",
+    "category": "Neurological",
+    "subcategory": "Peripheral nerve",
+    "description": "Compression of PIN at arcade of Frohse producing finger extensor weakness without sensory loss. Involves the elbow joint complex and surrounding myotendinous structures. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Management addresses neural mobility, source of compression/irritation and graded reloading of the involved myotomes.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Posterior Interosseous Nerve Syndrome on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Jerk Test",
+      "Posterior Apprehension Test",
+      "Upper Limb Tension Test 1 (Median)",
+      "Roos Test (EAST)",
+      "Neer Impingement Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Posterior Interosseous Nerve Syndrome.",
+    "epidemiology": "Elbow neurological presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Sunderland classification (I–V) describes severity from neurapraxia (conduction block) through axonotmesis to neurotmesis. Compression produces ischaemia, demyelination and eventually axonal loss.",
+    "clinical_presentation": [
+      "Compression of PIN at arcade of Frohse producing finger extensor weakness without sensory loss."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical compression, traction or chemical irritation of neural structures along the relevant pathway produces altered conduction with pain, paraesthesia, sensory or motor deficit.",
+    "anatomy": "Hinge (ulnohumeral, radiohumeral) and pivot (proximal radioulnar) joints. Medial collateral ligament (UCL) resists valgus; lateral collateral ligament complex resists varus and posterolateral rotatory instability. Common extensor origin (lateral epicondyle) and common flexor origin (medial epicondyle). Ulnar nerve passes through cubital tunnel.",
+    "recommended_exercises": [
+      {
+        "id": 630,
+        "name": "3rd Palmar Interosseous (Left) Eccentric Loading",
+        "category": "Strengthening"
+      },
+      {
+        "id": 562,
+        "name": "Foam Rolling – Extensor Carpi Radialis Longus (Right)",
+        "category": "Mobility"
+      },
+      {
+        "id": 58,
+        "name": "Sleeper Stretch (Posterior Capsule)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 837,
+    "name": "Little League Elbow",
+    "region": "Elbow",
+    "category": "Musculoskeletal",
+    "subcategory": "Apophysitis",
+    "description": "Medial epicondylar apophysitis from repetitive throwing valgus stress in skeletally immature pitchers. Involves the elbow joint complex and surrounding myotendinous structures. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Little League Elbow on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Resisted Elbow Flexion (Brachialis)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Little League Elbow.",
+    "epidemiology": "Elbow musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the apophysitis of the elbow region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Medial epicondylar apophysitis from repetitive throwing valgus stress in skeletally immature pitchers."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the elbow region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Hinge (ulnohumeral, radiohumeral) and pivot (proximal radioulnar) joints. Medial collateral ligament (UCL) resists valgus; lateral collateral ligament complex resists varus and posterolateral rotatory instability. Common extensor origin (lateral epicondyle) and common flexor origin (medial epicondyle). Ulnar nerve passes through cubital tunnel.",
+    "recommended_exercises": [
+      {
+        "id": 686,
+        "name": "Flexor Pollicis Brevis (Deep head) (Right) Isometric Hold",
+        "category": "Strengthening"
+      },
+      {
+        "id": 631,
+        "name": "3rd Palmar Interosseous (Left) Dynamic Stretch",
+        "category": "Mobility"
+      },
+      {
+        "id": 390,
+        "name": "Pec Major Stretch (Corner)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 838,
+    "name": "Kienböck's Disease",
+    "region": "Wrist/Hand",
+    "category": "Musculoskeletal",
+    "subcategory": "Bone",
+    "description": "Avascular necrosis of the lunate producing dorsal wrist pain and stiffness. Affects the carpus and/or hand intrinsic and extrinsic structures. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Kienböck's Disease on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Phalen's Test",
+      "Tinel's Sign",
+      "Finkelstein's Test",
+      "Watson's Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Kienböck's Disease.",
+    "epidemiology": "Wrist/Hand musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the bone of the wrist/hand region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Avascular necrosis of the lunate producing dorsal wrist pain and stiffness."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the wrist/hand region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Eight carpal bones in two rows form the radiocarpal and midcarpal joints. The TFCC stabilises the distal radioulnar joint. The carpal tunnel (transverse carpal ligament + carpal arch) houses the median nerve and 9 flexor tendons. Intrinsic muscles (thenar, hypothenar, lumbricals, interossei) drive fine motor control.",
+    "recommended_exercises": [
+      {
+        "id": 753,
+        "name": "Abductor Digiti Minimi (Hand) (Right) Eccentric Loading",
+        "category": "Strengthening"
+      },
+      {
+        "id": 676,
+        "name": "PNF Stretch for Brachioradialis (Right)",
+        "category": "Mobility"
+      },
+      {
+        "id": 823,
+        "name": "Biceps Stretch (Wall)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 839,
+    "name": "Triangular Fibrocartilage Complex (TFCC) Tear",
+    "region": "Wrist/Hand",
+    "category": "Musculoskeletal",
+    "subcategory": "Cartilage",
+    "description": "Ulnar-sided wrist pain with clicking on rotation. Affects the carpus and/or hand intrinsic and extrinsic structures. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Triangular Fibrocartilage Complex (TFCC) Tear on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "TFCC Load Test",
+      "Belly-Press Test",
+      "Ulnar Fovea Sign Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Triangular Fibrocartilage Complex (TFCC) Tear.",
+    "epidemiology": "Wrist/Hand musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the cartilage of the wrist/hand region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Ulnar-sided wrist pain with clicking on rotation."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the wrist/hand region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Eight carpal bones in two rows form the radiocarpal and midcarpal joints. The TFCC stabilises the distal radioulnar joint. The carpal tunnel (transverse carpal ligament + carpal arch) houses the median nerve and 9 flexor tendons. Intrinsic muscles (thenar, hypothenar, lumbricals, interossei) drive fine motor control.",
+    "recommended_exercises": [
+      {
+        "id": 201,
+        "name": "Wrist Pronation/Supination",
+        "category": "Mobility"
+      },
+      {
+        "id": 208,
+        "name": "Wrist Dart Thrower's Motion",
+        "category": "Functional"
+      },
+      {
+        "id": 56,
+        "name": "Grip Strengthening (Hand Squeeze)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 789,
+        "name": "Open-Chain Supinator (Right) Strengthening",
+        "category": "Strengthening"
+      },
+      {
+        "id": 750,
+        "name": "PNF Stretch for Extensor Pollicis Brevis (Right)",
+        "category": "Mobility"
+      }
+    ]
+  },
+  {
+    "id": 840,
+    "name": "Snapping Hip Syndrome (Internal)",
+    "region": "Hip",
+    "category": "Musculoskeletal",
+    "subcategory": "Soft tissue",
+    "description": "Iliopsoas snapping over iliopectineal eminence producing audible/palpable snap. Involves the hip joint, surrounding capsuloligamentous structures and gluteal complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Snapping Hip Syndrome (Internal) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Snapping Hip Test Test",
+      "Hip Circumduction Test",
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Snapping Hip Syndrome (Internal).",
+    "epidemiology": "Hip musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the soft tissue of the hip region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Iliopsoas snapping over iliopectineal eminence producing audible/palpable snap."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Iliopsoas tendon over iliopectineal eminence (internal) or ITB over greater trochanter (external) produces palpable/audible snap during hip motion.",
+    "anatomy": "Deep ball-and-socket joint with a fibrocartilaginous labrum. Iliofemoral, pubofemoral and ischiofemoral ligaments form a strong capsule. Primary movers: gluteals, iliopsoas, adductors, hip rotators (piriformis et al.), and hamstrings. Vascular supply via medial/lateral femoral circumflex arteries — clinically relevant in femoral neck fractures.",
+    "recommended_exercises": [
+      {
+        "id": 233,
+        "name": "Hip Flexor Stretch (Thomas Position)",
+        "category": "Stretching"
+      },
+      {
+        "id": 1000,
+        "name": "Half-Kneeling Hip Flexor Stretch",
+        "category": "Stretching"
+      },
+      {
+        "id": 13,
+        "name": "Clamshell Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 24,
+        "name": "Glute Bridge",
+        "category": "Strengthening"
+      },
+      {
+        "id": 1018,
+        "name": "Piriformis Eccentric Loading",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 841,
+    "name": "Snapping Hip Syndrome (External)",
+    "region": "Hip",
+    "category": "Musculoskeletal",
+    "subcategory": "Soft tissue",
+    "description": "ITB snapping over greater trochanter, often visible. Involves the hip joint, surrounding capsuloligamentous structures and gluteal complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Snapping Hip Syndrome (External) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Snapping Hip Test Test",
+      "Hip Circumduction Test",
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Snapping Hip Syndrome (External).",
+    "epidemiology": "Hip musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the soft tissue of the hip region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "ITB snapping over greater trochanter, often visible."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Iliopsoas tendon over iliopectineal eminence (internal) or ITB over greater trochanter (external) produces palpable/audible snap during hip motion.",
+    "anatomy": "Deep ball-and-socket joint with a fibrocartilaginous labrum. Iliofemoral, pubofemoral and ischiofemoral ligaments form a strong capsule. Primary movers: gluteals, iliopsoas, adductors, hip rotators (piriformis et al.), and hamstrings. Vascular supply via medial/lateral femoral circumflex arteries — clinically relevant in femoral neck fractures.",
+    "recommended_exercises": [
+      {
+        "id": 233,
+        "name": "Hip Flexor Stretch (Thomas Position)",
+        "category": "Stretching"
+      },
+      {
+        "id": 1000,
+        "name": "Half-Kneeling Hip Flexor Stretch",
+        "category": "Stretching"
+      },
+      {
+        "id": 13,
+        "name": "Clamshell Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 24,
+        "name": "Glute Bridge",
+        "category": "Strengthening"
+      },
+      {
+        "id": 1026,
+        "name": "Supine Marching",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 842,
+    "name": "Ischiofemoral Impingement",
+    "region": "Hip",
+    "category": "Musculoskeletal",
+    "subcategory": "Joint",
+    "description": "Narrowing between ischium and lesser trochanter producing posterior hip pain. Involves the hip joint, surrounding capsuloligamentous structures and gluteal complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Ischiofemoral Impingement on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Hawkins-Kennedy Test",
+      "Neer Impingement Test",
+      "Painful Arc",
+      "Empty Can / Jobe Test",
+      "Fulcrum Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Ischiofemoral Impingement.",
+    "epidemiology": "Hip musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the joint of the hip region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Narrowing between ischium and lesser trochanter producing posterior hip pain."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Reduced subacromial space (postural, scapular dyskinesis, acromial morphology, GIRD) compresses supraspinatus tendon and bursa during elevation, producing pain and tendinopathic change.",
+    "anatomy": "Deep ball-and-socket joint with a fibrocartilaginous labrum. Iliofemoral, pubofemoral and ischiofemoral ligaments form a strong capsule. Primary movers: gluteals, iliopsoas, adductors, hip rotators (piriformis et al.), and hamstrings. Vascular supply via medial/lateral femoral circumflex arteries — clinically relevant in femoral neck fractures.",
+    "recommended_exercises": [
+      {
+        "id": 45,
+        "name": "Side-Lying External Rotation",
+        "category": "Strengthening"
+      },
+      {
+        "id": 408,
+        "name": "Hip External Rotation Stretch",
+        "category": "Stretching"
+      },
+      {
+        "id": 354,
+        "name": "Empty Can Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 44,
+        "name": "Prone Y (Lower Trapezius)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 43,
+        "name": "Prone T (Middle Trapezius)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 40,
+        "name": "Serratus Anterior Punch",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 843,
+    "name": "Iliotibial Band Syndrome",
+    "region": "Knee",
+    "category": "Musculoskeletal",
+    "subcategory": "Soft tissue",
+    "description": "Lateral knee pain at ~30° flexion in runners and cyclists. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Iliotibial Band Syndrome on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Ober Test",
+      "Noble Compression Test",
+      "Renne Test",
+      "Roos Test (EAST)",
+      "Neer Impingement Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Iliotibial Band Syndrome.",
+    "epidemiology": "Knee musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the soft tissue of the knee region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Lateral knee pain at ~30° flexion in runners and cyclists."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Repetitive friction or compression of the distal ITB against the lateral femoral epicondyle during 30° knee flexion (runners, cyclists).",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 11,
+        "name": "ITB Stretch (Standing)",
+        "category": "Stretching"
+      },
+      {
+        "id": 230,
+        "name": "Side-Lying Hip Abduction",
+        "category": "Strengthening"
+      },
+      {
+        "id": 13,
+        "name": "Clamshell Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 226,
+        "name": "Single Leg Bridge",
+        "category": "Strengthening"
+      },
+      {
+        "id": 787,
+        "name": "Open-Chain Fibularis Tertius (Peroneus Tertius) Strengthening",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 844,
+    "name": "Pes Anserine Bursitis",
+    "region": "Knee",
+    "category": "Musculoskeletal",
+    "subcategory": "Bursa",
+    "description": "Medial proximal tibial pain at insertion of sartorius/gracilis/semitendinosus. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Pes Anserine Bursitis on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Lachman's Test",
+      "McMurray's Test",
+      "Valgus Stress Test",
+      "Patellar Apprehension"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Pes Anserine Bursitis.",
+    "epidemiology": "Knee musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Inflammation of synovial-lined bursa from compressive load, friction or systemic inflammatory disease, producing thickening and effusion.",
+    "clinical_presentation": [
+      "Medial proximal tibial pain at insertion of sartorius/gracilis/semitendinosus."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the knee region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 1035,
+        "name": "Heel Drop (Eccentric, Straight Knee)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 803,
+        "name": "Foam Rolling – Vastus Medialis Oblique (VMO)",
+        "category": "Mobility"
+      },
+      {
+        "id": 408,
+        "name": "Hip External Rotation Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 845,
+    "name": "Plica Syndrome (Medial)",
+    "region": "Knee",
+    "category": "Musculoskeletal",
+    "subcategory": "Soft tissue",
+    "description": "Symptomatic medial synovial plica producing snapping and anteromedial knee pain. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Plica Syndrome (Medial) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test",
+      "Reverse Cozen / Golfer Test",
+      "Valgus Stress Test (Elbow)"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Plica Syndrome (Medial).",
+    "epidemiology": "Knee musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the soft tissue of the knee region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Symptomatic medial synovial plica producing snapping and anteromedial knee pain."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the knee region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 1047,
+        "name": "Eccentric Dorsiflexion",
+        "category": "Strengthening"
+      },
+      {
+        "id": 248,
+        "name": "Patellar Mobilisation",
+        "category": "Mobility"
+      },
+      {
+        "id": 9,
+        "name": "Hamstring Stretch (Standing)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 846,
+    "name": "Patellar Subluxation",
+    "region": "Knee",
+    "category": "Musculoskeletal",
+    "subcategory": "Instability",
+    "description": "Recurrent lateral patellar instability with maltracking and apprehension. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Patellar Subluxation on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Single Leg Decline Squat",
+      "Patellar Apprehension Test",
+      "Single-Leg Decline Squat"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Patellar Subluxation.",
+    "epidemiology": "Knee musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the instability of the knee region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Recurrent lateral patellar instability with maltracking and apprehension."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the knee region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 1056,
+        "name": "Step-Down with Arch Support",
+        "category": "Strengthening"
+      },
+      {
+        "id": 617,
+        "name": "Foam Rolling – Tensor Fasciae Latae (Right)",
+        "category": "Mobility"
+      },
+      {
+        "id": 138,
+        "name": "Butterfly Adductor Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 847,
+    "name": "Bucket-Handle Meniscal Tear",
+    "region": "Knee",
+    "category": "Musculoskeletal",
+    "subcategory": "Meniscus",
+    "description": "Vertical longitudinal meniscal tear with displaced fragment producing locking. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Bucket-Handle Meniscal Tear on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "McMurray Test",
+      "Thessaly Test",
+      "Apley Compression Test",
+      "Joint Line Tenderness",
+      "Bounce Home Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Bucket-Handle Meniscal Tear.",
+    "epidemiology": "Knee musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Tear patterns: longitudinal/bucket-handle, radial, oblique/parrot-beak, horizontal cleavage, complex. Vascular zones (red-red, red-white, white-white) determine healing potential.",
+    "clinical_presentation": [
+      "Vertical longitudinal meniscal tear with displaced fragment producing locking."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Twisting on a loaded, flexed knee shears the meniscus; degenerative tears develop with chronic loading and altered biomechanics.",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 247,
+        "name": "Heel Slide",
+        "category": "Mobility"
+      },
+      {
+        "id": 90,
+        "name": "Quad Set",
+        "category": "Isometric"
+      },
+      {
+        "id": 249,
+        "name": "Single-Leg Press",
+        "category": "Strengthening"
+      },
+      {
+        "id": 242,
+        "name": "Step-Down Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 13,
+        "name": "Clamshell Exercise",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 848,
+    "name": "Sever's Disease (Calcaneal Apophysitis)",
+    "region": "Foot/Ankle",
+    "category": "Musculoskeletal",
+    "subcategory": "Apophysitis",
+    "description": "Heel pain in adolescent athletes from repetitive Achilles traction on calcaneal apophysis. Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Sever's Disease (Calcaneal Apophysitis) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Anterior Drawer (Ankle)",
+      "Talar Tilt",
+      "Squeeze Test",
+      "Thompson's Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Sever's Disease (Calcaneal Apophysitis).",
+    "epidemiology": "Foot/Ankle musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the apophysitis of the foot/ankle region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Heel pain in adolescent athletes from repetitive Achilles traction on calcaneal apophysis."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the foot/ankle region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 787,
+        "name": "Open-Chain Fibularis Tertius (Peroneus Tertius) Strengthening",
+        "category": "Strengthening"
+      },
+      {
+        "id": 767,
+        "name": "PNF Stretch for Adductor Magnus (Adductor portion) (Left)",
+        "category": "Mobility"
+      },
+      {
+        "id": 408,
+        "name": "Hip External Rotation Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 849,
+    "name": "Os Trigonum Syndrome",
+    "region": "Foot/Ankle",
+    "category": "Musculoskeletal",
+    "subcategory": "Bone",
+    "description": "Posterior ankle impingement on accessory ossicle in plantarflexion (dancers, footballers). Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Os Trigonum Syndrome on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Roos Test (EAST)",
+      "Neer Impingement Test",
+      "Hawkins-Kennedy Test",
+      "Tinel Sign at Cubital Tunnel",
+      "Elbow Flexion Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Os Trigonum Syndrome.",
+    "epidemiology": "Foot/Ankle musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the bone of the foot/ankle region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Posterior ankle impingement on accessory ossicle in plantarflexion (dancers, footballers)."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the foot/ankle region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 1041,
+        "name": "Heavy Slow Resistance Soleus Press",
+        "category": "Strengthening"
+      },
+      {
+        "id": 6,
+        "name": "Knee-to-Wall Ankle Dorsiflexion",
+        "category": "Mobility"
+      },
+      {
+        "id": 10,
+        "name": "Standing Quad Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 850,
+    "name": "Jones Fracture (5th Metatarsal)",
+    "region": "Foot/Ankle",
+    "category": "Musculoskeletal",
+    "subcategory": "Fracture",
+    "description": "Fracture at metaphyseal-diaphyseal junction with high non-union risk. Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Jones Fracture (5th Metatarsal) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Fulcrum Test",
+      "Tinel Sign at Tarsal Tunnel",
+      "Ottawa Ankle Rules",
+      "Compression / Bump Test",
+      "Tinel's Sign at Tarsal Tunnel"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Jones Fracture (5th Metatarsal).",
+    "epidemiology": "Foot/Ankle musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Cortical and/or trabecular bone failure; classification by location, pattern (transverse, oblique, spiral, comminuted), displacement and articular involvement.",
+    "clinical_presentation": [
+      "Fracture at metaphyseal-diaphyseal junction with high non-union risk."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Bone fails when applied load exceeds its strength — high-energy trauma, repetitive submaximal loading (stress fracture) or pathological weakening (osteoporosis, tumour).",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 1050,
+        "name": "Heavy Slow Resistance Dorsiflexion",
+        "category": "Strengthening"
+      },
+      {
+        "id": 577,
+        "name": "PNF Stretch for Soleus (Left)",
+        "category": "Mobility"
+      },
+      {
+        "id": 254,
+        "name": "Ankle Dorsiflexion Wall Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 851,
+    "name": "Hallux Valgus (Bunion)",
+    "region": "Foot/Ankle",
+    "category": "Musculoskeletal",
+    "subcategory": "Deformity",
+    "description": "Lateral deviation of great toe with medial eminence prominence at 1st MTP. Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Hallux Valgus (Bunion) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Anterior Drawer (Ankle)",
+      "Talar Tilt",
+      "Squeeze Test",
+      "Thompson's Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Hallux Valgus (Bunion).",
+    "epidemiology": "Foot/Ankle musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the deformity of the foot/ankle region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Lateral deviation of great toe with medial eminence prominence at 1st MTP."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Progressive lateral deviation of the great toe at the 1st MTP joint — multifactorial (genetics, footwear, first-ray hypermobility) — alters forefoot loading.",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 1060,
+        "name": "Eccentric Eversion",
+        "category": "Strengthening"
+      },
+      {
+        "id": 647,
+        "name": "Foam Rolling – Articularis Genus",
+        "category": "Mobility"
+      },
+      {
+        "id": 392,
+        "name": "Seated Groin Stretch (Butterfly)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 852,
+    "name": "Anterior Ankle Impingement (Footballer's Ankle)",
+    "region": "Foot/Ankle",
+    "category": "Musculoskeletal",
+    "subcategory": "Joint",
+    "description": "Anterior tibiotalar bony spurs producing pain with dorsiflexion. Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Anterior Ankle Impingement (Footballer's Ankle) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Hawkins-Kennedy Test",
+      "Neer Impingement Test",
+      "Painful Arc",
+      "Empty Can / Jobe Test",
+      "Apprehension Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Anterior Ankle Impingement (Footballer's Ankle).",
+    "epidemiology": "Foot/Ankle musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the joint of the foot/ankle region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Anterior tibiotalar bony spurs producing pain with dorsiflexion."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Reduced subacromial space (postural, scapular dyskinesis, acromial morphology, GIRD) compresses supraspinatus tendon and bursa during elevation, producing pain and tendinopathic change.",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 45,
+        "name": "Side-Lying External Rotation",
+        "category": "Strengthening"
+      },
+      {
+        "id": 408,
+        "name": "Hip External Rotation Stretch",
+        "category": "Stretching"
+      },
+      {
+        "id": 354,
+        "name": "Empty Can Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 44,
+        "name": "Prone Y (Lower Trapezius)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 43,
+        "name": "Prone T (Middle Trapezius)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 40,
+        "name": "Serratus Anterior Punch",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 853,
+    "name": "TMJ Disc Displacement with Reduction",
+    "region": "TMJ",
+    "category": "Musculoskeletal",
+    "subcategory": "Joint",
+    "description": "Anterior disc displacement that reduces during opening with reciprocal click. Affects the temporomandibular joint and masticatory system. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with TMJ Disc Displacement with Reduction on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "TMJ Palpation Test",
+      "TMJ AROM Test",
+      "Joint Loading Test",
+      "Mandibular Deviation Test",
+      "Lateral Deviation on Opening"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in TMJ Disc Displacement with Reduction.",
+    "epidemiology": "TMJ musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the joint of the tmj region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Anterior disc displacement that reduces during opening with reciprocal click."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Disc displacement (with/without reduction), joint capsulitis, masticatory muscle hyperactivity (bruxism/clenching) and parafunctional habits drive TMJ pain and dysfunction.",
+    "anatomy": "Bilateral condyle-fossa joint with an interposed articular disc; allows rotation (early opening) then translation (full opening). Stabilised by temporomandibular ligament, joint capsule, and masticatory muscles (temporalis, masseter, medial/lateral pterygoid). Closely linked to upper cervical posture and the trigeminal nerve.",
+    "recommended_exercises": [
+      {
+        "id": 157,
+        "name": "Chin Tuck",
+        "category": "Strengthening"
+      },
+      {
+        "id": 910,
+        "name": "Cervical Self-Mobilisation",
+        "category": "Stretching"
+      },
+      {
+        "id": 159,
+        "name": "Deep Neck Flexor Endurance Hold",
+        "category": "Isometric"
+      },
+      {
+        "id": 167,
+        "name": "Suboccipital Release Self-Massage",
+        "category": "Mobility"
+      },
+      {
+        "id": 994,
+        "name": "Resisted Lateral Flexion (Theraband)",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 854,
+    "name": "TMJ Disc Displacement without Reduction",
+    "region": "TMJ",
+    "category": "Musculoskeletal",
+    "subcategory": "Joint",
+    "description": "Closed lock — disc remains anteriorly displaced limiting mouth opening (<35 mm). Affects the temporomandibular joint and masticatory system. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with TMJ Disc Displacement without Reduction on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "TMJ Palpation Test",
+      "TMJ AROM Test",
+      "Joint Loading Test",
+      "Mandibular Deviation Test",
+      "Lateral Deviation on Opening"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in TMJ Disc Displacement without Reduction.",
+    "epidemiology": "TMJ musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the joint of the tmj region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Closed lock — disc remains anteriorly displaced limiting mouth opening (<35 mm)."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Disc displacement (with/without reduction), joint capsulitis, masticatory muscle hyperactivity (bruxism/clenching) and parafunctional habits drive TMJ pain and dysfunction.",
+    "anatomy": "Bilateral condyle-fossa joint with an interposed articular disc; allows rotation (early opening) then translation (full opening). Stabilised by temporomandibular ligament, joint capsule, and masticatory muscles (temporalis, masseter, medial/lateral pterygoid). Closely linked to upper cervical posture and the trigeminal nerve.",
+    "recommended_exercises": [
+      {
+        "id": 157,
+        "name": "Chin Tuck",
+        "category": "Strengthening"
+      },
+      {
+        "id": 910,
+        "name": "Cervical Self-Mobilisation",
+        "category": "Stretching"
+      },
+      {
+        "id": 159,
+        "name": "Deep Neck Flexor Endurance Hold",
+        "category": "Isometric"
+      },
+      {
+        "id": 167,
+        "name": "Suboccipital Release Self-Massage",
+        "category": "Mobility"
+      },
+      {
+        "id": 174,
+        "name": "Prone Cervical Retraction",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 855,
+    "name": "Masticatory Myofascial Pain",
+    "region": "TMJ",
+    "category": "Musculoskeletal",
+    "subcategory": "Soft tissue",
+    "description": "Muscle-origin pain from temporalis/masseter often with bruxism. Affects the temporomandibular joint and masticatory system. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Masticatory Myofascial Pain on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "TMJ Palpation",
+      "Mandibular ROM",
+      "Joint Loading"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Masticatory Myofascial Pain.",
+    "epidemiology": "TMJ musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the soft tissue of the tmj region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Muscle-origin pain from temporalis/masseter often with bruxism."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Mechanical overload (repetitive microtrauma or single-event force) exceeds tissue capacity in the tmj region, producing local nociceptive input and protective motor responses.",
+    "anatomy": "Bilateral condyle-fossa joint with an interposed articular disc; allows rotation (early opening) then translation (full opening). Stabilised by temporomandibular ligament, joint capsule, and masticatory muscles (temporalis, masseter, medial/lateral pterygoid). Closely linked to upper cervical posture and the trigeminal nerve.",
+    "recommended_exercises": [
+      {
+        "id": 996,
+        "name": "Cervical Flexion Curl-Up (Supine)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 400,
+        "name": "Cervical Retraction with Overpressure",
+        "category": "Mobility"
+      },
+      {
+        "id": 161,
+        "name": "Upper Trapezius Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 856,
+    "name": "TMJ Capsulitis",
+    "region": "TMJ",
+    "category": "Musculoskeletal",
+    "subcategory": "Capsule",
+    "description": "Inflammation of TMJ capsule producing localised joint pain at rest and with loading. Affects the temporomandibular joint and masticatory system. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Phase-based PT: modulate symptoms, restore mobility and motor control, then graded loading and return to function.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with TMJ Capsulitis on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "TMJ Palpation Test",
+      "TMJ AROM Test",
+      "Joint Loading Test",
+      "Mandibular Deviation Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in TMJ Capsulitis.",
+    "epidemiology": "TMJ musculoskeletal presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the capsule of the tmj region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Inflammation of TMJ capsule producing localised joint pain at rest and with loading."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Disc displacement (with/without reduction), joint capsulitis, masticatory muscle hyperactivity (bruxism/clenching) and parafunctional habits drive TMJ pain and dysfunction.",
+    "anatomy": "Bilateral condyle-fossa joint with an interposed articular disc; allows rotation (early opening) then translation (full opening). Stabilised by temporomandibular ligament, joint capsule, and masticatory muscles (temporalis, masseter, medial/lateral pterygoid). Closely linked to upper cervical posture and the trigeminal nerve.",
+    "recommended_exercises": [
+      {
+        "id": 157,
+        "name": "Chin Tuck",
+        "category": "Strengthening"
+      },
+      {
+        "id": 910,
+        "name": "Cervical Self-Mobilisation",
+        "category": "Stretching"
+      },
+      {
+        "id": 159,
+        "name": "Deep Neck Flexor Endurance Hold",
+        "category": "Isometric"
+      },
+      {
+        "id": 167,
+        "name": "Suboccipital Release Self-Massage",
+        "category": "Mobility"
+      },
+      {
+        "id": 413,
+        "name": "Chin Tuck with Cervical Rotation",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 857,
+    "name": "Post Microfracture Knee Cartilage Repair",
+    "region": "Knee",
+    "category": "Post-surgical",
+    "subcategory": "Arthroscopy",
+    "description": "Microfracture cartilage repair requires protected weight-bearing while fibrocartilage matures. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Rehabilitation is strictly phase-based, respecting tissue healing constraints, surgical precautions and load tolerance.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Post Microfracture Knee Cartilage Repair on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Fulcrum Test",
+      "Ottawa Ankle Rules",
+      "Compression / Bump Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Post Microfracture Knee Cartilage Repair.",
+    "epidemiology": "Knee post-surgical presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Cortical and/or trabecular bone failure; classification by location, pattern (transverse, oblique, spiral, comminuted), displacement and articular involvement.",
+    "clinical_presentation": [
+      "Microfracture cartilage repair requires protected weight-bearing while fibrocartilage matures."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Bone fails when applied load exceeds its strength — high-energy trauma, repetitive submaximal loading (stress fracture) or pathological weakening (osteoporosis, tumour).",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 365,
+        "name": "Hamstring Walkout",
+        "category": "Strengthening"
+      },
+      {
+        "id": 806,
+        "name": "PNF Stretch for 2nd Lumbrical (Foot)",
+        "category": "Mobility"
+      },
+      {
+        "id": 12,
+        "name": "Calf Stretch (Wall)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 858,
+    "name": "Post Meniscal Repair",
+    "region": "Knee",
+    "category": "Post-surgical",
+    "subcategory": "Arthroscopy",
+    "description": "Repair (vs meniscectomy) requires longer protection of WB and deep flexion to allow healing. Affects the tibiofemoral and/or patellofemoral joint and surrounding stabilisers. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Rehabilitation is strictly phase-based, respecting tissue healing constraints, surgical precautions and load tolerance.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Post Meniscal Repair on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "McMurray Test",
+      "Thessaly Test",
+      "Apley Compression Test",
+      "Joint Line Tenderness",
+      "Bounce Home Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Post Meniscal Repair.",
+    "epidemiology": "Knee post-surgical presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Tear patterns: longitudinal/bucket-handle, radial, oblique/parrot-beak, horizontal cleavage, complex. Vascular zones (red-red, red-white, white-white) determine healing potential.",
+    "clinical_presentation": [
+      "Repair (vs meniscectomy) requires longer protection of WB and deep flexion to allow healing."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Twisting on a loaded, flexed knee shears the meniscus; degenerative tears develop with chronic loading and altered biomechanics.",
+    "anatomy": "Modified hinge: tibiofemoral and patellofemoral joints. Static stabilisers: ACL/PCL, MCL/LCL, menisci, capsule. Dynamic stabilisers: quadriceps (especially VMO for patellar tracking), hamstrings, popliteus, gastrocnemius. Q-angle and patellofemoral alignment influence patellar tracking and load distribution.",
+    "recommended_exercises": [
+      {
+        "id": 247,
+        "name": "Heel Slide",
+        "category": "Mobility"
+      },
+      {
+        "id": 90,
+        "name": "Quad Set",
+        "category": "Isometric"
+      },
+      {
+        "id": 249,
+        "name": "Single-Leg Press",
+        "category": "Strengthening"
+      },
+      {
+        "id": 242,
+        "name": "Step-Down Exercise",
+        "category": "Strengthening"
+      },
+      {
+        "id": 429,
+        "name": "Eccentric Calf Lower (Straight Knee)",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 859,
+    "name": "Post Lateral Ankle Ligament Reconstruction (Broström)",
+    "region": "Foot/Ankle",
+    "category": "Post-surgical",
+    "subcategory": "Ligament",
+    "description": "Modified Broström for chronic lateral ankle instability — phased return to function. Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Rehabilitation is strictly phase-based, respecting tissue healing constraints, surgical precautions and load tolerance.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Post Lateral Ankle Ligament Reconstruction (Broström) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Cozen's Test",
+      "Mill's Test",
+      "Cozen Test (Resisted Wrist Ext.)",
+      "Mill Test",
+      "Maudsley Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Post Lateral Ankle Ligament Reconstruction (Broström).",
+    "epidemiology": "Foot/Ankle post-surgical presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Grade I (microtearing, no laxity) – Grade II (partial tear, mild laxity) – Grade III (complete rupture, gross laxity) of collagen fibres with associated capsular/synovial irritation.",
+    "clinical_presentation": [
+      "Modified Broström for chronic lateral ankle instability — phased return to function."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Surgical intervention alters local tissue mechanics; mechanism of presenting symptoms is dictated by surgical approach, tissue healing timeline and protective phase precautions.",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 294,
+        "name": "Seated Hamstring Curl",
+        "category": "Strengthening"
+      },
+      {
+        "id": 622,
+        "name": "PNF Stretch for Gluteus Maximus (Upper fibers)",
+        "category": "Mobility"
+      },
+      {
+        "id": 394,
+        "name": "Figure-4 Glute Stretch",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 860,
+    "name": "Post Achilles Tendon Repair",
+    "region": "Foot/Ankle",
+    "category": "Post-surgical",
+    "subcategory": "Tendon",
+    "description": "Surgical repair of ruptured Achilles with phased rehabilitation respecting tendon healing. Involves the ankle mortise, subtalar joint and/or foot soft tissues. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Rehabilitation is strictly phase-based, respecting tissue healing constraints, surgical precautions and load tolerance.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Post Achilles Tendon Repair on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Thompson Test (Simmonds)",
+      "Single-Heel Raise Test",
+      "Single-Leg Heel Raise Test",
+      "FDP Integrity Test",
+      "FDS Integrity Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Post Achilles Tendon Repair.",
+    "epidemiology": "Foot/Ankle post-surgical presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Tendinopathic continuum (Cook & Purdam): reactive tendinopathy → tendon dysrepair → degenerative tendinopathy. Histology shows collagen disorganisation, increased ground substance, neovascularisation and absence of classic inflammatory infiltrate.",
+    "clinical_presentation": [
+      "Surgical repair of ruptured Achilles with phased rehabilitation respecting tendon healing."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Surgical intervention alters local tissue mechanics; mechanism of presenting symptoms is dictated by surgical approach, tissue healing timeline and protective phase precautions.",
+    "anatomy": "Talocrural (mortise) joint provides dorsiflexion/plantarflexion; subtalar joint controls inversion/eversion. Lateral ligament complex (ATFL > CFL > PTFL) most commonly injured. Plantar fascia, intrinsic foot muscles and three arches (medial/lateral longitudinal, transverse) support load transfer. Gastroc-soleus complex inserts via Achilles tendon.",
+    "recommended_exercises": [
+      {
+        "id": 336,
+        "name": "Reverse Lunge",
+        "category": "Strengthening"
+      },
+      {
+        "id": 678,
+        "name": "Foam Rolling – Articularis Genus (Right)",
+        "category": "Mobility"
+      },
+      {
+        "id": 554,
+        "name": "Adductor Stretch (Side Lunge)",
+        "category": "Stretching"
+      }
+    ]
+  },
+  {
+    "id": 861,
+    "name": "Post Reverse Shoulder Arthroplasty",
+    "region": "Shoulder",
+    "category": "Post-surgical",
+    "subcategory": "Arthroplasty",
+    "description": "Reverse TSA for cuff arthropathy relies on deltoid for elevation; rehab differs from anatomic TSA. Affects the glenohumeral joint, rotator cuff and scapulothoracic complex. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Rehabilitation is strictly phase-based, respecting tissue healing constraints, surgical precautions and load tolerance.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Post Reverse Shoulder Arthroplasty on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Apley's Scratch Test",
+      "Posterior Apprehension Test",
+      "Apprehension Test",
+      "Relocation Test (Jobe)",
+      "Sulcus Sign"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Post Reverse Shoulder Arthroplasty.",
+    "epidemiology": "Shoulder post-surgical presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the arthroplasty of the shoulder region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "Reverse TSA for cuff arthropathy relies on deltoid for elevation; rehab differs from anatomic TSA."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Surgical resection of arthritic articular surfaces and prosthetic implantation; rehab dictated by surgical approach (anterior/posterior/lateral), fixation (cemented/uncemented) and tissue healing constraints.",
+    "anatomy": "Glenohumeral joint is a shallow ball-and-socket relying on the rotator cuff (supraspinatus, infraspinatus, teres minor, subscapularis), labrum and capsuloligamentous complex. Scapulothoracic articulation, AC and SC joints contribute to ~60° scapular rotation during arm elevation (scapulohumeral rhythm). Subacromial space contains supraspinatus tendon, long head of biceps and subacromial bursa.",
+    "recommended_exercises": [
+      {
+        "id": 186,
+        "name": "Pendulum Exercise (Codman)",
+        "category": "Mobility"
+      },
+      {
+        "id": 187,
+        "name": "Wall Walk (Finger Ladder)",
+        "category": "Mobility"
+      },
+      {
+        "id": 438,
+        "name": "Supine Shoulder Flexion (Active Assisted)",
+        "category": "Mobility"
+      },
+      {
+        "id": 871,
+        "name": "Scapular Setting",
+        "category": "Activation"
+      },
+      {
+        "id": 324,
+        "name": "Forearm Pronation Strengthening",
+        "category": "Strengthening"
+      }
+    ]
+  },
+  {
+    "id": 862,
+    "name": "Post Anterior Cervical Discectomy and Fusion (Single-Level)",
+    "region": "Cervical",
+    "category": "Post-surgical",
+    "subcategory": "Fusion",
+    "description": "ACDF with anterior plate; protective collar early, gradual return to ROM and load. Affects cervical motion segments and surrounding cervicoscapular musculature. Typical presentation includes localised pain reproduced by mechanical loading or specific positions, with reproducible findings on physical examination. Rehabilitation is strictly phase-based, respecting tissue healing constraints, surgical precautions and load tolerance.",
+    "causes": [
+      "Mechanical overload",
+      "Tissue-specific risk factors",
+      "Biomechanical contributors"
+    ],
+    "key_findings": "Clinical findings consistent with Post Anterior Cervical Discectomy and Fusion (Single-Level) on history and physical examination.",
+    "diagnostic_tips": "Diagnosis is primarily clinical; imaging only when red flags are present or if it will change management.",
+    "treatment_plan": {
+      "acute": "Protect tissue; modulate pain (manual therapy, modalities as adjunct); patient education on load management.",
+      "subacute": "Restore ROM and motor control; introduce graded isometric/isotonic loading specific to involved tissue.",
+      "chronic": "Progressive resistance, capacity building and functional/sport-specific loading aligned with patient goals."
+    },
+    "special_tests": [],
+    "msk_tests": [
+      "Spurling Test",
+      "Cervical Distraction Test",
+      "Upper Limb Tension Test 1 (Median)",
+      "ULTT Test",
+      "Shoulder Abduction Relief Test"
+    ],
+    "red_flags": [
+      "Unremitting night pain",
+      "Unexplained weight loss",
+      "Progressive neurological deficit",
+      "Fever/systemic symptoms"
+    ],
+    "ebp_level": "EBP Moderate",
+    "etiology": "Multifactorial: load, capacity and individual risk factors interact in Post Anterior Cervical Discectomy and Fusion (Single-Level).",
+    "epidemiology": "Cervical post-surgical presentation commonly seen in physiotherapy practice.",
+    "pathophysiology": "Pathology localised to the fusion of the cervical region, with characteristic findings on examination and (where indicated) imaging.",
+    "clinical_presentation": [
+      "ACDF with anterior plate; protective collar early, gradual return to ROM and load."
+    ],
+    "signs_symptoms": [
+      "Localized pain",
+      "Functional limitation",
+      "Provocation with specific loading"
+    ],
+    "imaging": [
+      "Plain radiograph if indicated",
+      "MRI/US for soft-tissue characterization when needed"
+    ],
+    "prognosis": "Generally favourable with appropriate, progressive rehabilitation.",
+    "outcome_measures": [
+      "NPRS (0–10)",
+      "PSFS",
+      "Region-specific PROM"
+    ],
+    "patient_education": [
+      "Reassurance and pacing",
+      "Activity modification",
+      "Self-management strategies"
+    ],
+    "return_to_activity": "Criterion-based: pain control, ROM, strength symmetry and functional performance.",
+    "references": [
+      "Cook & Purdam 2009",
+      "JOSPT CPGs",
+      "APTA Clinical Guidelines"
+    ],
+    "mechanism": "Surgical intervention alters local tissue mechanics; mechanism of presenting symptoms is dictated by surgical approach, tissue healing timeline and protective phase precautions.",
+    "anatomy": "Seven cervical vertebrae (C1–C7) form a lordotic curve. C1 (atlas) and C2 (axis) provide ~50% of cervical rotation. Facet joints orient ~45° in lower segments allowing flexion/extension and rotation. Stabilised by deep cervical flexors (longus colli/capitis), suboccipitals, scalenes, SCM and posterior cervical extensors. Neural structures: spinal cord, exiting nerve roots C1–C8 and the vertebral artery passing through transverse foramina C6–C1.",
+    "recommended_exercises": [
+      {
+        "id": 72,
+        "name": "Cervical Retraction (Chin Tuck)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 998,
+        "name": "Brachial Plexus Glide (Median Nerve)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 78,
+        "name": "Scapular Retraction (Band Pull-Apart)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 74,
+        "name": "Deep Neck Flexor Exercise (CCFT)",
+        "category": "Strengthening"
+      },
+      {
+        "id": 470,
+        "name": "Suitcase Carry",
+        "category": "Strengthening"
+      }
+    ]
   }
 ]
