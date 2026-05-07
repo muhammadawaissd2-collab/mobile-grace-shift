@@ -382,14 +382,17 @@ function DisorderDetail({ disorder }: { disorder: Disorder; onNavigate: (p: stri
 
   const handleNavigate = (path: string) => navigate(path);
 
-  const relatedExercises = exercises.filter(ex => {
-    const impLower = disorder.name.toLowerCase();
-    const regionMatch = ex.region.toLowerCase().includes(disorder.region.toLowerCase().split(" ")[0]) ||
-      disorder.region.toLowerCase().includes(ex.region.toLowerCase().split(" ")[0]);
-    const nameMatch = ex.name.toLowerCase().includes(impLower.split(" ")[0]) ||
-      ex.target_muscles.some(m => Math.random() > 0.5); // Simplified matching for related exercises
-    return regionMatch || nameMatch;
-  }).slice(0, 10);
+  const recommended = (disorder as any).recommended_exercises as { id: number; name: string; category?: string }[] | undefined;
+  const recommendedIds = new Set((recommended || []).map(r => r.id));
+  const relatedExercises = (recommended && recommended.length > 0)
+    ? exercises.filter(ex => recommendedIds.has(ex.id))
+    : exercises.filter(ex => {
+        const impLower = disorder.name.toLowerCase();
+        const regionMatch = ex.region.toLowerCase().includes(disorder.region.toLowerCase().split(" ")[0]) ||
+          disorder.region.toLowerCase().includes(ex.region.toLowerCase().split(" ")[0]);
+        const nameMatch = ex.name.toLowerCase().includes(impLower.split(" ")[0]);
+        return regionMatch || nameMatch;
+      }).slice(0, 10);
 
   const relatedDisorders = disorders.filter(imp =>
     imp.id !== disorder.id && imp.region === disorder.region
@@ -399,10 +402,13 @@ function DisorderDetail({ disorder }: { disorder: Disorder; onNavigate: (p: stri
     <div className="space-y-1">
       <p className="text-sm text-muted-foreground">{disorder.description}</p>
       {disorder.icd10 && <p className="text-[10px] uppercase tracking-wider text-muted-foreground mt-1">ICD-10: <span className="text-foreground/80">{disorder.icd10}</span></p>}
+      <ProText icon={Microscope} title="Anatomy" text={(disorder as any).anatomy} />
+      <ProText icon={Activity} title="Mechanism of Injury" text={(disorder as any).mechanism} />
       <ProText icon={Activity} title="Etiology" text={disorder.etiology} />
       <ProText icon={TrendingUp} title="Epidemiology" text={disorder.epidemiology} />
       <ProText icon={Microscope} title="Pathophysiology" text={disorder.pathophysiology} />
       <ProList icon={Stethoscope} title="Clinical Presentation" items={disorder.clinical_presentation} />
+
 
       {disorder.causes && disorder.causes.length > 0 && (
         <>
