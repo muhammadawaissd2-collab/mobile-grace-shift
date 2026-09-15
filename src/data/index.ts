@@ -60,3 +60,4 @@ export const allCategories = [...new Set(exercises.map(e => e.category))].sort()
 export const allDifficulties = ['Beginner', 'Intermediate', 'Advanced'];
 export const allEBPLevels = ['EBP Strong', 'EBP Moderate', 'EBP Limited'];
 export const allSports = [...new Set(sportsInjuries.map(s => s.sport))].sort();
+export const allEquipment = [...new Set(exercises.flatMap(e => e.equipment || []))].sort();

@@ -5,6 +5,7 @@ export interface Exercise {
   region: string;
   category: string;
   difficulty: string;
+  intensity?: number;
   ebp_level: string;
   target_muscles: string[];
   primary_muscles: string[];

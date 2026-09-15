@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels } from "@/data";
+import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels, allEquipment } from "@/data";
 import { EBPBadge, DifficultyBadge, RegionTag } from "@/components/EBPBadge";
 import { DetailPanel } from "@/components/DetailPanel";
 import { Input } from "@/components/ui/input";
@@ -33,6 +33,8 @@ export default function ExercisesPage() {
   const [categoryFilter, setCategoryFilter] = useState(searchParams.get("category") || "all");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [ebpFilter, setEbpFilter] = useState("all");
+  const [equipmentFilter, setEquipmentFilter] = useState("all");
+  const [intensitySort, setIntensitySort] = useState("none");
   const [selectedExercise, setSelectedExercise] = useState<Exercise | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -46,7 +48,7 @@ export default function ExercisesPage() {
   }, [searchParams]);
 
   const filtered = useMemo(() => {
-    return exercises.filter(e => {
+    const list = exercises.filter(e => {
       const allMuscles = [...(e.primary_muscles || []), ...(e.secondary_muscles || []), ...(e.tertiary_muscles || []), ...(e.other_muscles || [])];
       const matchSearch = !search || e.name.toLowerCase().includes(search.toLowerCase()) ||
         e.description.toLowerCase().includes(search.toLowerCase()) ||
@@ -55,9 +57,16 @@ export default function ExercisesPage() {
       const matchCategory = categoryFilter === "all" || e.category === categoryFilter;
       const matchDifficulty = difficultyFilter === "all" || e.difficulty === difficultyFilter;
       const matchEBP = ebpFilter === "all" || e.ebp_level === ebpFilter;
-      return matchSearch && matchRegion && matchCategory && matchDifficulty && matchEBP;
+      const matchEquipment = equipmentFilter === "all" || (e.equipment || []).includes(equipmentFilter);
+      return matchSearch && matchRegion && matchCategory && matchDifficulty && matchEBP && matchEquipment;
     });
-  }, [search, regionFilter, categoryFilter, difficultyFilter, ebpFilter]);
+    if (intensitySort === "asc" || intensitySort === "desc") {
+      const dir = intensitySort === "asc" ? 1 : -1;
+      const val = (e: Exercise) => e.intensity ?? ({ Beginner: 2, Intermediate: 5, Advanced: 8 }[e.difficulty] ?? 5);
+      return [...list].sort((a, b) => (val(a) - val(b)) * dir);
+    }
+    return list;
+  }, [search, regionFilter, categoryFilter, difficultyFilter, ebpFilter, equipmentFilter, intensitySort]);
 
   const exerciseRegions = [...new Set(exercises.map(e => e.region))].sort();
 
@@ -129,6 +138,25 @@ export default function ExercisesPage() {
               {allEBPLevels.map(l => <SelectItem key={l} value={l}>{l}</SelectItem>)}
             </SelectContent>
           </Select>
+          <Select value={equipmentFilter} onValueChange={setEquipmentFilter}>
+            <SelectTrigger className="w-[140px] bg-secondary/50 border-border/50 h-8 text-xs">
+              <SelectValue placeholder="Equipment" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Equipment</SelectItem>
+              {allEquipment.map(eq => <SelectItem key={eq} value={eq}>{eq}</SelectItem>)}
+            </SelectContent>
+          </Select>
+          <Select value={intensitySort} onValueChange={setIntensitySort}>
+            <SelectTrigger className="w-[150px] bg-secondary/50 border-border/50 h-8 text-xs">
+              <SelectValue placeholder="Intensity order" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="none">Default order</SelectItem>
+              <SelectItem value="asc">Intensity: low → high</SelectItem>
+              <SelectItem value="desc">Intensity: high → low</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </div>
 
@@ -147,7 +175,11 @@ export default function ExercisesPage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="text-base font-semibold text-foreground group-hover:text-primary transition-colors break-words leading-snug">{ex.name}</p>
-                  <p className="text-xs text-muted-foreground mt-1 break-words">{ex.category} · {ex.sets_reps}</p>
+                  <p className="text-xs text-muted-foreground mt-1 break-words">
+                    {ex.category} · {ex.sets_reps}
+                    {ex.equipment?.length ? ` · ${ex.equipment.join(", ")}` : ""}
+                    {ex.intensity ? ` · Intensity ${ex.intensity}/10` : ""}
+                  </p>
                 </div>
                 <div className="flex flex-wrap gap-1 shrink-0 items-center max-w-[40%] justify-end">
                   <BookmarkButton id={ex.id} type="exercise" name={ex.name} />

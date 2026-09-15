@@ -106,6 +106,28 @@ function getExercisesForMuscleGroup(groupName: string, muscleNames: string[]) {
   });
 }
 
+/** Dataset fallback: specific exercises where this muscle is a primary/secondary mover, graded by difficulty. */
+function getDatasetExercisesForMuscle(muscleName: string): MuscleExerciseEntry[] {
+  const m = muscleName.toLowerCase().replace(/\s*\(.*?\)\s*/g, "").trim();
+  if (!m) return [];
+  const hit = (arr?: string[]) => (arr || []).some(x => {
+    const v = x.toLowerCase();
+    return v === m || v.includes(m) || m.includes(v);
+  });
+  const matches = exercises.filter(ex => hit(ex.primary_muscles) || hit(ex.secondary_muscles));
+  const byLevel: Record<string, MuscleExerciseEntry[]> = { Beginner: [], Intermediate: [], Advanced: [] };
+  for (const ex of matches) {
+    const lvl = (["Beginner", "Intermediate", "Advanced"].includes(ex.difficulty) ? ex.difficulty : "Intermediate") as MuscleExerciseEntry["level"];
+    if (byLevel[lvl].length >= 6) continue;
+    byLevel[lvl].push({
+      name: ex.name,
+      level: lvl,
+      note: hit(ex.primary_muscles) ? "Primary mover" : "Synergist / stabiliser",
+    });
+  }
+  return [...byLevel.Beginner, ...byLevel.Intermediate, ...byLevel.Advanced];
+}
+
 function classifyExerciseForMuscle(ex: Exercise, muscleName: string): "primary" | "secondary" | "other" {
   const mLower = muscleName.toLowerCase();
   const check = (arr: string[]) => arr?.some(m => m.toLowerCase().includes(mLower.split(" ")[0]) || mLower.includes(m.toLowerCase().split(" ")[0]));
@@ -331,7 +353,8 @@ export default function MusclesPage() {
                                     <div className="space-y-4">
                                       {/* Curated graded exercises for THIS muscle */}
                                       {(() => {
-                                        const curated = getCuratedExercisesForMuscle(muscle.name || "");
+                                        const mapped = getCuratedExercisesForMuscle(muscle.name || "");
+                                        const curated = mapped.length > 0 ? mapped : getDatasetExercisesForMuscle(muscle.name || "");
                                         if (curated.length === 0) return null;
                                         const byLevel: Record<MuscleExerciseEntry["level"], MuscleExerciseEntry[]> = {
                                           Beginner: [], Intermediate: [], Advanced: [],
