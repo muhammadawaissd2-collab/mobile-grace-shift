@@ -353,7 +353,8 @@ export default function MusclesPage() {
                                     <div className="space-y-4">
                                       {/* Curated graded exercises for THIS muscle */}
                                       {(() => {
-                                        const curated = getCuratedExercisesForMuscle(muscle.name || "");
+                                        const mapped = getCuratedExercisesForMuscle(muscle.name || "");
+                                        const curated = mapped.length > 0 ? mapped : getDatasetExercisesForMuscle(muscle.name || "");
                                         if (curated.length === 0) return null;
                                         const byLevel: Record<MuscleExerciseEntry["level"], MuscleExerciseEntry[]> = {
                                           Beginner: [], Intermediate: [], Advanced: [],

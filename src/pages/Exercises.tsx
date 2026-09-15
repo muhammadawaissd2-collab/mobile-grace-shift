@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels } from "@/data";
+import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels, allEquipment } from "@/data";
 import { EBPBadge, DifficultyBadge, RegionTag } from "@/components/EBPBadge";
 import { DetailPanel } from "@/components/DetailPanel";
 import { Input } from "@/components/ui/input";
