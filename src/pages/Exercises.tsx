@@ -138,6 +138,25 @@ export default function ExercisesPage() {
               {allEBPLevels.map(l => <SelectItem key={l} value={l}>{l}</SelectItem>)}
             </SelectContent>
           </Select>
+          <Select value={equipmentFilter} onValueChange={setEquipmentFilter}>
+            <SelectTrigger className="w-[140px] bg-secondary/50 border-border/50 h-8 text-xs">
+              <SelectValue placeholder="Equipment" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Equipment</SelectItem>
+              {allEquipment.map(eq => <SelectItem key={eq} value={eq}>{eq}</SelectItem>)}
+            </SelectContent>
+          </Select>
+          <Select value={intensitySort} onValueChange={setIntensitySort}>
+            <SelectTrigger className="w-[150px] bg-secondary/50 border-border/50 h-8 text-xs">
+              <SelectValue placeholder="Intensity order" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="none">Default order</SelectItem>
+              <SelectItem value="asc">Intensity: low → high</SelectItem>
+              <SelectItem value="desc">Intensity: high → low</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </div>
 
