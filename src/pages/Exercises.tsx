@@ -57,9 +57,16 @@ export default function ExercisesPage() {
       const matchCategory = categoryFilter === "all" || e.category === categoryFilter;
       const matchDifficulty = difficultyFilter === "all" || e.difficulty === difficultyFilter;
       const matchEBP = ebpFilter === "all" || e.ebp_level === ebpFilter;
-      return matchSearch && matchRegion && matchCategory && matchDifficulty && matchEBP;
+      const matchEquipment = equipmentFilter === "all" || (e.equipment || []).includes(equipmentFilter);
+      return matchSearch && matchRegion && matchCategory && matchDifficulty && matchEBP && matchEquipment;
     });
-  }, [search, regionFilter, categoryFilter, difficultyFilter, ebpFilter]);
+    if (intensitySort === "asc" || intensitySort === "desc") {
+      const dir = intensitySort === "asc" ? 1 : -1;
+      const val = (e: Exercise) => e.intensity ?? ({ Beginner: 2, Intermediate: 5, Advanced: 8 }[e.difficulty] ?? 5);
+      return [...list].sort((a, b) => (val(a) - val(b)) * dir);
+    }
+    return list;
+  }, [search, regionFilter, categoryFilter, difficultyFilter, ebpFilter, equipmentFilter, intensitySort]);
 
   const exerciseRegions = [...new Set(exercises.map(e => e.region))].sort();
 
