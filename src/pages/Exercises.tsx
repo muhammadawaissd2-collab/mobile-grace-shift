@@ -175,7 +175,11 @@ export default function ExercisesPage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="text-base font-semibold text-foreground group-hover:text-primary transition-colors break-words leading-snug">{ex.name}</p>
-                  <p className="text-xs text-muted-foreground mt-1 break-words">{ex.category} · {ex.sets_reps}</p>
+                  <p className="text-xs text-muted-foreground mt-1 break-words">
+                    {ex.category} · {ex.sets_reps}
+                    {ex.equipment?.length ? ` · ${ex.equipment.join(", ")}` : ""}
+                    {ex.intensity ? ` · Intensity ${ex.intensity}/10` : ""}
+                  </p>
                 </div>
                 <div className="flex flex-wrap gap-1 shrink-0 items-center max-w-[40%] justify-end">
                   <BookmarkButton id={ex.id} type="exercise" name={ex.name} />
