@@ -33,6 +33,8 @@ export default function ExercisesPage() {
   const [categoryFilter, setCategoryFilter] = useState(searchParams.get("category") || "all");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [ebpFilter, setEbpFilter] = useState("all");
+  const [equipmentFilter, setEquipmentFilter] = useState("all");
+  const [intensitySort, setIntensitySort] = useState("none");
   const [selectedExercise, setSelectedExercise] = useState<Exercise | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -46,7 +48,7 @@ export default function ExercisesPage() {
   }, [searchParams]);
 
   const filtered = useMemo(() => {
-    return exercises.filter(e => {
+    const list = exercises.filter(e => {
       const allMuscles = [...(e.primary_muscles || []), ...(e.secondary_muscles || []), ...(e.tertiary_muscles || []), ...(e.other_muscles || [])];
       const matchSearch = !search || e.name.toLowerCase().includes(search.toLowerCase()) ||
         e.description.toLowerCase().includes(search.toLowerCase()) ||
