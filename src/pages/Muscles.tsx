@@ -12,7 +12,7 @@ import {
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { findRelatedTests } from "@/lib/related-tests";
-import { getCuratedExercisesForMuscle, type MuscleExerciseEntry } from "@/lib/muscle-exercise-map";
+import { type MuscleExerciseEntry } from "@/lib/muscle-exercise-map";
 import type { Exercise } from "@/types";
 
 const LEVEL_STYLES: Record<MuscleExerciseEntry["level"], string> = {
@@ -114,11 +114,11 @@ function getDatasetExercisesForMuscle(muscleName: string): MuscleExerciseEntry[]
     const v = x.toLowerCase();
     return v === m || v.includes(m) || m.includes(v);
   });
-  const matches = exercises.filter(ex => hit(ex.primary_muscles) || hit(ex.secondary_muscles));
+  const matches = exercises.filter(ex => hit(ex.primary_muscles) || hit(ex.secondary_muscles) || hit(ex.tertiary_muscles) || hit(ex.other_muscles) || hit(ex.target_muscles));
   const byLevel: Record<string, MuscleExerciseEntry[]> = { Beginner: [], Intermediate: [], Advanced: [] };
   for (const ex of matches) {
     const lvl = (["Beginner", "Intermediate", "Advanced"].includes(ex.difficulty) ? ex.difficulty : "Intermediate") as MuscleExerciseEntry["level"];
-    if (byLevel[lvl].length >= 6) continue;
+    if (byLevel[lvl].length >= 12) continue;
     byLevel[lvl].push({
       name: ex.name,
       level: lvl,
@@ -353,8 +353,7 @@ export default function MusclesPage() {
                                     <div className="space-y-4">
                                       {/* Curated graded exercises for THIS muscle */}
                                       {(() => {
-                                        const mapped = getCuratedExercisesForMuscle(muscle.name || "");
-                                        const curated = mapped.length > 0 ? mapped : getDatasetExercisesForMuscle(muscle.name || "");
+                                        const curated = getDatasetExercisesForMuscle(muscle.name || "");
                                         if (curated.length === 0) return null;
                                         const byLevel: Record<MuscleExerciseEntry["level"], MuscleExerciseEntry[]> = {
                                           Beginner: [], Intermediate: [], Advanced: [],

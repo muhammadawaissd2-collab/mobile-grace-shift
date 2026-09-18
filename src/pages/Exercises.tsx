@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels, allEquipment } from "@/data";
+import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels, allEquipment, allDemands } from "@/data";
 import { EBPBadge, DifficultyBadge, RegionTag } from "@/components/EBPBadge";
 import { DetailPanel } from "@/components/DetailPanel";
 import { Input } from "@/components/ui/input";
@@ -34,6 +34,7 @@ export default function ExercisesPage() {
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [ebpFilter, setEbpFilter] = useState("all");
   const [equipmentFilter, setEquipmentFilter] = useState("all");
+  const [demandFilter, setDemandFilter] = useState("all");
   const [intensitySort, setIntensitySort] = useState("none");
   const [selectedExercise, setSelectedExercise] = useState<Exercise | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
@@ -58,7 +59,8 @@ export default function ExercisesPage() {
       const matchDifficulty = difficultyFilter === "all" || e.difficulty === difficultyFilter;
       const matchEBP = ebpFilter === "all" || e.ebp_level === ebpFilter;
       const matchEquipment = equipmentFilter === "all" || (e.equipment || []).includes(equipmentFilter);
-      return matchSearch && matchRegion && matchCategory && matchDifficulty && matchEBP && matchEquipment;
+      const matchDemand = demandFilter === "all" || e.demand === demandFilter;
+      return matchSearch && matchRegion && matchCategory && matchDifficulty && matchEBP && matchEquipment && matchDemand;
     });
     if (intensitySort === "asc" || intensitySort === "desc") {
       const dir = intensitySort === "asc" ? 1 : -1;
@@ -66,7 +68,7 @@ export default function ExercisesPage() {
       return [...list].sort((a, b) => (val(a) - val(b)) * dir);
     }
     return list;
-  }, [search, regionFilter, categoryFilter, difficultyFilter, ebpFilter, equipmentFilter, intensitySort]);
+  }, [search, regionFilter, categoryFilter, difficultyFilter, ebpFilter, equipmentFilter, demandFilter, intensitySort]);
 
   const exerciseRegions = [...new Set(exercises.map(e => e.region))].sort();
 
@@ -147,6 +149,15 @@ export default function ExercisesPage() {
               {allEquipment.map(eq => <SelectItem key={eq} value={eq}>{eq}</SelectItem>)}
             </SelectContent>
           </Select>
+          <Select value={demandFilter} onValueChange={setDemandFilter}>
+            <SelectTrigger className="w-[160px] bg-secondary/50 border-border/50 h-8 text-xs">
+              <SelectValue placeholder="Severity / demand" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Demand Levels</SelectItem>
+              {allDemands.map(d => <SelectItem key={d} value={d}>{d}</SelectItem>)}
+            </SelectContent>
+          </Select>
           <Select value={intensitySort} onValueChange={setIntensitySort}>
             <SelectTrigger className="w-[150px] bg-secondary/50 border-border/50 h-8 text-xs">
               <SelectValue placeholder="Intensity order" />
@@ -179,6 +190,7 @@ export default function ExercisesPage() {
                     {ex.category} · {ex.sets_reps}
                     {ex.equipment?.length ? ` · ${ex.equipment.join(", ")}` : ""}
                     {ex.intensity ? ` · Intensity ${ex.intensity}/10` : ""}
+                    {ex.demand ? ` · ${ex.demand}` : ""}
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-1 shrink-0 items-center max-w-[40%] justify-end">

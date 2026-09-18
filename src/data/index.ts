@@ -61,3 +61,7 @@ export const allDifficulties = ['Beginner', 'Intermediate', 'Advanced'];
 export const allEBPLevels = ['EBP Strong', 'EBP Moderate', 'EBP Limited'];
 export const allSports = [...new Set(sportsInjuries.map(s => s.sport))].sort();
 export const allEquipment = [...new Set(exercises.flatMap(e => e.equipment || []))].sort();
+const DEMAND_ORDER = ['Mild', 'Mild–Moderate', 'Moderate', 'Moderate–High', 'High', 'High–Severe', 'High–Severe / Athletic', 'Severe / Athletic'];
+export const allDemands = [...new Set(exercises.map(e => e.demand).filter(Boolean) as string[])]
+  .sort((a, b) => DEMAND_ORDER.indexOf(a) - DEMAND_ORDER.indexOf(b));
+export const allSystems = [...new Set(exercises.map(e => e.system).filter(Boolean) as string[])].sort();
