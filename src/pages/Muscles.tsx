@@ -12,7 +12,7 @@ import {
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { findRelatedTests } from "@/lib/related-tests";
-import { getCuratedExercisesForMuscle, type MuscleExerciseEntry } from "@/lib/muscle-exercise-map";
+import { type MuscleExerciseEntry } from "@/lib/muscle-exercise-map";
 import type { Exercise } from "@/types";
 
 const LEVEL_STYLES: Record<MuscleExerciseEntry["level"], string> = {
@@ -353,8 +353,7 @@ export default function MusclesPage() {
                                     <div className="space-y-4">
                                       {/* Curated graded exercises for THIS muscle */}
                                       {(() => {
-                                        const mapped = getCuratedExercisesForMuscle(muscle.name || "");
-                                        const curated = mapped.length > 0 ? mapped : getDatasetExercisesForMuscle(muscle.name || "");
+                                        const curated = getDatasetExercisesForMuscle(muscle.name || "");
                                         if (curated.length === 0) return null;
                                         const byLevel: Record<MuscleExerciseEntry["level"], MuscleExerciseEntry[]> = {
                                           Beginner: [], Intermediate: [], Advanced: [],
