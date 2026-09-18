@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels, allEquipment } from "@/data";
+import { exercises, allRegions, allCategories, allDifficulties, allEBPLevels, allEquipment, allDemands } from "@/data";
 import { EBPBadge, DifficultyBadge, RegionTag } from "@/components/EBPBadge";
 import { DetailPanel } from "@/components/DetailPanel";
 import { Input } from "@/components/ui/input";
@@ -34,6 +34,7 @@ export default function ExercisesPage() {
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [ebpFilter, setEbpFilter] = useState("all");
   const [equipmentFilter, setEquipmentFilter] = useState("all");
+  const [demandFilter, setDemandFilter] = useState("all");
   const [intensitySort, setIntensitySort] = useState("none");
   const [selectedExercise, setSelectedExercise] = useState<Exercise | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
