@@ -114,11 +114,11 @@ function getDatasetExercisesForMuscle(muscleName: string): MuscleExerciseEntry[]
     const v = x.toLowerCase();
     return v === m || v.includes(m) || m.includes(v);
   });
-  const matches = exercises.filter(ex => hit(ex.primary_muscles) || hit(ex.secondary_muscles));
+  const matches = exercises.filter(ex => hit(ex.primary_muscles) || hit(ex.secondary_muscles) || hit(ex.tertiary_muscles) || hit(ex.other_muscles) || hit(ex.target_muscles));
   const byLevel: Record<string, MuscleExerciseEntry[]> = { Beginner: [], Intermediate: [], Advanced: [] };
   for (const ex of matches) {
     const lvl = (["Beginner", "Intermediate", "Advanced"].includes(ex.difficulty) ? ex.difficulty : "Intermediate") as MuscleExerciseEntry["level"];
-    if (byLevel[lvl].length >= 6) continue;
+    if (byLevel[lvl].length >= 12) continue;
     byLevel[lvl].push({
       name: ex.name,
       level: lvl,
